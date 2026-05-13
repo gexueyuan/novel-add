@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "title": "救赎之书",
+    "genre": "魔法西幻+幻想言情",
+    "created_at": "2026-05-13",
+    "target_words": 360000,
+    "target_chapters": 120,
+    "golden_finger_name": "星澜皇家血脉",
+    "golden_finger_type": "特殊血脉传承",
+    "golden_finger_style": "古典魔法→天赋直觉",
+    "core_selling_points": "记忆是诅咒——找回记忆=背负罪责,两千年谎言层层揭示,第三条路——不恢复魔法统治也不拥抱科技霸权",
+    "protagonist_structure": "单主角",
+    "heroine_config": "双男主",
+    "heroine_names": "姚宇,齐心",
+    "heroine_role": "感情线对象",
+    "co_protagonists": "姚宇,齐心",
+    "co_protagonist_roles": "科技研究院天才核心研究员,猎魔小队领队",
+    "antagonist_tiers": "小:精英魔物+学院对手,中:黑暗势力,大:银月帝国最高领导人",
+    "world_scale": "多国大陆",
+    "factions": "银月帝国,各国科技研究院,星火会,黑暗势力",
+    "power_system_type": "魔法境界链+科技装备体系",
+    "social_class": "科技平权",
+    "resource_distribution": "魔法结晶石稀缺",
+    "gf_visibility": "逐渐暴露",
+    "gf_irreversible_cost": "记忆恢复带来情感痛苦+前世罪责揭示",
+    "target_reader": "年轻女性20-30岁",
+    "platform": "晋江",
+    "currency_system": "各国自有货币",
+    "currency_exchange": "魔法结晶石大于贵重金属",
+    "sect_hierarchy": "猎魔小队→国家军队→科技研究院",
+    "cultivation_chain": "学徒→法师→大法师→贤者→大贤者",
+    "cultivation_subtiers": ""
+  },
+  "progress": {
+    "current_chapter": 0,
+    "total_words": 0,
+    "last_updated": "2026-05-13 14:32:55",
+    "volumes_completed": [],
+    "current_volume": 1,
+    "volumes_planned": []
+  },
+  "protagonist_state": {
+    "name": "星兰",
+    "power": {
+      "realm": "",
+      "layer": 1,
+      "bottleneck": ""
+    },
+    "location": {
+      "current": "",
+      "last_chapter": 0
+    },
+    "golden_finger": {
+      "name": "星澜皇家血脉",
+      "level": 1,
+      "cooldown": 0,
+      "skills": []
+    },
+    "attributes": {}
+  },
+  "relationships": {},
+  "disambiguation_warnings": [],
+  "disambiguation_pending": [],
+  "world_settings": {
+    "power_system": [],
+    "factions": [],
+    "locations": []
+  },
+  "plot_threads": {
+    "active_threads": [],
+    "foreshadowing": []
+  },
+  "review_checkpoints": [],
+  "chapter_meta": {},
+  "strand_tracker": {
+    "last_quest_chapter": 0,
+    "last_fire_chapter": 0,
+    "last_constellation_chapter": 0,
+    "current_dominant": "quest",
+    "chapters_since_switch": 0,
+    "history": []
+  }
+}
