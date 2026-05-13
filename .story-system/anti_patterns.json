@@ -30,17 +30,17 @@
     "source_id": "RS-001"
   },
   {
-    "text": "撕裂金属的声音、规律得心跳、蜷在巢中的鸟、深冬湖水的寒、沉睡了很久的东西浮到表面、远方的气泡浮出水面、星星最后一次确认位置",
+    "text": "6处「像」引导的明喻，密度与第1章持平",
     "source_table": "review_extracted",
-    "source_id": "ch0001_issue_1",
+    "source_id": "ch0002_issue_1",
     "category": "ai_flavor",
-    "added_at": "2026-05-13T16:10:10"
+    "added_at": "2026-05-13T16:27:38"
   },
   {
-    "text": "不像体力劳动的结果、不像是在废墟中挣扎求生——三次展示后紧跟解释性判断",
+    "text": "「展示后紧跟解释」模式，先展示行为立即用否定判断替读者下结论",
     "source_table": "review_extracted",
-    "source_id": "ch0001_issue_3",
+    "source_id": "ch0002_issue_2",
     "category": "ai_flavor",
-    "added_at": "2026-05-13T16:10:10"
+    "added_at": "2026-05-13T16:27:38"
   }
 ]

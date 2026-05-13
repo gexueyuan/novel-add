@@ -1,14 +1,14 @@
 {
-  "chapter": 1,
-  "start_chapter": 1,
-  "end_chapter": 1,
-  "overall_score": 86.0,
+  "chapter": 2,
+  "start_chapter": 2,
+  "end_chapter": 2,
+  "overall_score": 82.0,
   "dimension_scores": {
     "continuity": 100.0,
     "setting": 100.0,
     "character": 100.0,
     "timeline": 100.0,
-    "ai_flavor": 86.0,
+    "ai_flavor": 82.0,
     "logic": 100.0,
     "pacing": 100.0,
     "other": 100.0
@@ -17,15 +17,15 @@
     "critical": 0,
     "high": 0,
     "medium": 2,
-    "low": 1
+    "low": 3
   },
   "critical_issues": [],
-  "report_file": "审查报告/第0001章审查报告.md",
-  "notes": "3个问题：0个阻断，0个高优，3个AI味（2中1低） | issues=3 | blocking=0 | categories=ai_flavor",
-  "issues_count": 3,
+  "report_file": "审查报告/第0002章审查报告.md",
+  "notes": "5个问题：0阻断，2中3低 | issues=5 | blocking=0 | categories=ai_flavor",
+  "issues_count": 5,
   "blocking_count": 0,
   "categories": [
     "ai_flavor"
   ],
-  "timestamp": "2026-05-13T16:10:10"
+  "timestamp": "2026-05-13T16:27:38"
 }

@@ -1,3 +1,8 @@
 {"timestamp": "2026-05-13T16:06:20.804580", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 7, "error_code": "NOT_FOUND", "error_message": "未找到实体: 齐心"}
 {"timestamp": "2026-05-13T16:12:31.503128", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-05-13T16:12:32.274763", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T16:24:54.303671", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-05-13T16:24:55.043936", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 8}
+{"timestamp": "2026-05-13T16:30:19.187661", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T16:30:31.105121", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T16:31:19.259604", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "未找到别名: 李哥"}

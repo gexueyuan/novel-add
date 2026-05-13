@@ -1,6 +1,18 @@
 {
-  "planned_nodes": [],
-  "covered_nodes": [],
-  "missed_nodes": [],
-  "extra_nodes": []
+  "planned_nodes": [
+    "星兰苏醒并展现初次能力",
+    "齐心对星兰异常的态度演变",
+    "小队内部对星兰的观感分化"
+  ],
+  "covered_nodes": [
+    "星兰苏醒并展现初次能力",
+    "齐心对星兰异常的态度演变"
+  ],
+  "missed_nodes": [
+    "小队内部对星兰的观感分化"
+  ],
+  "extra_nodes": [
+    "李哥（新人物）被魔物重伤",
+    "星兰吟唱非人类语言的治愈音律"
+  ]
 }
