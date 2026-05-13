@@ -3,18 +3,18 @@
     {
       "entity_id_candidate": "li_ge",
       "name": "李哥",
-      "context": "齐心小队成员，在矿道做收尾时被未死透的魔物重伤，后经星兰治愈",
+      "context": "齐心小队正式成员，在矿道收尾时被未死透的魔物重伤，经星兰在15秒内以蓝金色光芒完全治愈。第3章展示愈合如初的伤口并郑重道谢，向齐心汇报矿区三处裂隙已封死",
       "possible_duplicate_of": null,
-      "confidence": 0.75,
-      "reason": "首次登场，李哥为小队成员尊称，需确认全名"
+      "confidence": 0.8,
+      "reason": "已连续出场2章，身份确认为齐心小队正式成员且有职务分工（矿区收尾），但仍无全名确认"
     },
     {
-      "entity_id_candidate": "demonic_residue",
-      "name": "矿道残存魔物",
-      "context": "未在清扫中死透的魔物，仍然具有攻击性和毒素",
-      "possible_duplicate_of": null,
+      "entity_id_candidate": "young_member",
+      "name": "年轻队员",
+      "context": "齐心小队最年轻的成员，第1-3章均有出场——第3章中他端水进来、站在帐篷帘子内外交界的半明半暗位置、目睹结晶石变化时从暗处退回光照里",
+      "possible_duplicate_of": "unnamed_member",
       "confidence": 0.7,
-      "reason": "具体魔物种类与等级未明，需后续信息确认是否为独立实体"
+      "reason": "已出场3章，角色定位明确（小队最年轻成员、性格谨慎易受惊），但至今无正式名称，与现有unnamed_member高度疑似同一实体"
     }
   ]
 }

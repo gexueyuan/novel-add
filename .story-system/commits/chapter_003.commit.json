@@ -1,4 +1,96 @@
 {
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 3,
+    "status": "rejected"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_003.json",
+    "review": "chapter_003.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "星兰真正苏醒并逐步了解世界",
+      "齐心对星兰态度的进一步揭示",
+      "星兰能力与世界运作方式的深层关联初现"
+    ],
+    "covered_nodes": [
+      "星兰真正苏醒并逐步了解世界",
+      "齐心对星兰态度的进一步揭示",
+      "星兰能力与世界运作方式的深层关联初现"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "李哥展示完全愈合的伤口并郑重道谢",
+      "星兰能'听到'结晶石呼唤其名字，揭示星兰与魔法素之间存在未知深层联系",
+      "结晶石在星兰靠近时出现颜色加深和裂纹延展的剧烈反应"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "issues": [
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "第43/93/103行",
+        "description": "3处「不是A是B」叙事句式",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "ai_flavor",
+        "location": "第63行",
+        "description": "「微微」修饰性副词",
+        "blocking": false
+      }
+    ],
+    "summary": "4问题：0阻断，2中2低"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "星兰真正苏醒并逐步了解世界",
+      "齐心对星兰态度的进一步揭示",
+      "星兰能力与世界运作方式的深层关联初现"
+    ],
+    "covered_nodes": [
+      "星兰真正苏醒并逐步了解世界",
+      "齐心对星兰态度的进一步揭示",
+      "星兰能力与世界运作方式的深层关联初现"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "李哥展示完全愈合的伤口并郑重道谢",
+      "星兰能'听到'结晶石呼唤其名字，揭示星兰与魔法素之间存在未知深层联系",
+      "结晶石在星兰靠近时出现颜色加深和裂纹延展的剧烈反应"
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [
+      {
+        "entity_id_candidate": "li_ge",
+        "name": "李哥",
+        "context": "齐心小队正式成员，在矿道收尾时被未死透的魔物重伤，经星兰在15秒内以蓝金色光芒完全治愈。第3章展示愈合如初的伤口并郑重道谢，向齐心汇报矿区三处裂隙已封死",
+        "possible_duplicate_of": null,
+        "confidence": 0.8,
+        "reason": "已连续出场2章，身份确认为齐心小队正式成员且有职务分工（矿区收尾），但仍无全名确认"
+      },
+      {
+        "entity_id_candidate": "young_member",
+        "name": "年轻队员",
+        "context": "齐心小队最年轻的成员，第1-3章均有出场——第3章中他端水进来、站在帐篷帘子内外交界的半明半暗位置、目睹结晶石变化时从暗处退回光照里",
+        "possible_duplicate_of": "unnamed_member",
+        "confidence": 0.7,
+        "reason": "已出场3章，角色定位明确（小队最年轻成员、性格谨慎易受惊），但至今无正式名称，与现有unnamed_member高度疑似同一实体"
+      }
+    ]
+  },
   "accepted_events": [
     {
       "event_id": "evt-ch003-001",
@@ -145,20 +237,68 @@
     }
   ],
   "entities_appeared": [
-    {"id": "xinglan", "type": "角色", "mentions": ["星兰", "她"], "confidence": 0.99},
-    {"id": "qixin", "type": "角色", "mentions": ["齐心", "头儿", "他"], "confidence": 0.99},
-    {"id": "lao_zhao", "type": "角色", "mentions": ["老赵"], "confidence": 0.99},
-    {"id": "unnamed_member", "type": "角色", "mentions": ["年轻队员"], "confidence": 0.9},
-    {"id": "li_ge", "type": "角色", "mentions": ["李哥", "伤员", "他"], "confidence": 0.95},
-    {"id": "hunters_guild", "type": "组织", "mentions": ["猎魔公会"], "confidence": 0.99},
-    {"id": "north_mine", "type": "地点", "mentions": ["北境矿区", "北境矿区第三区", "矿区"], "confidence": 0.95}
-  ],
-  "entities_new": [
     {
-      "suggested_id": "crystal_stone",
-      "name": "结晶石",
-      "type": "物品",
-      "tier": "装饰"
+      "id": "xinglan",
+      "type": "角色",
+      "mentions": [
+        "星兰",
+        "她"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "qixin",
+      "type": "角色",
+      "mentions": [
+        "齐心",
+        "头儿",
+        "他"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "lao_zhao",
+      "type": "角色",
+      "mentions": [
+        "老赵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "unnamed_member",
+      "type": "角色",
+      "mentions": [
+        "年轻队员"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "li_ge",
+      "type": "角色",
+      "mentions": [
+        "李哥",
+        "伤员",
+        "他"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "hunters_guild",
+      "type": "组织",
+      "mentions": [
+        "猎魔公会"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "north_mine",
+      "type": "地点",
+      "mentions": [
+        "北境矿区",
+        "北境矿区第三区",
+        "矿区"
+      ],
+      "confidence": 0.95
     }
   ],
   "scenes": [
@@ -168,7 +308,10 @@
       "end_line": 19,
       "location": "营地帐篷",
       "summary": "星兰在第三天上午真正苏醒，帐篷里亮着自然光。老赵端稀粥进来，星兰缓慢进食，动作像是连吞咽都需要重新学习。她的身体还有残留的虚软感，掌心已无蓝金色光芒。",
-      "characters": ["xinglan", "lao_zhao"]
+      "characters": [
+        "xinglan",
+        "lao_zhao"
+      ]
     },
     {
       "index": 2,
@@ -176,7 +319,12 @@
       "end_line": 63,
       "location": "营地帐篷",
       "summary": "齐心与年轻队员进入帐篷，带来制服。星兰问出第一个问题'猎魔公会是什么？'。齐心解释猎魔公会处理魔物、星兰从北境矿区地下十二米被挖出。展示结晶石探测器，说明星兰的蓝金色光芒是'魔法素'的一种形态。星兰完全失忆，对一切毫无印象。",
-      "characters": ["xinglan", "qixin", "lao_zhao", "unnamed_member"]
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "unnamed_member"
+      ]
     },
     {
       "index": 3,
@@ -184,7 +332,12 @@
       "end_line": 79,
       "location": "帐篷内外",
       "summary": "李哥掀帘进入，脱下外套展示左肩愈合如初的伤口——十五秒内完全愈合，仅留粉色新肉。他郑重向星兰道谢'我欠你一条命'，然后转头对齐心汇报矿区收尾完成、三处裂隙已封死。语气中还有半句话没有说出口，与星兰有关。",
-      "characters": ["li_ge", "xinglan", "qixin", "lao_zhao"]
+      "characters": [
+        "li_ge",
+        "xinglan",
+        "qixin",
+        "lao_zhao"
+      ]
     },
     {
       "index": 4,
@@ -192,7 +345,10 @@
       "end_line": 105,
       "location": "营地帐篷",
       "summary": "李哥离开后，齐心警告星兰她身上的力量在当今世界已不存在，若在别人面前使用则危险。星兰问'你为什么帮我？'，齐心答'不是帮助，是判断'。探测器留在桌上，结晶石裂纹中的蓝光仍在流动。",
-      "characters": ["xinglan", "qixin"]
+      "characters": [
+        "xinglan",
+        "qixin"
+      ]
     },
     {
       "index": 5,
@@ -200,12 +356,22 @@
       "end_line": 113,
       "location": "营地帐篷",
       "summary": "星兰的手指慢慢伸向结晶石探测器，停在石头上方数厘米。石头的颜色从淡蓝变为海蓝再变为深邃的深蓝，裂纹从中间向外延展，涌出更浓的光。星兰瞳孔扩散，嘴唇张开，问'你们听不见吗？'——她听到石头在'叫她的名字'，跳动节律与她的呼吸同步。全员震撼。",
-      "characters": ["xinglan", "qixin", "lao_zhao", "unnamed_member"]
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "unnamed_member"
+      ]
     }
   ],
-  "scenes_chunked": 5,
-  "summary_text": "---\nchapter: 0003\ntime: \"第三天上午\"\nlocation: \"营地帐篷\"\ncharacters: [\"星兰\", \"齐心\", \"老赵\", \"年轻队员\", \"李哥\"]\nstate_changes: [\"星兰: 力竭昏迷→真正苏醒，感知到结晶石的呼唤\", \"齐心: 观望者→判断者，警告星兰力量的危险性\"]\nhook_type: \"神秘钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n星兰在第三天上午真正苏醒。齐心解释猎魔公会处理魔物，她从北境矿区地下十二米被挖出。星兰的蓝金色光芒即\"魔法素\"形态，该力量在当世已不存在。李哥展示完全愈合的伤口，郑重道谢。星兰伸手探向结晶石时，石头光色变深、裂纹延展——她听到石头在叫她的名字。\n## 伏笔\n- [埋设] 星兰的力量被确认为\"魔法素\"形态，该力量在当今世界已不存在\n- [埋设] 星兰能听到结晶石\"叫她的名字\"，结晶石对其靠近产生剧烈反应\n- [埋设] 齐心对星兰的态度不是帮助而是\"判断\"，其真实动机不明\n## 承接点\n星兰意识到自己与结晶石之间存在深层联系——她能\"听到\"石头的声音；齐心警告她不要让外人发现这股力量。",
+  "chapter_meta": {},
   "dominant_strand": "mystery",
-  "timing_ms": {},
-  "bottlenecks_top3": []
+  "summary_text": "---\nchapter: 0003\ntime: \"第三天上午\"\nlocation: \"营地帐篷\"\ncharacters: [\"星兰\", \"齐心\", \"老赵\", \"年轻队员\", \"李哥\"]\nstate_changes: [\"星兰: 力竭昏迷→真正苏醒，感知到结晶石的呼唤\", \"齐心: 观望者→判断者，警告星兰力量的危险性\"]\nhook_type: \"神秘钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n星兰在第三天上午真正苏醒。齐心解释猎魔公会处理魔物，她从北境矿区地下十二米被挖出。星兰的蓝金色光芒即\"魔法素\"形态，该力量在当世已不存在。李哥展示完全愈合的伤口，郑重道谢。星兰伸手探向结晶石时，石头光色变深、裂纹延展——她听到石头在叫她的名字。\n## 伏笔\n- [埋设] 星兰的力量被确认为\"魔法素\"形态，该力量在当今世界已不存在\n- [埋设] 星兰能听到结晶石\"叫她的名字\"，结晶石对其靠近产生剧烈反应\n- [埋设] 齐心对星兰的态度不是帮助而是\"判断\"，其真实动机不明\n## 承接点\n星兰意识到自己与结晶石之间存在深层联系——她能\"听到\"石头的声音；齐心警告她不要让外人发现这股力量。",
+  "projection_status": {
+    "state": "pending",
+    "index": "pending",
+    "summary": "pending",
+    "memory": "pending",
+    "vector": "pending"
+  }
 }
