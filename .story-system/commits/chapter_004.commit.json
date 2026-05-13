@@ -1,4 +1,89 @@
 {
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 4,
+    "status": "rejected"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_004.json",
+    "review": "chapter_004.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "星兰接受猎魔公会新兵基础训练",
+      "星兰的能力在训练中进一步显露",
+      "齐心对星兰秘密的保护姿态强化"
+    ],
+    "covered_nodes": [
+      "星兰接受猎魔公会新兵基础训练——三项测试全部完成",
+      "星兰的能力在训练中进一步显露——感知定位测试展现S级感知力，无设备闭眼定位三个隐藏信号源",
+      "齐心对星兰秘密的保护姿态强化——干预周教官填写异常报告，要求报告先经他查看"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "周教官未销毁异常报告而是单独折好放入内袋随身保管，形成潜在风险点——报告未进入正式档案但未被消除",
+      "\"暴乱遗址不应该有活人\"——周教官与齐心的对话揭示矿区三周前发生过暴乱，进一步深化星兰身世之谜",
+      "星兰在感知状态下瞳孔扩散、身体轻微晃动，使用能力后掌心无蓝金色光芒——与第3章能力显现的表现既相似又有差异"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "issues": [
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "多处",
+        "description": "「不是A是B」句式高频",
+        "blocking": false
+      }
+    ],
+    "summary": "1问题：0阻断"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "星兰接受猎魔公会新兵基础训练",
+      "星兰的能力在训练中进一步显露",
+      "齐心对星兰秘密的保护姿态强化"
+    ],
+    "covered_nodes": [
+      "星兰接受猎魔公会新兵基础训练——三项测试全部完成",
+      "星兰的能力在训练中进一步显露——感知定位测试展现S级感知力，无设备闭眼定位三个隐藏信号源",
+      "齐心对星兰秘密的保护姿态强化——干预周教官填写异常报告，要求报告先经他查看"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "周教官未销毁异常报告而是单独折好放入内袋随身保管，形成潜在风险点——报告未进入正式档案但未被消除",
+      "\"暴乱遗址不应该有活人\"——周教官与齐心的对话揭示矿区三周前发生过暴乱，进一步深化星兰身世之谜",
+      "星兰在感知状态下瞳孔扩散、身体轻微晃动，使用能力后掌心无蓝金色光芒——与第3章能力显现的表现既相似又有差异"
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [
+      {
+        "entity_id_candidate": "li_ge",
+        "name": "李哥",
+        "context": "齐心小队正式成员，在矿道收尾时被未死透的魔物重伤，经星兰在15秒内以蓝金色光芒完全治愈。第3章展示愈合如初的伤口并郑重道谢，向齐心汇报矿区三处裂隙已封死",
+        "possible_duplicate_of": null,
+        "confidence": 0.8,
+        "reason": "已连续出场2章，身份确认为齐心小队正式成员且有职务分工（矿区收尾），但仍无全名确认"
+      },
+      {
+        "entity_id_candidate": "young_member",
+        "name": "年轻队员",
+        "context": "齐心小队最年轻的成员，第1-3章均有出场——第3章中他端水进来、站在帐篷帘子内外交界的半明半暗位置、目睹结晶石变化时从暗处退回光照里",
+        "possible_duplicate_of": "unnamed_member",
+        "confidence": 0.7,
+        "reason": "已出场3章，角色定位明确（小队最年轻成员、性格谨慎易受惊），但至今无正式名称，与现有unnamed_member高度疑似同一实体"
+      }
+    ]
+  },
   "accepted_events": [
     {
       "event_id": "evt-ch004-001",
@@ -152,23 +237,46 @@
     }
   ],
   "entities_appeared": [
-    {"id": "xinglan", "type": "角色", "mentions": ["星兰", "她", "那个女队员", "你"], "confidence": 0.99},
-    {"id": "qixin", "type": "角色", "mentions": ["齐心", "他", "头儿"], "confidence": 0.99},
-    {"id": "zhou_instructor", "type": "角色", "mentions": ["周教官", "教官", "训练教官", "退役的猎魔小队副队长", "他"], "confidence": 0.99},
-    {"id": "hunters_guild", "type": "组织", "mentions": ["猎魔公会"], "confidence": 0.9}
-  ],
-  "entities_new": [
     {
-      "suggested_id": "zhou_instructor",
-      "name": "周教官",
+      "id": "xinglan",
       "type": "角色",
-      "tier": "重要"
+      "mentions": [
+        "星兰",
+        "她",
+        "那个女队员",
+        "你"
+      ],
+      "confidence": 0.99
     },
     {
-      "suggested_id": "training_ground",
-      "name": "营地西侧训练场",
-      "type": "地点",
-      "tier": "装饰"
+      "id": "qixin",
+      "type": "角色",
+      "mentions": [
+        "齐心",
+        "他",
+        "头儿"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "zhou_instructor",
+      "type": "角色",
+      "mentions": [
+        "周教官",
+        "教官",
+        "训练教官",
+        "退役的猎魔小队副队长",
+        "他"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "hunters_guild",
+      "type": "组织",
+      "mentions": [
+        "猎魔公会"
+      ],
+      "confidence": 0.9
     }
   ],
   "scenes": [
@@ -178,7 +286,11 @@
       "end_line": 25,
       "location": "营地西侧训练场",
       "summary": "第5天清晨，齐心将星兰带到营地西侧训练场参加猎魔公会新兵基础训练。周教官（退役猎魔小队副队长）主持。第一项体能测试——跑步、负重折返、障碍跨越。星兰耐力中上但负重折返吃力，膝盖磕破皮，居于中游。",
-      "characters": ["xinglan", "qixin", "zhou_instructor"]
+      "characters": [
+        "xinglan",
+        "qixin",
+        "zhou_instructor"
+      ]
     },
     {
       "index": 2,
@@ -186,7 +298,10 @@
       "end_line": 41,
       "location": "营地西侧训练场",
       "summary": "第二项装备操作测试——结晶石探测器、简易驱散器、通讯面板。星兰首次按键错误（将读数键与清零键搞反），经周教官重置后第二次正确操作并完成。成绩刚好过及格线。",
-      "characters": ["xinglan", "zhou_instructor"]
+      "characters": [
+        "xinglan",
+        "zhou_instructor"
+      ]
     },
     {
       "index": 3,
@@ -194,7 +309,11 @@
       "end_line": 127,
       "location": "营地西侧训练场",
       "summary": "第三项感知定位测试。齐心让星兰关闭探测器、闭上眼睛。星兰在无设备辅助下精准报出测距校准器的信号方向——首次即发现两个发射点（含隐藏点），第二次升级测试中准确报出全部三个点位（含精扫模式才能锁定的远距离弱信号）。周教官震撼，在成绩单写下S级评级。",
-      "characters": ["xinglan", "qixin", "zhou_instructor"]
+      "characters": [
+        "xinglan",
+        "qixin",
+        "zhou_instructor"
+      ]
     },
     {
       "index": 4,
@@ -202,12 +321,20 @@
       "end_line": 163,
       "location": "训练场帐篷",
       "summary": "训练结束后，齐心进入帐篷要求周教官将报告先给他看。周教官问'从哪捡的她？矿区。那是三周前暴乱的遗址，里面不应该有活人。'齐心要求周教官打听暴乱遗址找到活人的先例后先告诉他。周教官最终将写了S级评级和'来源不明'的异常报告单独折好放入内袋。",
-      "characters": ["zhou_instructor", "qixin"]
+      "characters": [
+        "zhou_instructor",
+        "qixin"
+      ]
     }
   ],
-  "scenes_chunked": 4,
+  "chapter_meta": {},
   "dominant_strand": "mystery",
   "summary_text": "---\nchapter: 0004\ntime: \"第5天清晨\"\nlocation: \"营地西侧训练场\"\ncharacters: [\"星兰\", \"齐心\", \"周教官\"]\nstate_changes: [\"星兰: 感知力未显现→S级感知力暴露\", \"齐心: 观望判断→主动秘密保护，压制异常报告\"]\nhook_type: \"神秘钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n第5天清晨，齐心带星兰到营地西侧训练场参加猎魔公会新兵三项基础测试。星兰体能中游、装备操作低空过线。但在感知定位测试中，齐心让星兰关闭探测器、闭上眼睛——星兰在没有设备辅助的情况下精准定位三个隐藏魔法素信号源，包括一个需要精扫模式才能锁定的远距离弱信号。周教官在成绩单写下S级评级并准备填写异常备注。训练结束后，齐心进入帐篷要求报告先给他看、阻止填写备注。\"矿区是三周前暴乱的遗址，那里面不应该有活人。\"周教官最终将异常报告折好放入自己内袋。\n## 伏笔\n- [埋设] 星兰展现S级感知力——无设备闭眼状态精准定位魔法素信号，包括远距离弱信号\n- [埋设] 周教官异常报告被齐心阻止但被其随身保存未销毁，形成潜在风险\n- [埋设] \"暴乱遗址不应该有活人\"——揭示矿区背景，深化星兰身世之谜\n## 承接点\n星兰S级感知力暴露给第三人（周教官），齐心压制报告但报告未被销毁而是由周教官随身保管，潜在风险持续存在。\"暴乱遗址不应有活人\"的暗示将星兰的身世推向更深的谜团。",
-  "timing_ms": {},
-  "bottlenecks_top3": []
+  "projection_status": {
+    "state": "pending",
+    "index": "pending",
+    "summary": "pending",
+    "memory": "pending",
+    "vector": "pending"
+  }
 }
