@@ -14,3 +14,14 @@
 {"timestamp": "2026-05-13T16:50:33.940766", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
 {"timestamp": "2026-05-13T17:41:26.474513", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-05-13T17:41:27.280799", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T17:53:25.003536", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 13}
+{"timestamp": "2026-05-13T17:53:25.733198", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-05-13T17:56:34.940943", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T17:56:35.573185", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T17:56:42.744293", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "未找到别名: 李哥"}
+{"timestamp": "2026-05-13T17:56:43.537405", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-05-13T17:57:43.060427", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T17:57:43.673508", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 李哥"}
+{"timestamp": "2026-05-13T17:57:44.367908", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T18:00:11.367164", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-05-13T18:00:11.882909", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}

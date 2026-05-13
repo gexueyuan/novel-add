@@ -10,12 +10,12 @@
       "payload": {
         "old_value": "被埋于地下12米"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "state_change:xinglan:status:1"
       ],
-      "updated_at": "2026-05-13T16:16:19"
+      "updated_at": "2026-05-13T17:59:32"
     },
     {
       "id": "mem-character_state-f9302fec39bf54c0",
@@ -27,12 +27,12 @@
       "payload": {
         "old_value": "北境矿区主巷道地下12米"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "state_change:xinglan:location.current:1"
       ],
-      "updated_at": "2026-05-13T16:16:19"
+      "updated_at": "2026-05-13T17:59:32"
     },
     {
       "id": "mem-character_state-4eb0372bd7fd3f39",
@@ -96,12 +96,12 @@
         "tier": "核心",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "entity_new:xinglan:1"
       ],
-      "updated_at": "2026-05-13T16:16:19"
+      "updated_at": "2026-05-13T17:59:32"
     },
     {
       "id": "mem-character_state-de17ce2995099c20",
@@ -114,12 +114,12 @@
         "tier": "核心",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "entity_new:qixin:1"
       ],
-      "updated_at": "2026-05-13T16:16:19"
+      "updated_at": "2026-05-13T17:59:32"
     },
     {
       "id": "mem-character_state-2ad2fe808aa08faa",
@@ -132,12 +132,12 @@
         "tier": "重要",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "entity_new:lao_zhao:1"
       ],
-      "updated_at": "2026-05-13T16:16:19"
+      "updated_at": "2026-05-13T17:59:32"
     },
     {
       "id": "mem-character_state-80759a7c256ab71b",
@@ -150,12 +150,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "entity_new:unnamed_member:1"
       ],
-      "updated_at": "2026-05-13T16:16:19"
+      "updated_at": "2026-05-13T17:59:32"
     },
     {
       "id": "mem-character_state-a7713ac33288edc6",
@@ -192,10 +192,221 @@
         "entity_new:north_mine:1"
       ],
       "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-2258ccf7bef02a12",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "power.combat_ability",
+      "value": "无咒语风刃——真空切割，掌心短暂闪现蓝金色光芒；释放后指尖皮肤裂纹、力竭",
+      "payload": {
+        "old_value": "未展现任何战斗能力，仅在第3章表现过本能治愈（15秒愈合李哥重伤）和感知能力"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "state_change:xinglan:power.combat_ability:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-9bbcd5a837fe9839",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "power.revealed_to",
+      "value": "齐心目睹风刃及蓝金色光芒全过程，确认其拥有超越时代认知的魔法素力量",
+      "payload": {
+        "old_value": "仅齐心知晓其无设备感知异常，未见过蓝金色光芒或攻击性魔法"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "state_change:xinglan:power.revealed_to:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-372d1c1c0d6855b9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "location.current",
+      "value": "东郊农田",
+      "payload": {
+        "old_value": "营地帐篷"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "state_change:xinglan:location.current:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-3b32c98d0b403a62",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "status",
+      "value": "首次实战后力竭，指腹裂纹渗血，膝盖旧伤重新渗血",
+      "payload": {
+        "old_value": "完成新兵训练的新兵"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "state_change:xinglan:status:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-0dc24dc1e3336b39",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "attitude.toward_xinglan",
+      "value": "直面确认——目睹战斗能力后说『需要谈谈』，第4章决定被赋予具体形状",
+      "payload": {
+        "old_value": "主动秘密保护——干预周教官填写异常报告，要求报告先经他查看"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "state_change:qixin:attitude.toward_xinglan:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-6f88010e4f594400",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "status",
+      "value": "被巨型铁甲魔物甩尾击晕，护肩炸裂，倒地昏迷",
+      "payload": {
+        "old_value": "未在本章前展现战斗状态"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "state_change:li_ge:status:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-623eec4e76bd54c6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "first_seen",
+      "value": "星兰",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "entity_new:xinglan:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-380075493763e7d3",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "first_seen",
+      "value": "齐心",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "entity_new:qixin:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-d9004659d8c9adb9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "first_seen",
+      "value": "李哥",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "entity_new:li_ge:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-61d81cdba40f5c69",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "unnamed_member",
+      "field": "first_seen",
+      "value": "年轻队员",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "entity_new:unnamed_member:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-377e734010280329",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_zhao",
+      "field": "first_seen",
+      "value": "老赵",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "entity_new:lao_zhao:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
     }
   ],
   "story_facts": [],
-  "world_rules": [],
+  "world_rules": [
+    {
+      "id": "mem-world_rule-acea3e67e27e19d2",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "magic_system",
+      "field": "world_rule_revealed",
+      "value": "蓝金色光芒即魔法素形态——这个时代已经不存在了。星兰在第3章答应过齐心不能在别人面前暴露力量。她的魔法力量在受到致命威胁时会在无意识状态下被触发——『身体里另一个更深层的东西已经替她做了决定』，无需咒语即可释放。释放后指尖皮肤出现裂纹（空气被抽走），消耗极大立即力竭。",
+      "payload": {
+        "scope": "personal",
+        "rule_text": "蓝金色光芒即魔法素形态——这个时代已经不存在了。星兰在第3章答应过齐心不能在别人面前暴露力量。她的魔法力量在受到致命威胁时会在无意识状态下被触发——『身体里另一个更深层的东西已经替她做了决定』，无需咒语即可释放。释放后指尖皮肤出现裂纹（空气被抽走），消耗极大立即力竭。"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "memory_facts:world_rule:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    }
+  ],
   "timeline": [],
   "open_loops": [
     {
@@ -257,13 +468,73 @@
         "memory_facts:open_loop:1"
       ],
       "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-open_loop-db4c1a1929717017",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "齐心目睹星兰在实战中释放真空风刃、掌心闪现蓝金色光芒（魔法素形态）后，未当场揭穿，战后扶起力竭的星兰说『我们需要谈谈』——第4章他在周教官帐篷里决定保护星兰秘密，此刻该决定被赋予了具体形状",
+      "field": "status",
+      "value": "齐心目睹星兰在实战中释放真空风刃、掌心闪现蓝金色光芒（魔法素形态）后，未当场揭穿，战后扶起力竭的星兰说『我们需要谈谈』——第4章他在周教官帐篷里决定保护星兰秘密，此刻该决定被赋予了具体形状",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 5,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "memory_facts:open_loop:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-open_loop-9d55f8e0a7257ced",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "李哥在左翼封锁线被巨型铁甲魔物甩尾击中，护肩炸裂后被冲击力弹到灌溉渠混凝土护壁上滑落，未站起来——猎魔小队正式成员首次出现战斗减员",
+      "field": "status",
+      "value": "李哥在左翼封锁线被巨型铁甲魔物甩尾击中，护肩炸裂后被冲击力弹到灌溉渠混凝土护壁上滑落，未站起来——猎魔小队正式成员首次出现战斗减员",
+      "payload": {
+        "urgency": "medium",
+        "planted_chapter": 5,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "memory_facts:open_loop:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-open_loop-6b62d5d744ec74cf",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "猎魔公会北境调度台任务指令预估近郊东侧农田区有五到七只低级魔物，实际遭遇八只——包含一只背甲铁灰色、体型大一倍的巨型变异个体，其黏液腐蚀麦秆，战力远超预估",
+      "field": "status",
+      "value": "猎魔公会北境调度台任务指令预估近郊东侧农田区有五到七只低级魔物，实际遭遇八只——包含一只背甲铁灰色、体型大一倍的巨型变异个体，其黏液腐蚀麦秆，战力远超预估",
+      "payload": {
+        "urgency": "medium",
+        "planted_chapter": 5,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 5,
+      "evidence": [
+        "memory_facts:open_loop:5"
+      ],
+      "updated_at": "2026-05-13T18:00:37"
     }
   ],
   "reader_promises": [],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-05-13T16:16:19",
-    "total_items": 14
+    "last_updated": "2026-05-13T18:00:37",
+    "total_items": 29
   }
 }

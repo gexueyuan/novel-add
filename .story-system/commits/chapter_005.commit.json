@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 5,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_005.json",
+    "review": "chapter_005.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "星兰首次参与猎魔公会实战任务",
+      "星兰在战斗中被迫使用自身力量",
+      "齐心亲眼目睹星兰的魔法能力后反应"
+    ],
+    "covered_nodes": [
+      "星兰首次参与猎魔公会实战任务——第7天上午，随齐心小队前往东郊农田低级魔物清剿，侦察阶段凭感知精确定位七只魔物（含两只伪装）",
+      "星兰在战斗中被迫使用自身力量——巨型铁甲魔物冲破左翼封锁直扑星兰，身体先于意识做出反应，无咒语释放真空风刃击倒魔物，掌心短暂闪现蓝金色光芒",
+      "齐心亲眼目睹星兰的魔法能力后反应——目睹风刃和蓝金色光芒后未当场揭穿，战后扶起力竭的星兰说『我们需要谈谈』，第4章决定被赋予具体形状"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "第八只巨型铁甲魔物超出预估——背甲铁灰色、黏液腐蚀麦秆，甩尾击晕李哥，左翼封锁线被撞开",
+      "星兰的魔法力量在无意识状态下被触发——『她的意识还来不及说不，身体里另一个更深层的东西已经替她做了决定』，风刃削断麦穗造成整齐断口",
+      "李哥被巨型魔物击晕昏迷——护肩炸裂后被冲击力弹到灌溉渠混凝土护壁上，小队首次出现战斗减员",
+      "星兰释放风刃后手指皮肤出现极细裂纹——『那道风刃在劈出去的时候把她指尖的空气也抽走了』，指腹渗出血丝，膝盖旧伤重新渗血"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "issues": [
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "多处",
+        "description": "句式层问题残留",
+        "blocking": false
+      }
+    ],
+    "summary": "1问题：0阻断"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "星兰首次参与猎魔公会实战任务",
+      "星兰在战斗中被迫使用自身力量",
+      "齐心亲眼目睹星兰的魔法能力后反应"
+    ],
+    "covered_nodes": [
+      "星兰首次参与猎魔公会实战任务——第7天上午，随齐心小队前往东郊农田低级魔物清剿，侦察阶段凭感知精确定位七只魔物（含两只伪装）",
+      "星兰在战斗中被迫使用自身力量——巨型铁甲魔物冲破左翼封锁直扑星兰，身体先于意识做出反应，无咒语释放真空风刃击倒魔物，掌心短暂闪现蓝金色光芒",
+      "齐心亲眼目睹星兰的魔法能力后反应——目睹风刃和蓝金色光芒后未当场揭穿，战后扶起力竭的星兰说『我们需要谈谈』，第4章决定被赋予具体形状"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "第八只巨型铁甲魔物超出预估——背甲铁灰色、黏液腐蚀麦秆，甩尾击晕李哥，左翼封锁线被撞开",
+      "星兰的魔法力量在无意识状态下被触发——『她的意识还来不及说不，身体里另一个更深层的东西已经替她做了决定』，风刃削断麦穗造成整齐断口",
+      "李哥被巨型魔物击晕昏迷——护肩炸裂后被冲击力弹到灌溉渠混凝土护壁上，小队首次出现战斗减员",
+      "星兰释放风刃后手指皮肤出现极细裂纹——『那道风刃在劈出去的时候把她指尖的空气也抽走了』，指腹渗出血丝，膝盖旧伤重新渗血"
+    ]
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch005-001",
+      "chapter": 5,
+      "event_type": "character_state_changed",
+      "subject": "xinglan",
+      "payload": {
+        "field": "power.combat_ability",
+        "new": "无咒语风刃——空气扭曲凝聚成真空切割，削断麦穗后撞碎魔物胸甲，指尖皮肤因空气被抽走出现极细裂纹；释放时掌心短暂闪现蓝金色光芒（魔法素形态），风刃能量消耗大导致立即力竭",
+        "old": "未展现任何战斗能力，仅在第3章表现过本能治愈（15秒愈合李哥重伤）和感知能力"
+      }
+    },
+    {
+      "event_id": "evt-ch005-002",
+      "chapter": 5,
+      "event_type": "character_state_changed",
+      "subject": "xinglan",
+      "payload": {
+        "field": "power.revealed_to",
+        "new": "齐心——目睹风刃削断麦田的整齐断口及蓝金色光芒闪现全过程，确认星兰拥有超越时代认知的魔法素力量",
+        "old": "仅齐心知晓其无设备感知异常，但未见过蓝金色光芒或攻击性魔法"
+      }
+    },
+    {
+      "event_id": "evt-ch005-003",
+      "chapter": 5,
+      "event_type": "character_state_changed",
+      "subject": "qixin",
+      "payload": {
+        "field": "attitude.toward_xinglan",
+        "new": "直面确认——目睹战斗能力后未质问恐惧，战后扶起星兰说『我们需要谈谈』，『第4章末他在周教官帐篷里的那个决定，此刻被赋予了具体的形状』",
+        "old": "主动秘密保护——干预周教官填写异常报告，要求报告先经他查看"
+      }
+    },
+    {
+      "event_id": "evt-ch005-004",
+      "chapter": 5,
+      "event_type": "open_loop_created",
+      "subject": "xinglan",
+      "payload": {
+        "content": "齐心目睹星兰在实战中释放真空风刃、掌心闪现蓝金色光芒（魔法素形态）后，未当场揭穿，战后扶起力竭的星兰说『我们需要谈谈』——第4章他在周教官帐篷里决定保护星兰秘密，此刻该决定被赋予了具体形状",
+        "loop_type": "relationship",
+        "unanswered_question": "齐心目睹星兰的蓝金色魔法力量后会如何行动？他会继续保护她还是上报？星兰将如何解释自己的力量来源？两人的关系将走向何方？",
+        "urgency": "high",
+        "planted_chapter": 5
+      }
+    },
+    {
+      "event_id": "evt-ch005-005",
+      "chapter": 5,
+      "event_type": "open_loop_created",
+      "subject": "li_ge",
+      "payload": {
+        "content": "李哥在左翼封锁线被巨型铁甲魔物甩尾击中，护肩炸裂后被冲击力弹到灌溉渠混凝土护壁上滑落，未站起来——猎魔小队正式成员首次出现战斗减员",
+        "loop_type": "threat",
+        "unanswered_question": "李哥的伤情有多严重？是否能醒来？巨型铁甲魔物比普通魔物强大得多，其出现是否为孤立事件？",
+        "urgency": "medium",
+        "planted_chapter": 5
+      }
+    },
+    {
+      "event_id": "evt-ch005-006",
+      "chapter": 5,
+      "event_type": "open_loop_created",
+      "subject": "hunters_guild",
+      "payload": {
+        "content": "猎魔公会北境调度台任务指令预估近郊东侧农田区有五到七只低级魔物，实际遭遇八只——包含一只背甲铁灰色、体型大一倍的巨型变异个体，其黏液腐蚀麦秆，战力远超预估",
+        "loop_type": "mystery",
+        "unanswered_question": "为什么会出现情报偏差？巨型铁甲魔物是散逸个体还是某种变异正在发生？任务情报系统是否存在漏洞？",
+        "urgency": "medium",
+        "planted_chapter": 5
+      }
+    },
+    {
+      "event_id": "evt-ch005-007",
+      "chapter": 5,
+      "event_type": "world_rule_revealed",
+      "subject": "xinglan",
+      "payload": {
+        "rule_content": "蓝金色光芒即魔法素形态——这个时代已经不存在了。星兰在第3章答应过齐心不能在别人面前暴露力量。她的魔法力量在受到致命威胁时会在无意识状态下被触发——『身体里另一个更深层的东西已经替她做了决定』，无需咒语即可释放。释放后指尖皮肤出现裂纹（空气被抽走），消耗极大立即力竭。",
+        "rule_category": "magic_system",
+        "scope": "personal"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "xinglan",
+      "field": "power.combat_ability",
+      "old": "未展现任何战斗能力，仅在第3章表现过本能治愈（15秒愈合李哥重伤）和感知能力",
+      "new": "无咒语风刃——真空切割，掌心短暂闪现蓝金色光芒；释放后指尖皮肤裂纹、力竭"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "power.revealed_to",
+      "old": "仅齐心知晓其无设备感知异常，未见过蓝金色光芒或攻击性魔法",
+      "new": "齐心目睹风刃及蓝金色光芒全过程，确认其拥有超越时代认知的魔法素力量"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "location.current",
+      "old": "营地帐篷",
+      "new": "东郊农田"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "status",
+      "old": "完成新兵训练的新兵",
+      "new": "首次实战后力竭，指腹裂纹渗血，膝盖旧伤重新渗血"
+    },
+    {
+      "entity_id": "qixin",
+      "field": "attitude.toward_xinglan",
+      "old": "主动秘密保护——干预周教官填写异常报告，要求报告先经他查看",
+      "new": "直面确认——目睹战斗能力后说『需要谈谈』，第4章决定被赋予具体形状"
+    },
+    {
+      "entity_id": "li_ge",
+      "field": "status",
+      "old": "未在本章前展现战斗状态",
+      "new": "被巨型铁甲魔物甩尾击晕，护肩炸裂，倒地昏迷"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "xinglan",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "is_protagonist": true,
+      "payload": {
+        "name": "星兰",
+        "description": "在魔物暴乱遗址地下被发现的墨蓝长发少女，身世不明。体温异常冰冷，身体向外散发魔法素能量。苏醒后完全失忆。蓝金色光芒即'魔法素'形态。在第4章展现S级感知力。在第5章首次实战中无咒语释放真空风刃击倒巨型魔物，掌心短暂闪现蓝金色光芒，指尖裂纹力竭。魔法力量会在无意识状态下被触发。",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "qixin",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "payload": {
+        "name": "齐心",
+        "description": "猎魔公会清扫小队队长，冷静果断、观察力敏锐。在矿区发现星兰后决定违反条例将其带回。在第4章主动保护星兰秘密，干预周教官异常报告。在第5章目击星兰释放风刃和蓝金色光芒后，未当场揭穿，战后说『我们需要谈谈』——从秘密保护转向直面确认。",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "li_ge",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "name": "李哥",
+        "description": "齐心小队正式成员，左翼战斗人员。在第5章东郊农田清剿战斗中负责左翼渠沟，被巨型铁甲魔物甩尾击晕——护肩炸裂后被冲击力弹到灌溉渠混凝土护壁上昏迷。",
+        "first_appearance": 5
+      }
+    },
+    {
+      "entity_id": "unnamed_member",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "装饰",
+      "payload": {
+        "name": "年轻队员",
+        "description": "齐心小队最年轻的成员。在第5章首次实战中正面站位，被第三头魔物扑向射击死角侧退踩入软泥，经齐心补枪救下。战后清理战场。",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "lao_zhao",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "name": "老赵",
+        "description": "齐心小队成员，经验丰富的战斗员。在第4章帮星兰换了合身的防护背心。在第5章中承担左翼渠沟封锁线，被巨型铁甲魔物冲破后尝试火力吸引未果，战后清理战场。",
+        "first_appearance": 1
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "xinglan",
+      "type": "角色",
+      "mentions": [
+        "星兰",
+        "她",
+        "她(的手指)",
+        "她(的膝盖)"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "qixin",
+      "type": "角色",
+      "mentions": [
+        "齐心",
+        "他",
+        "头儿"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "lao_zhao",
+      "type": "角色",
+      "mentions": [
+        "老赵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "li_ge",
+      "type": "角色",
+      "mentions": [
+        "李哥"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "unnamed_member",
+      "type": "角色",
+      "mentions": [
+        "年轻队员"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "hunters_guild",
+      "type": "组织",
+      "mentions": [
+        "猎魔公会北境调度台",
+        "猎魔公会"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 14,
+      "location": "营地帐篷",
+      "summary": "第7天上午，猎魔公会北境调度台下发东郊农田低级魔物清剿任务（预估五到七只）。星兰整装，老赵递给她合身的防护背心和皮靴，系靴带时老赵帮忙松了半寸。星兰跟在齐心后面走出帐篷出发。",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao"
+      ],
+      "content": "任务接收与出发准备"
+    },
+    {
+      "index": 2,
+      "start_line": 15,
+      "end_line": 35,
+      "location": "东郊农田缓坡",
+      "summary": "到达东郊农田，阳光铺满麦田。齐心用望远镜发现三只暴露魔物。星兰闭眼感知一拍即睁眼，精确定位七只——含东边麦田两只伪装色趴着的。齐心布阵：老赵李哥左翼渠沟，年轻队员正面，星兰右翼麦田。星兰将手伸进口袋克制力量。",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "unnamed_member"
+      ],
+      "content": "侦察与布阵"
+    },
+    {
+      "index": 3,
+      "start_line": 36,
+      "end_line": 76,
+      "location": "东郊农田战场",
+      "summary": "正面左翼同时开火，三只暴露魔物被打散。一头扑向年轻队员，齐心补枪。第八只巨型铁甲魔物从左翼爆出，撞开封锁线甩尾击晕李哥。老赵火力吸引未果，魔物转向星兰。星兰克制不到一秒，身体先于意识决定——无咒语释放真空风刃，削断麦穗击倒魔物。星兰跪倒指尖裂纹。齐心从正面目睹全程。",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "unnamed_member"
+      ],
+      "content": "正面交战与巨型魔物"
+    },
+    {
+      "index": 4,
+      "start_line": 77,
+      "end_line": 93,
+      "location": "东郊麦田",
+      "summary": "齐心下令清剿残敌，走过麦田来到跪地的星兰面前。她撑着他伸来的手臂站起来，膝盖旧伤渗血。齐心说『我们需要谈谈』——语气里没有质问没有恐惧，『第4章末他在周教官帐篷里的那个决定，此刻被赋予了具体的形状』。他转身走向麦田深处，星兰跟在后面。",
+      "characters": [
+        "xinglan",
+        "qixin"
+      ],
+      "content": "战后对话与未来伏笔"
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "quest",
+  "summary_text": "---\nchapter: 0005\ntime: \"第7天上午\"\nlocation: \"东郊农田\"\ncharacters: [\"星兰\", \"齐心\", \"老赵\", \"李哥\", \"年轻队员\"]\nstate_changes: [\"星兰: 未展现实战能力→无咒语风刃击倒巨型魔物，掌心蓝金色光芒闪现\", \"齐心: 秘密保护→目睹能力后决定当面谈话\"]\nhook_type: \"危机钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n第7天上午，猎魔公会北境调度台下发东郊农田低级魔物清剿任务。星兰随齐心小队首次实战，在侦察阶段凭感知精确定位七只魔物（含两只伪装）。正面交火后，一只远超预估的巨型铁甲魔物突然出现，甩尾击晕李哥、冲破左翼封锁直扑星兰。在克制与本能之间，星兰的身体先于意识做出反应——无咒语释放真空风刃，掌心短暂闪现蓝金色光芒（魔法素形态），将巨型魔物一刀掀翻。齐心目睹全程，未当场揭穿，战后扶起力竭的星兰说：『我们需要谈谈。』第4章末他在周教官帐篷里的决定，此刻被赋予了具体的形状。\n## 伏笔\n- [埋设] 星兰在实战中被迫释放风刃——无咒语真空切割，掌心蓝金色光芒（魔法素形态）短暂闪现，齐心目睹全程\n- [埋设] 齐心目睹星兰魔法力量后未当场质问或恐惧，战后带她单独谈话——第4章决定被赋予具体形状\n- [埋设] 任务情报偏差——预估五至七只低级魔物，实际出现八只（含一只铁甲巨型变异个体），李哥被击晕昏迷\n## 承接点\n齐心目睹星兰的蓝金色魔法光芒，从秘密保护转向直面确认——『需要谈谈』为下一章两人的正面对话埋下伏笔。巨型魔物的出现和任务情报偏差暗示这片区域可能正在发生某种变化。",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "done"
+  }
+}

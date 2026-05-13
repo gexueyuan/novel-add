@@ -1,0 +1,85 @@
+[
+  {
+    "event_id": "evt-ch005-001",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "xinglan",
+    "payload": {
+      "field": "power.combat_ability",
+      "new": "无咒语风刃——空气扭曲凝聚成真空切割，削断麦穗后撞碎魔物胸甲，指尖皮肤因空气被抽走出现极细裂纹；释放时掌心短暂闪现蓝金色光芒（魔法素形态），风刃能量消耗大导致立即力竭",
+      "old": "未展现任何战斗能力，仅在第3章表现过本能治愈（15秒愈合李哥重伤）和感知能力"
+    }
+  },
+  {
+    "event_id": "evt-ch005-002",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "xinglan",
+    "payload": {
+      "field": "power.revealed_to",
+      "new": "齐心——目睹风刃削断麦田的整齐断口及蓝金色光芒闪现全过程，确认星兰拥有超越时代认知的魔法素力量",
+      "old": "仅齐心知晓其无设备感知异常，但未见过蓝金色光芒或攻击性魔法"
+    }
+  },
+  {
+    "event_id": "evt-ch005-003",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "qixin",
+    "payload": {
+      "field": "attitude.toward_xinglan",
+      "new": "直面确认——目睹战斗能力后未质问恐惧，战后扶起星兰说『我们需要谈谈』，『第4章末他在周教官帐篷里的那个决定，此刻被赋予了具体的形状』",
+      "old": "主动秘密保护——干预周教官填写异常报告，要求报告先经他查看"
+    }
+  },
+  {
+    "event_id": "evt-ch005-004",
+    "chapter": 5,
+    "event_type": "open_loop_created",
+    "subject": "xinglan",
+    "payload": {
+      "content": "齐心目睹星兰在实战中释放真空风刃、掌心闪现蓝金色光芒（魔法素形态）后，未当场揭穿，战后扶起力竭的星兰说『我们需要谈谈』——第4章他在周教官帐篷里决定保护星兰秘密，此刻该决定被赋予了具体形状",
+      "loop_type": "relationship",
+      "unanswered_question": "齐心目睹星兰的蓝金色魔法力量后会如何行动？他会继续保护她还是上报？星兰将如何解释自己的力量来源？两人的关系将走向何方？",
+      "urgency": "high",
+      "planted_chapter": 5
+    }
+  },
+  {
+    "event_id": "evt-ch005-005",
+    "chapter": 5,
+    "event_type": "open_loop_created",
+    "subject": "li_ge",
+    "payload": {
+      "content": "李哥在左翼封锁线被巨型铁甲魔物甩尾击中，护肩炸裂后被冲击力弹到灌溉渠混凝土护壁上滑落，未站起来——猎魔小队正式成员首次出现战斗减员",
+      "loop_type": "threat",
+      "unanswered_question": "李哥的伤情有多严重？是否能醒来？巨型铁甲魔物比普通魔物强大得多，其出现是否为孤立事件？",
+      "urgency": "medium",
+      "planted_chapter": 5
+    }
+  },
+  {
+    "event_id": "evt-ch005-006",
+    "chapter": 5,
+    "event_type": "open_loop_created",
+    "subject": "hunters_guild",
+    "payload": {
+      "content": "猎魔公会北境调度台任务指令预估近郊东侧农田区有五到七只低级魔物，实际遭遇八只——包含一只背甲铁灰色、体型大一倍的巨型变异个体，其黏液腐蚀麦秆，战力远超预估",
+      "loop_type": "mystery",
+      "unanswered_question": "为什么会出现情报偏差？巨型铁甲魔物是散逸个体还是某种变异正在发生？任务情报系统是否存在漏洞？",
+      "urgency": "medium",
+      "planted_chapter": 5
+    }
+  },
+  {
+    "event_id": "evt-ch005-007",
+    "chapter": 5,
+    "event_type": "world_rule_revealed",
+    "subject": "xinglan",
+    "payload": {
+      "rule_content": "蓝金色光芒即魔法素形态——这个时代已经不存在了。星兰在第3章答应过齐心不能在别人面前暴露力量。她的魔法力量在受到致命威胁时会在无意识状态下被触发——『身体里另一个更深层的东西已经替她做了决定』，无需咒语即可释放。释放后指尖皮肤出现裂纹（空气被抽走），消耗极大立即力竭。",
+      "rule_category": "magic_system",
+      "scope": "personal"
+    }
+  }
+]
