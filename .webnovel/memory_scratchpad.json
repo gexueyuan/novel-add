@@ -1,0 +1,269 @@
+{
+  "character_state": [
+    {
+      "id": "mem-character_state-84ba782dfa9aaffe",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "status",
+      "value": "获救昏迷于营地帐篷",
+      "payload": {
+        "old_value": "被埋于地下12米"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:xinglan:status:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-f9302fec39bf54c0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "location.current",
+      "value": "营地帐篷",
+      "payload": {
+        "old_value": "北境矿区主巷道地下12米"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:xinglan:location.current:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-4eb0372bd7fd3f39",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "physiology.temperature",
+      "value": "异常冰冷（如深冬湖水）",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:xinglan:physiology.temperature:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-65d58d588e567f85",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "physiology.magic_emission",
+      "value": "身体向外散发魔法素能量",
+      "payload": {
+        "old_value": "未知"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:xinglan:physiology.magic_emission:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-1935bdcac3fed306",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "status",
+      "value": "任务完成，携神秘少女返回营地",
+      "payload": {
+        "old_value": "执行矿区清扫任务"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "state_change:qixin:status:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-1a2a522382b3fd77",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "first_seen",
+      "value": "星兰",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:xinglan:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-de17ce2995099c20",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "first_seen",
+      "value": "齐心",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:qixin:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-2ad2fe808aa08faa",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_zhao",
+      "field": "first_seen",
+      "value": "老赵",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:lao_zhao:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-80759a7c256ab71b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "unnamed_member",
+      "field": "first_seen",
+      "value": "年轻队员",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:unnamed_member:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-a7713ac33288edc6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "hunters_guild",
+      "field": "first_seen",
+      "value": "猎魔公会",
+      "payload": {
+        "tier": "重要",
+        "type": "组织"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:hunters_guild:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-character_state-0c2d8902ca612f7b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "north_mine",
+      "field": "first_seen",
+      "value": "北境矿区",
+      "payload": {
+        "tier": "重要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "entity_new:north_mine:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    }
+  ],
+  "story_facts": [],
+  "world_rules": [],
+  "timeline": [],
+  "open_loops": [
+    {
+      "id": "mem-open_loop-abc958ad4f57cc72",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "一名来历不明的墨蓝长发少女被埋在魔物暴乱遗址地下12米处长达三周，被发现时毫发无伤、呼吸平稳、衣物完好",
+      "field": "status",
+      "value": "一名来历不明的墨蓝长发少女被埋在魔物暴乱遗址地下12米处长达三周，被发现时毫发无伤、呼吸平稳、衣物完好",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 1,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "memory_facts:open_loop:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-open_loop-bcd43e7e44456b97",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "星兰体温异常冰冷，皮肤在暗处泛出微光，身体向外散发魔法素能量，瞳孔深处曾闪过蓝金色光芒",
+      "field": "status",
+      "value": "星兰体温异常冰冷，皮肤在暗处泛出微光，身体向外散发魔法素能量，瞳孔深处曾闪过蓝金色光芒",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 1,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "memory_facts:open_loop:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    },
+    {
+      "id": "mem-open_loop-bbe722470da87f0b",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "星兰短暂苏醒时说出'星兰'二字后再度昏迷，无法确定是她自己的名字还是另有含义",
+      "field": "status",
+      "value": "星兰短暂苏醒时说出'星兰'二字后再度昏迷，无法确定是她自己的名字还是另有含义",
+      "payload": {
+        "urgency": "medium",
+        "planted_chapter": 1,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 1,
+      "evidence": [
+        "memory_facts:open_loop:1"
+      ],
+      "updated_at": "2026-05-13T16:16:19"
+    }
+  ],
+  "reader_promises": [],
+  "relationships": [],
+  "meta": {
+    "version": 1,
+    "last_updated": "2026-05-13T16:16:19",
+    "total_items": 14
+  }
+}

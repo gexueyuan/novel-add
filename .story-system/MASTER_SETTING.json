@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "contract_type": "MASTER_SETTING",
+    "generator_version": "phase1",
+    "query": "猎魔小队在魔物暴乱遗址发现失忆少女星兰"
+  },
+  "route": {
+    "primary_genre": "西幻冒险",
+    "canonical_genre": "奇幻",
+    "route_source": "keyword_or_alias_match",
+    "genre_filter": "奇幻",
+    "recommended_base_tables": [
+      "命名规则",
+      "金手指与设定",
+      "场景写法"
+    ],
+    "recommended_dynamic_tables": [
+      "桥段套路",
+      "爽点与节奏",
+      "人设与关系"
+    ]
+  },
+  "master_constraints": {
+    "core_tone": "规则奇观与阵营推进",
+    "pacing_strategy": "冒险段给奇观但必须带代价"
+  },
+  "base_context": [],
+  "source_trace": [
+    {
+      "table": "题材与调性推理",
+      "id": "GR-021",
+      "reason": "keyword_or_alias_match"
+    },
+    {
+      "table": "金手指与设定",
+      "id": "SY-002",
+      "summary": "异能或魔法副作用能防止战力崩坏，也能给角色制造持续性的选择压力和剧情张力。",
+      "reasoning_rule": "奇幻",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    }
+  ],
+  "override_policy": {
+    "locked": [
+      "route.primary_genre",
+      "master_constraints.core_tone"
+    ],
+    "append_only": [
+      "anti_patterns"
+    ],
+    "override_allowed": []
+  }
+}

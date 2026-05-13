@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 1,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_001.json",
+    "review": "chapter_001.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "issues": [
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "多处",
+        "description": "全章出现7处「像」引导的明喻，密度约每350字一次，形成描述性修辞的重复模式",
+        "evidence": "撕裂金属的声音、规律得心跳、蜷在巢中的鸟、深冬湖水的寒、沉睡了很久的东西浮到表面、远方的气泡浮出水面、星星最后一次确认位置",
+        "fix_hint": "减少明喻至3-4处，保留最独特必要的比喻，其余替换为客观感知叙述",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "ai_flavor",
+        "location": "第45-46行",
+        "description": "连续4句以「她怎么」开头的同构疑问句，形成机械排比感",
+        "evidence": "4句主谓结构完全一致（她怎么+谓语）",
+        "fix_hint": "保留前三句排比节奏，将最后一句改为不同句式",
+        "blocking": false
+      },
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "第51-55行",
+        "description": "叙事层存在「展示后紧跟解释」模式——展示星兰物理细节后立即跟随负面否定句替读者下结论",
+        "evidence": "不像体力劳动的结果、不像是在废墟中挣扎求生——三次展示后紧跟解释性判断",
+        "fix_hint": "删除结论性判断句，只保留展示性描述，让读者自行推理",
+        "blocking": false
+      }
+    ],
+    "summary": "3个问题：0个阻断，0个高优，3个AI味（2中1低）",
+    "high_count": 0,
+    "medium_count": 2,
+    "low_count": 1
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "disambiguation_result": {
+    "pending": []
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch001-001",
+      "chapter": 1,
+      "event_type": "open_loop_created",
+      "subject": "xinglan",
+      "payload": {
+        "content": "一名来历不明的墨蓝长发少女被埋在魔物暴乱遗址地下12米处长达三周，被发现时毫发无伤、呼吸平稳、衣物完好",
+        "loop_type": "mystery",
+        "unanswered_question": "星兰是什么人？为何出现在魔物暴乱遗址中并被埋于地下？",
+        "urgency": "high",
+        "planted_chapter": 1
+      }
+    },
+    {
+      "event_id": "evt-ch001-002",
+      "chapter": 1,
+      "event_type": "open_loop_created",
+      "subject": "xinglan",
+      "payload": {
+        "content": "星兰体温异常冰冷，皮肤在暗处泛出微光，身体向外散发魔法素能量，瞳孔深处曾闪过蓝金色光芒",
+        "loop_type": "mystery",
+        "unanswered_question": "星兰为何具有这些异常生理特征？她体内蕴含何种力量？她真的是人类吗？",
+        "urgency": "high",
+        "planted_chapter": 1
+      }
+    },
+    {
+      "event_id": "evt-ch001-003",
+      "chapter": 1,
+      "event_type": "open_loop_created",
+      "subject": "xinglan",
+      "payload": {
+        "content": "星兰短暂苏醒时说出'星兰'二字后再度昏迷，无法确定是她自己的名字还是另有含义",
+        "loop_type": "mystery",
+        "unanswered_question": "'星兰'二字是她的名字、代号还是向他人传递的信息？",
+        "urgency": "medium",
+        "planted_chapter": 1
+      }
+    },
+    {
+      "event_id": "evt-ch001-004",
+      "chapter": 1,
+      "event_type": "character_state_changed",
+      "subject": "xinglan",
+      "payload": {
+        "field": "status",
+        "new": "获救昏迷于营地帐篷",
+        "old": "被埋于北境矿区主巷道地下12米"
+      }
+    },
+    {
+      "event_id": "evt-ch001-005",
+      "chapter": 1,
+      "event_type": "character_state_changed",
+      "subject": "qixin",
+      "payload": {
+        "field": "decision",
+        "new": "决定违反猎魔公会条例，将星兰带回营地",
+        "old": "执行清扫任务，按条例处理"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "xinglan",
+      "field": "status",
+      "old": "被埋于地下12米",
+      "new": "获救昏迷于营地帐篷"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "location.current",
+      "old": "北境矿区主巷道地下12米",
+      "new": "营地帐篷"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "physiology.temperature",
+      "old": "未知",
+      "new": "异常冰冷（如深冬湖水）"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "physiology.magic_emission",
+      "old": "未知",
+      "new": "身体向外散发魔法素能量"
+    },
+    {
+      "entity_id": "qixin",
+      "field": "status",
+      "old": "执行矿区清扫任务",
+      "new": "任务完成，携神秘少女返回营地"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "xinglan",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "is_protagonist": true,
+      "payload": {
+        "name": "星兰",
+        "description": "在魔物暴乱遗址地下被发现的墨蓝长发少女，身世不明，体温异常冰冷，身体向外散发魔法素能量，瞳孔曾闪过蓝金色光芒",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "qixin",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "is_protagonist": false,
+      "payload": {
+        "name": "齐心",
+        "description": "猎魔公会清扫小队队长，冷静果断、观察力敏锐，在矿区发现星兰后决定违反条例将其带回",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "lao_zhao",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "name": "老赵",
+        "description": "猎魔公会清扫小队资深队员，经验丰富，沉默寡言但行动可靠",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "unnamed_member",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "装饰",
+      "payload": {
+        "name": "年轻队员",
+        "description": "猎魔公会清扫小队年轻队员，好奇心强，对星兰的出现感到震惊和困惑",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "hunters_guild",
+      "action": "upsert",
+      "entity_type": "组织",
+      "tier": "重要",
+      "payload": {
+        "name": "猎魔公会",
+        "description": "负责镇压魔物暴乱、清扫矿区的组织，有严格的条例规范",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "north_mine",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "重要",
+      "payload": {
+        "name": "北境矿区",
+        "description": "故事开篇所在地，曾发生中型魔物暴乱的废弃矿区，第三区为主巷道区域",
+        "first_appearance": 1
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "qixin",
+      "type": "角色",
+      "mentions": [
+        "齐心",
+        "头儿"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "xinglan",
+      "type": "角色",
+      "mentions": [
+        "少女",
+        "星兰",
+        "她"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "lao_zhao",
+      "type": "角色",
+      "mentions": [
+        "老赵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "unnamed_member",
+      "type": "角色",
+      "mentions": [
+        "年轻队员"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 25,
+      "location": "北境矿区入口高台",
+      "summary": "齐心率队在废弃矿区执行最后清扫任务，探测器在主巷道深层区域捕捉到异常稳定的生命信号，经辨认不是魔物能量——地下十二米深处竟然有活人",
+      "characters": [
+        "qixin",
+        "lao_zhao",
+        "unnamed_member"
+      ]
+    },
+    {
+      "index": 2,
+      "start_line": 26,
+      "end_line": 65,
+      "location": "北境矿区主巷道碎石堆",
+      "summary": "四人徒手搬开碎石，在倒塌的石板缝隙中发现一名墨蓝长发的沉睡少女，她身上无伤、体温极低、呼吸平稳，齐心不顾条例规定决定将她带回营地",
+      "characters": [
+        "qixin",
+        "lao_zhao",
+        "unnamed_member",
+        "xinglan"
+      ]
+    },
+    {
+      "index": 3,
+      "start_line": 66,
+      "end_line": 116,
+      "location": "营地帐篷",
+      "summary": "星兰被安置在行军床上，皮肤泛出极淡微光；她短暂苏醒数秒，瞳孔迸出蓝金色光芒，说出'星兰'二字后再度昏迷，齐心决定守夜守护",
+      "characters": [
+        "qixin",
+        "lao_zhao",
+        "unnamed_member",
+        "xinglan"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "mystery",
+  "summary_text": "---\nchapter: 0001\ntime: \"午后至深夜\"\nlocation: \"北境矿区\"\ncharacters: [\"齐心\", \"星兰\", \"老赵\", \"年轻队员\"]\nstate_changes: [\"星兰: 被埋于地下12米→获救昏迷于营地帐篷\", \"齐心: 执行清扫任务→决定违反条例带回星兰\"]\nhook_type: \"悬念钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n北境矿区清扫小队在魔物暴乱遗址地下十二米处发现一名墨蓝长发的沉睡少女星兰。她体温异常冰冷、无外伤、呼吸平稳，身体向外散发魔法素能量。短暂苏醒时瞳孔闪过蓝金色光芒，说出\"星兰\"二字后再度昏迷。队长齐心力排众议将她带回营地，其来历与身上的诸多谜团成为核心悬念。\n## 伏笔\n- [埋设] 星兰来历之谜：为何被埋在魔物暴乱遗址中却毫发无伤？\n- [埋设] 星兰异常体征：体温极低、散发魔法素、瞳孔闪过蓝金色光芒\n- [埋设] \"星兰\"之名含义：是她的名字还是另有含义？\n## 承接点\n星兰在营地帐篷中沉睡，齐心决定彻夜守护，等待她再次苏醒揭开谜团。",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "done"
+  }
+}

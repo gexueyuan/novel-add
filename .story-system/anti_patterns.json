@@ -1,0 +1,46 @@
+[
+  {
+    "text": "魔法万能",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-021"
+  },
+  {
+    "text": "种族设定装饰化",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-021"
+  },
+  {
+    "text": "冒险无世界变化",
+    "source_table": "题材与调性推理",
+    "source_id": "GR-021"
+  },
+  {
+    "text": "情绪标签化",
+    "source_table": "裁决规则",
+    "source_id": "RS-001"
+  },
+  {
+    "text": "角色行为无逻辑",
+    "source_table": "裁决规则",
+    "source_id": "RS-001"
+  },
+  {
+    "text": "战斗无代价",
+    "source_table": "裁决规则",
+    "source_id": "RS-001"
+  },
+  {
+    "text": "撕裂金属的声音、规律得心跳、蜷在巢中的鸟、深冬湖水的寒、沉睡了很久的东西浮到表面、远方的气泡浮出水面、星星最后一次确认位置",
+    "source_table": "review_extracted",
+    "source_id": "ch0001_issue_1",
+    "category": "ai_flavor",
+    "added_at": "2026-05-13T16:10:10"
+  },
+  {
+    "text": "不像体力劳动的结果、不像是在废墟中挣扎求生——三次展示后紧跟解释性判断",
+    "source_table": "review_extracted",
+    "source_id": "ch0001_issue_3",
+    "category": "ai_flavor",
+    "added_at": "2026-05-13T16:10:10"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "event_id": "evt-ch001-001",
+    "chapter": 1,
+    "event_type": "open_loop_created",
+    "subject": "xinglan",
+    "payload": {
+      "content": "一名来历不明的墨蓝长发少女被埋在魔物暴乱遗址地下12米处长达三周，被发现时毫发无伤、呼吸平稳、衣物完好",
+      "loop_type": "mystery",
+      "unanswered_question": "星兰是什么人？为何出现在魔物暴乱遗址中并被埋于地下？",
+      "urgency": "high",
+      "planted_chapter": 1
+    }
+  },
+  {
+    "event_id": "evt-ch001-002",
+    "chapter": 1,
+    "event_type": "open_loop_created",
+    "subject": "xinglan",
+    "payload": {
+      "content": "星兰体温异常冰冷，皮肤在暗处泛出微光，身体向外散发魔法素能量，瞳孔深处曾闪过蓝金色光芒",
+      "loop_type": "mystery",
+      "unanswered_question": "星兰为何具有这些异常生理特征？她体内蕴含何种力量？她真的是人类吗？",
+      "urgency": "high",
+      "planted_chapter": 1
+    }
+  },
+  {
+    "event_id": "evt-ch001-003",
+    "chapter": 1,
+    "event_type": "open_loop_created",
+    "subject": "xinglan",
+    "payload": {
+      "content": "星兰短暂苏醒时说出'星兰'二字后再度昏迷，无法确定是她自己的名字还是另有含义",
+      "loop_type": "mystery",
+      "unanswered_question": "'星兰'二字是她的名字、代号还是向他人传递的信息？",
+      "urgency": "medium",
+      "planted_chapter": 1
+    }
+  },
+  {
+    "event_id": "evt-ch001-004",
+    "chapter": 1,
+    "event_type": "character_state_changed",
+    "subject": "xinglan",
+    "payload": {
+      "field": "status",
+      "new": "获救昏迷于营地帐篷",
+      "old": "被埋于北境矿区主巷道地下12米"
+    }
+  },
+  {
+    "event_id": "evt-ch001-005",
+    "chapter": 1,
+    "event_type": "character_state_changed",
+    "subject": "qixin",
+    "payload": {
+      "field": "decision",
+      "new": "决定违反猎魔公会条例，将星兰带回营地",
+      "old": "执行清扫任务，按条例处理"
+    }
+  }
+]

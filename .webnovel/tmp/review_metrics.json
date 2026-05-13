@@ -1,0 +1,31 @@
+{
+  "chapter": 1,
+  "start_chapter": 1,
+  "end_chapter": 1,
+  "overall_score": 86.0,
+  "dimension_scores": {
+    "continuity": 100.0,
+    "setting": 100.0,
+    "character": 100.0,
+    "timeline": 100.0,
+    "ai_flavor": 86.0,
+    "logic": 100.0,
+    "pacing": 100.0,
+    "other": 100.0
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 1
+  },
+  "critical_issues": [],
+  "report_file": "审查报告/第0001章审查报告.md",
+  "notes": "3个问题：0个阻断，0个高优，3个AI味（2中1低） | issues=3 | blocking=0 | categories=ai_flavor",
+  "issues_count": 3,
+  "blocking_count": 0,
+  "categories": [
+    "ai_flavor"
+  ],
+  "timestamp": "2026-05-13T16:10:10"
+}

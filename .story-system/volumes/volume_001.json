@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "contract_type": "VOLUME_BRIEF",
+    "generator_version": "phase2",
+    "source_trace": []
+  },
+  "volume_goal": {
+    "summary": "第1卷延续 西幻冒险 的主冲突"
+  },
+  "selected_tropes": [
+    "西幻冒险"
+  ],
+  "selected_pacing": {
+    "wave": "冒险段给奇观但必须带代价"
+  },
+  "selected_scenes": [],
+  "anti_patterns": [
+    "魔法万能",
+    "种族设定装饰化",
+    "冒险无世界变化",
+    "情绪标签化",
+    "角色行为无逻辑",
+    "战斗无代价"
+  ],
+  "system_constraints": [
+    "规则奇观与阵营推进"
+  ],
+  "overrides": {
+    "locked": {},
+    "append_only": {},
+    "override_allowed": {}
+  }
+}

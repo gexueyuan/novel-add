@@ -32,21 +32,12 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 1,
-    "total_words": 2480,
-    "last_updated": "2026-05-13 16:15:11",
+    "current_chapter": 0,
+    "total_words": 0,
+    "last_updated": "2026-05-13 14:32:55",
     "volumes_completed": [],
     "current_volume": 1,
-    "volumes_planned": [
-      {
-        "volume": 1,
-        "chapters_range": "1-30",
-        "planned_at": "2026-05-13"
-      }
-    ],
-    "chapter_status": {
-      "1": "chapter_committed"
-    }
+    "volumes_planned": []
   },
   "protagonist_state": {
     "name": "星兰",
@@ -56,7 +47,7 @@
       "bottleneck": ""
     },
     "location": {
-      "current": "营地帐篷",
+      "current": "",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -65,12 +56,7 @@
       "cooldown": 0,
       "skills": []
     },
-    "attributes": {},
-    "status": "获救昏迷于营地帐篷",
-    "physiology": {
-      "temperature": "异常冰冷（如深冬湖水）",
-      "magic_emission": "身体向外散发魔法素能量"
-    }
+    "attributes": {}
   },
   "relationships": {},
   "disambiguation_warnings": [],
@@ -93,21 +79,5 @@
     "current_dominant": "quest",
     "chapters_since_switch": 0,
     "history": []
-  },
-  "entity_state": {
-    "xinglan": {
-      "status": "获救昏迷于营地帐篷",
-      "location": {
-        "current": "营地帐篷"
-      },
-      "physiology": {
-        "temperature": "异常冰冷（如深冬湖水）",
-        "magic_emission": "身体向外散发魔法素能量"
-      }
-    },
-    "qixin": {
-      "status": "任务完成，携神秘少女返回营地",
-      "decision": "决定违反猎魔公会条例，将星兰带回营地"
-    }
   }
 }

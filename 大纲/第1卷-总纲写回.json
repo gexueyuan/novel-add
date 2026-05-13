@@ -1,0 +1,84 @@
+{
+  "next_volume_anchor": {
+    "volume": 2,
+    "volume_name": "暗流之章",
+    "core_conflict": "星火会登场，黑暗势力浮现，两位男主的感情线展开",
+    "volume_end_climax": "星火会复国叙事与星兰记忆的首次矛盾"
+  },
+  "foreshadow_writeback": [
+    {
+      "content": "星火会预言中星兰的「转世」身份——与星兰记忆碎片中「禁忌之术」的关联存疑",
+      "buried_chapter": "第20章",
+      "payoff_chapter": "第50章",
+      "level": "主"
+    },
+    {
+      "content": "星火会留下的古老结晶石（星澜岛徽记）——具体作用待揭示",
+      "buried_chapter": "第20章",
+      "payoff_chapter": "第35章",
+      "level": "主"
+    },
+    {
+      "content": "艾琳被星兰治愈旧伤——欠下人情，为后续立场转变埋伏笔",
+      "buried_chapter": "第24章",
+      "payoff_chapter": "第45章",
+      "level": "辅"
+    },
+    {
+      "content": "研究院「星澜岛血脉提取可行性评估」机密文件——姚宇发现但未公开",
+      "buried_chapter": "第28章",
+      "payoff_chapter": "第70章",
+      "level": "主"
+    },
+    {
+      "content": "雷格纳斯·银月签署强制提取命令——大反派正式入场",
+      "buried_chapter": "第30章",
+      "payoff_chapter": "第90章",
+      "level": "主"
+    },
+    {
+      "content": "北境矿脉深处古代文字墙壁——内容未解读",
+      "buried_chapter": "第13章",
+      "payoff_chapter": "第55章",
+      "level": "主"
+    },
+    {
+      "content": "魔法结晶石在星兰影响下活性化——全球魔法素将发生什么变化",
+      "buried_chapter": "第29章",
+      "payoff_chapter": "第60章",
+      "level": "主"
+    }
+  ],
+  "open_loop_writeback": [
+    {
+      "content": "记忆碎片中王座大厅的声音是谁？禁忌之术究竟是什么？",
+      "buried_chapter": "第29章",
+      "payoff_chapter": "第85章",
+      "level": "持续开放环"
+    },
+    {
+      "content": "星火会要的「复国」和星兰记忆中的「禁忌之术」是同一件事吗？",
+      "buried_chapter": "第20章",
+      "payoff_chapter": "第50章",
+      "level": "持续开放环"
+    },
+    {
+      "content": "研究院对星兰的「血脉提取」计划被姚宇推迟但未取消——何时再次执行？",
+      "buried_chapter": "第30章",
+      "payoff_chapter": "第60章",
+      "level": "持续开放环"
+    },
+    {
+      "content": "齐心决定脱离军队体系——他将以什么身份继续守护星兰？",
+      "buried_chapter": "第30章",
+      "payoff_chapter": "第35章",
+      "level": "持续开放环"
+    },
+    {
+      "content": "姚宇作为秘密同盟的双重身份能维持多久？",
+      "buried_chapter": "第30章",
+      "payoff_chapter": "第55章",
+      "level": "持续开放环"
+    }
+  ]
+}

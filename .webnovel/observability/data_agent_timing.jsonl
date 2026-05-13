@@ -1,0 +1,3 @@
+{"timestamp": "2026-05-13T16:06:20.804580", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 7, "error_code": "NOT_FOUND", "error_message": "未找到实体: 齐心"}
+{"timestamp": "2026-05-13T16:12:31.503128", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-13T16:12:32.274763", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
