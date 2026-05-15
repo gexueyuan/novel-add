@@ -1,0 +1,130 @@
+[
+  {
+    "event_id": "evt-ch010-001",
+    "chapter": 10,
+    "event_type": "relationship_changed",
+    "subject": "li_ge",
+    "payload": {
+      "to_entity": "hunters_guild",
+      "relationship_type": "团队成员归属",
+      "old": "北境第四小队成员（已deceased未销册）",
+      "new": "正式从北境第四小队签到册划除",
+      "content": "齐心签到时声明『四人，原五人』，登记员将『五』划掉改写『四』——李哥从队伍报名册中正式划除，死亡被制度化"
+    }
+  },
+  {
+    "event_id": "evt-ch010-002",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "xinglan",
+    "payload": {
+      "field": "social.guild_record",
+      "old": null,
+      "new": "公会感知力S级档案",
+      "content": "星兰在感知力测试中尝试压方位/压节律/憋答案均失败——仪器第二只指针读皮肤反应、第三只指针读呼吸节律，考核官把半钩补成完整钩、最后一题前搁笔；档案级别经仪器+表格+考核官落笔综合呈现为S级"
+    }
+  },
+  {
+    "event_id": "evt-ch010-003",
+    "chapter": 10,
+    "event_type": "world_rule_revealed",
+    "subject": "hunters_guild",
+    "payload": {
+      "rule_content": "猎魔公会感知力测试仪器除六只主指针外，另有专门读取受试者皮肤反应与呼吸节律的辅助指针——主动压抑/作答迟疑同样会被仪器读出",
+      "rule_category": "测试机制",
+      "scope": "公会感知力评定",
+      "description": "仪器读人而非读嘴：受试者只要身体先于嘴反应，皮肤反应/节律指针就会先抖动；这套机制让星兰刻意压级的策略全程失效"
+    }
+  },
+  {
+    "event_id": "evt-ch010-004",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "qixin",
+    "payload": {
+      "field": "background.past_exposure_to_xinglan",
+      "old": null,
+      "new": "首次公开吐露研究院外勤队过往",
+      "content": "茶歇回廊上齐心向星兰自陈『我以前在研究院下面的外勤队，干过几年。后来有一次任务我没再回去』『不想再把人变成数据条』——同时手按内衬一秒（私藏的探测器电源模块仍未取出）"
+    }
+  },
+  {
+    "event_id": "evt-ch010-005",
+    "chapter": 10,
+    "event_type": "relationship_changed",
+    "subject": "qixin",
+    "payload": {
+      "to_entity": "xinglan",
+      "relationship_type": "互信",
+      "old": "小队领队-治疗师（共谋秘密）",
+      "new": "首次单方面袒露过往的信任投放",
+      "content": "齐心在回廊向星兰透露研究院外勤队过往，是首次跨越职务向她公开自身风险信息——属信任向心的单方面投放"
+    }
+  },
+  {
+    "event_id": "evt-ch010-006",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "xinglan",
+    "payload": {
+      "field": "social.research_pool_status",
+      "old": null,
+      "new": "档案被推进研究院可调取池",
+      "content": "散场前星兰隔半开门回望——考核官在表格第一页底栏落笔停一秒、写一笔，终端屏幕左上角浮现一个被两道横线圈住的方框、内有三个不认识字母、侧面盖暗红印记；表格被合到下一份下面归档"
+    }
+  },
+  {
+    "event_id": "evt-ch010-007",
+    "chapter": 10,
+    "event_type": "open_loop_created",
+    "subject": "xinglan_research_pool_marker",
+    "payload": {
+      "content": "星兰公会档案被打上『可被研究院调取』的标记——终端浮窗：双横线方框+三字母缩写+暗红印记；POV内星兰不知含义、读者通过前章研究院数据中心铺垫可串联",
+      "loop_type": "暗钩-机构监控",
+      "unanswered_question": "研究院将在何时通过该标记调取星兰档案/将派谁来",
+      "urgency": "medium",
+      "planted_chapter": 10,
+      "expected_payoff": "11-20章之间研究院/姚宇线触发调取动作"
+    }
+  },
+  {
+    "event_id": "evt-ch010-008",
+    "chapter": 10,
+    "event_type": "open_loop_created",
+    "subject": "corridor_unknown_smell",
+    "payload": {
+      "content": "星兰在公会大厅外回廊风中闻到陌生气味——铁、纸、像很旧的木头的甜；她不知此味来源，把它当成回廊的味道",
+      "loop_type": "暗钩-感官异常",
+      "unanswered_question": "这股气味属于研究院/某种器物/某个隐藏在场者中的哪一类",
+      "urgency": "low",
+      "planted_chapter": 10,
+      "expected_payoff": "20章前以相似气味再次出现作为锚点"
+    }
+  },
+  {
+    "event_id": "evt-ch010-009",
+    "chapter": 10,
+    "event_type": "open_loop_created",
+    "subject": "qixin_research_past_unfinished",
+    "payload": {
+      "content": "齐心透露『后来有一次任务我没再回去』——他从研究院外勤队离开的具体原因/那次任务的内容尚未交代",
+      "loop_type": "人物背景悬念",
+      "unanswered_question": "那次任务发生了什么、齐心为何决定不再回去、与研究院的具体关系",
+      "urgency": "medium",
+      "planted_chapter": 10,
+      "expected_payoff": "中卷揭示，与研究院/姚宇线交汇"
+    }
+  },
+  {
+    "event_id": "evt-ch010-010",
+    "chapter": 10,
+    "event_type": "character_state_changed",
+    "subject": "qixin",
+    "payload": {
+      "field": "carries.detector_power_module",
+      "old": "内衬口袋，违规私藏",
+      "new": "内衬口袋，仍未取出（茶歇时手按内衬一秒）",
+      "content": "齐心进入公会全程未取出内衬里的探测器电源模块；茶歇时手按内衬一秒确认其仍在——违规私藏状态在公会环境下被进一步坐实"
+    }
+  }
+]

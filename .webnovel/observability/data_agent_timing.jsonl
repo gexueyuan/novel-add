@@ -49,3 +49,8 @@
 {"timestamp": "2026-05-15T23:01:23.765190", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 24}
 {"timestamp": "2026-05-15T23:01:24.915230", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 22}
 {"timestamp": "2026-05-15T23:01:38.291581", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 153}
+{"timestamp": "2026-05-15T23:34:30.910008", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 18, "error_code": "NOT_FOUND", "error_message": "未找到实体: char_xinglan"}
+{"timestamp": "2026-05-15T23:38:01.119347", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 154}
+{"timestamp": "2026-05-15T23:38:02.233881", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 21}
+{"timestamp": "2026-05-15T23:38:10.475147", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 26}
+{"timestamp": "2026-05-15T23:38:10.728665", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 22}

@@ -4,11 +4,19 @@
     {"mention": "星兰", "resolved_id": "xinglan", "confidence": 1.0, "method": "alias_match"},
     {"mention": "齐心", "resolved_id": "qixin", "confidence": 1.0, "method": "alias_match"},
     {"mention": "老赵", "resolved_id": "lao_zhao", "confidence": 1.0, "method": "alias_match"},
-    {"mention": "李哥", "resolved_id": "li_ge", "confidence": 1.0, "method": "alias_match"},
     {"mention": "年轻队员", "resolved_id": "unnamed_member", "confidence": 0.95, "method": "alias_match"},
-    {"mention": "年轻研究员", "resolved_id": "young_researcher_silvermoon", "confidence": 0.9, "method": "new_entity_creation", "note": "新角色，姓名牌别在胸口但未给出名字，作为研究院侧观测点"},
-    {"mention": "银月城", "resolved_id": "silvermoon_city", "confidence": 0.95, "method": "new_entity_creation"},
-    {"mention": "研究院数据中心", "resolved_id": "silvermoon_research_data_center", "confidence": 0.9, "method": "new_entity_creation"},
-    {"mention": "探测器电源模块", "resolved_id": "detector_power_module", "confidence": 0.85, "method": "new_entity_creation", "note": "齐心从 mana_detector 中拆出的电源模块，作为违规物证由齐心私藏"}
-  ]
+    {"mention": "李哥", "resolved_id": "li_ge", "confidence": 1.0, "method": "alias_match"},
+    {"mention": "猎魔公会", "resolved_id": "hunters_guild", "confidence": 1.0, "method": "alias_match"},
+    {"mention": "公会", "resolved_id": "hunters_guild", "confidence": 0.95, "method": "alias_match"},
+    {"mention": "银月帝国北境分会的猎魔公会大厅", "resolved_id": "silvermoon_north_branch_hall", "confidence": 0.92, "method": "new_entity_creation", "note": "签到/考核/签退/茶歇均在此地，新建为重要级地点"},
+    {"mention": "感知力测试小屋", "resolved_id": "perception_test_room", "confidence": 0.9, "method": "new_entity_creation", "note": "S级评定关键场景"},
+    {"mention": "回廊", "resolved_id": "guild_corridor", "confidence": 0.88, "method": "new_entity_creation", "note": "齐心透露过往的场所；星兰闻到陌生气味的暗钩位置"},
+    {"mention": "考核官", "resolved_id": "examiner_perception", "confidence": 0.9, "method": "new_entity_creation", "note": "感知力测试考核官——同时也是 CPN3/CEN 中在内场落笔记录星兰档案的人；与装备实操监考员、签退员区分"},
+    {"mention": "登记员", "resolved_id": "registrar_clerk", "confidence": 0.85, "method": "new_entity_creation", "note": "戴老花镜的签到工具人NPC"},
+    {"mention": "监考员", "resolved_id": "equipment_examiner", "confidence": 0.82, "method": "new_entity_creation", "note": "装备实操评级NPC，与考核官区分"},
+    {"mention": "签退员", "resolved_id": "checkout_clerk", "confidence": 0.82, "method": "new_entity_creation", "note": "签退节点NPC，与登记员、考核官区分"},
+    {"mention": "研究院", "resolved_id": "silvermoon_research_data_center", "confidence": 0.85, "method": "alias_match", "note": "齐心『我以前在研究院下面的外勤队』中的研究院指代银月研究院体系（与第9章数据中心同根）"},
+    {"mention": "内衬里的探测器电源模块", "resolved_id": "detector_power_module", "confidence": 0.9, "method": "alias_match"}
+  ],
+  "warnings": []
 }

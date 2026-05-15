@@ -32,9 +32,9 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 9,
-    "total_words": 13625,
-    "last_updated": "2026-05-15 23:07:36",
+    "current_chapter": 10,
+    "total_words": 16193,
+    "last_updated": "2026-05-15 23:44:05",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -49,7 +49,8 @@
       "5": "chapter_committed",
       "7": "chapter_committed",
       "8": "chapter_committed",
-      "9": "chapter_committed"
+      "9": "chapter_committed",
+      "10": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -110,27 +111,31 @@
   "strand_tracker": {
     "last_quest_chapter": 5,
     "last_fire_chapter": 0,
-    "last_constellation_chapter": 0,
-    "current_dominant": "quest",
+    "last_constellation_chapter": 10,
+    "current_dominant": "constellation",
     "chapters_since_switch": 1,
     "history": [
       {
         "chapter": 5,
         "dominant": "quest"
+      },
+      {
+        "chapter": 10,
+        "dominant": "constellation"
       }
     ]
   },
   "entity_state": {
     "xinglan": {
-      "status": "首次实战后力竭，指腹裂纹渗血，膝盖旧伤重新渗血",
+      "status": "完成北境分会考核，膝盖比坐下前更稳但知道这不是好事",
       "location": {
-        "current": "旧矿洞最深处小厅"
+        "current": "银月帝国北境分会猎魔公会大厅门廊"
       },
       "physiology": {
-        "temperature": "异常冰冷（如深冬湖水）",
+        "temperature": "皮肤无汗、身体反冷（测试压力下）",
         "magic_emission": "身体向外散发魔法素能量",
         "eyes": "瞳孔深处蓝金火焰持续燃烧（本人不可见）",
-        "bleeding": "嘴角/耳鼻/膝盖旧伤/指腹旧裂纹同时出血",
+        "bleeding": null,
         "ear_lump": "战中变重至胸腔共鸣"
       },
       "power": {
@@ -145,10 +150,18 @@
         "ancient_magic": "首次成阵防御被全员目击"
       },
       "social": {
-        "exposure": "能力被齐心/老赵/年轻队员当面目击"
+        "exposure": "能力被齐心/老赵/年轻队员当面目击",
+        "guild_record": "公会感知力S级档案（仪器+表格综合呈现）",
+        "research_pool_status": "档案被推进研究院可调取池（终端浮窗：双横线方框+三字母+暗红印记）",
+        "suppression_strategy": "测试中尝试压方位/压节律/憋长答案——失败，仪器第二只指针读皮肤反应与呼吸节律",
+        "equipment_eval": "装备实操B级（故意中规中矩）",
+        "team_role_in_eval": "小队配合考核被安排后排最右、行动半径最小"
       },
       "social_status_in_team": "小队共谋的秘密",
-      "consent_to_silence": "下巴下压点头，承诺『问到你你就说你不知道』"
+      "consent_to_silence": "下巴下压点头，承诺『问到你你就说你不知道』",
+      "sensory": {
+        "unexplained_smell": "回廊风里闻到铁/纸/旧木甜——POV内未识别，可能与研究院调取池呼应"
+      }
     },
     "qixin": {
       "status": "任务完成，携神秘少女返回营地",
@@ -157,7 +170,7 @@
         "toward_xinglan": "直面确认——目睹战斗能力后说『需要谈谈』，第4章决定被赋予具体形状"
       },
       "location": {
-        "current": "旧矿洞"
+        "current": "银月帝国北境分会猎魔公会大厅门口"
       },
       "knowledge": {
         "old_mine_status": "确认异常激活，已标记位置"
@@ -170,21 +183,30 @@
       },
       "decision_on_xinglan": "集体隐瞒，承担责任『出事算我的』",
       "carries": {
-        "detector_power_module": "内衬口袋，违规私藏"
+        "detector_power_module": "内衬口袋，违规私藏（茶歇时手按内衬一秒未取出）"
+      },
+      "background": {
+        "past_exposure_to_xinglan": "首次向星兰公开吐露：曾在研究院下属外勤队，有一次任务没再回去，不想再把人变成数据条"
       }
     },
     "li_ge": {
       "status": "deceased",
       "physical": {
         "head_lump": "持续发作，过母石时捂头"
+      },
+      "social": {
+        "team_roster_status": "正式从北境第四小队报名册划除（五人改四人）"
       }
     },
     "old_mine_cave": {
       "status": "异常激活，存在母石与活化魔物"
     },
     "unnamed_member": {
-      "status": "重伤（左小臂血雾，丧失战斗力）",
-      "stance_on_xinglan": "公开辩护者/共谋者"
+      "status": "左小臂被绑三层、肘以下不能用力；可参加小队配合考核（单手作战，齐心配抵肩支架）",
+      "stance_on_xinglan": "公开辩护者/共谋者",
+      "location": {
+        "current": "银月帝国北境分会猎魔公会大厅"
+      }
     },
     "stone_golem_elite": {
       "status": "自陷岩层后挣脱，向北面更深山坳撤退（未被击杀）"
@@ -193,6 +215,9 @@
       "stance_on_reporting": "犹豫后默认隐瞒",
       "carries": {
         "broken_crystal_sample": "2片，外侧口袋未上交"
+      },
+      "location": {
+        "current": "银月帝国北境分会猎魔公会大厅"
       }
     },
     "mana_detector": {

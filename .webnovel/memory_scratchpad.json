@@ -44,12 +44,12 @@
       "payload": {
         "old_value": "未知"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 1,
       "evidence": [
         "state_change:xinglan:physiology.temperature:1"
       ],
-      "updated_at": "2026-05-13T16:16:19"
+      "updated_at": "2026-05-15T23:44:05"
     },
     {
       "id": "mem-character_state-65d58d588e567f85",
@@ -254,12 +254,12 @@
       "payload": {
         "old_value": "完成新兵训练的新兵"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "state_change:xinglan:status:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T23:44:05"
     },
     {
       "id": "mem-character_state-0dc24dc1e3336b39",
@@ -395,12 +395,12 @@
       "payload": {
         "old_value": "北境营地"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 7,
       "evidence": [
         "state_change:xinglan:location.current:7"
       ],
-      "updated_at": "2026-05-15T18:03:39"
+      "updated_at": "2026-05-15T23:44:05"
     },
     {
       "id": "mem-character_state-aa3d8740f689f8ba",
@@ -446,12 +446,12 @@
       "payload": {
         "old_value": "北境营地"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 7,
       "evidence": [
         "state_change:qixin:location.current:7"
       ],
-      "updated_at": "2026-05-15T18:03:39"
+      "updated_at": "2026-05-15T23:44:05"
     },
     {
       "id": "mem-character_state-67a2bd6b13752111",
@@ -656,12 +656,12 @@
       "payload": {
         "old_value": "无"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "state_change:xinglan:physiology.bleeding:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:44:05"
     },
     {
       "id": "mem-character_state-c0754aebfea373cf",
@@ -724,12 +724,12 @@
       "payload": {
         "old_value": "健康"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "state_change:unnamed_member:status:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:44:05"
     },
     {
       "id": "mem-character_state-a16aedfeb625857b",
@@ -1057,12 +1057,12 @@
       "payload": {
         "old_value": null
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 9,
       "evidence": [
         "state_change:qixin:carries.detector_power_module:9"
       ],
-      "updated_at": "2026-05-15T23:07:36"
+      "updated_at": "2026-05-15T23:44:05"
     },
     {
       "id": "mem-character_state-6aa5d88d3336e0a7",
@@ -1347,6 +1347,421 @@
         "entity_new:broken_rock_flat:9"
       ],
       "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-40120fe187e7f49a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "location.current",
+      "value": "银月帝国北境分会猎魔公会大厅门廊",
+      "payload": {
+        "old_value": "旧矿洞最深处小厅"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:location.current:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-91bb12ddc5d72de2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "social.guild_record",
+      "value": "公会感知力S级档案（仪器+表格综合呈现）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:social.guild_record:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-4249dba069909f51",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "social.research_pool_status",
+      "value": "档案被推进研究院可调取池（终端浮窗：双横线方框+三字母+暗红印记）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:social.research_pool_status:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-32bd14bfcf44cbb7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "social.suppression_strategy",
+      "value": "测试中尝试压方位/压节律/憋长答案——失败，仪器第二只指针读皮肤反应与呼吸节律",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:social.suppression_strategy:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-ba90819fa091e532",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "social.equipment_eval",
+      "value": "装备实操B级（故意中规中矩）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:social.equipment_eval:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-d560398ce12b3513",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "social.team_role_in_eval",
+      "value": "小队配合考核被安排后排最右、行动半径最小",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:social.team_role_in_eval:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-337bffcd658238bd",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "physiology.bleeding",
+      "value": "",
+      "payload": {
+        "old_value": "嘴角/耳鼻/膝盖旧伤/指腹旧裂纹同时出血"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:physiology.bleeding:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-ea958ab99e954a69",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "physiology.temperature",
+      "value": "皮肤无汗、身体反冷（测试压力下）",
+      "payload": {
+        "old_value": "异常冰冷（如深冬湖水）"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:physiology.temperature:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-fe7bef7a77a86749",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "status",
+      "value": "完成北境分会考核，膝盖比坐下前更稳但知道这不是好事",
+      "payload": {
+        "old_value": "首次实战后力竭，指腹裂纹渗血，膝盖旧伤重新渗血"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:status:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-dc8b608867ace0b2",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "sensory.unexplained_smell",
+      "value": "回廊风里闻到铁/纸/旧木甜——POV内未识别，可能与研究院调取池呼应",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:xinglan:sensory.unexplained_smell:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-371dfd88c477aa2d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "background.past_exposure_to_xinglan",
+      "value": "首次向星兰公开吐露：曾在研究院下属外勤队，有一次任务没再回去，不想再把人变成数据条",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:qixin:background.past_exposure_to_xinglan:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-aaf3363f87f94b6e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "location.current",
+      "value": "银月帝国北境分会猎魔公会大厅门口",
+      "payload": {
+        "old_value": "旧矿洞"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:qixin:location.current:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-6680f67c9697aac0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "carries.detector_power_module",
+      "value": "内衬口袋，违规私藏（茶歇时手按内衬一秒未取出）",
+      "payload": {
+        "old_value": "内衬口袋，违规私藏"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:qixin:carries.detector_power_module:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-883d813d2da37b5e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "social.team_roster_status",
+      "value": "正式从北境第四小队报名册划除（五人改四人）",
+      "payload": {
+        "old_value": "deceased"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:li_ge:social.team_roster_status:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-cf13d8c2901f7fe5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_zhao",
+      "field": "location.current",
+      "value": "银月帝国北境分会猎魔公会大厅",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:lao_zhao:location.current:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-a4c73642a3ef8297",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "unnamed_member",
+      "field": "location.current",
+      "value": "银月帝国北境分会猎魔公会大厅",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:unnamed_member:location.current:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-343b0f17b51c3c7c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "unnamed_member",
+      "field": "status",
+      "value": "左小臂被绑三层、肘以下不能用力；可参加小队配合考核（单手作战，齐心配抵肩支架）",
+      "payload": {
+        "old_value": "重伤（左小臂血雾，丧失战斗力）"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "state_change:unnamed_member:status:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-7794c4ef7b983ad0",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "silvermoon_north_branch_hall",
+      "field": "first_seen",
+      "value": "银月帝国北境分会猎魔公会大厅",
+      "payload": {
+        "tier": "重要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "entity_new:silvermoon_north_branch_hall:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-bf565a3c2044c185",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "perception_test_room",
+      "field": "first_seen",
+      "value": "猎魔公会感知力测试小屋",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "entity_new:perception_test_room:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-2d576370eed27ecc",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "guild_corridor",
+      "field": "first_seen",
+      "value": "猎魔公会大厅外回廊",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "entity_new:guild_corridor:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-b08af0e2c84a0782",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "examiner_perception",
+      "field": "first_seen",
+      "value": "感知力测试考核官",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "entity_new:examiner_perception:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-cc99c1e89e056219",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "registrar_clerk",
+      "field": "first_seen",
+      "value": "签到登记员",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "entity_new:registrar_clerk:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-ff9eb0bc338aabad",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "equipment_examiner",
+      "field": "first_seen",
+      "value": "装备实操监考员",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "entity_new:equipment_examiner:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-character_state-d2722f4eec1b2923",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "checkout_clerk",
+      "field": "first_seen",
+      "value": "签退员",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "entity_new:checkout_clerk:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
     }
   ],
   "story_facts": [],
@@ -1494,6 +1909,24 @@
         "memory_facts:world_rule:9"
       ],
       "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-world_rule-f15b758010763a93",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "测试机制",
+      "field": "world_rule_revealed",
+      "value": "猎魔公会感知力测试仪器除六只主指针外，另有专门读取受试者皮肤反应与呼吸节律的辅助指针——主动压抑/作答迟疑同样会被仪器读出",
+      "payload": {
+        "scope": "公会感知力评定",
+        "rule_text": "猎魔公会感知力测试仪器除六只主指针外，另有专门读取受试者皮肤反应与呼吸节律的辅助指针——主动压抑/作答迟疑同样会被仪器读出"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "memory_facts:world_rule:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
     }
   ],
   "timeline": [],
@@ -1837,13 +2270,73 @@
         "memory_facts:open_loop:9"
       ],
       "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-open_loop-3687a05375f27010",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "星兰公会档案被打上『可被研究院调取』的标记——终端浮窗：双横线方框+三字母缩写+暗红印记；POV内星兰不知含义、读者通过前章研究院数据中心铺垫可串联",
+      "field": "status",
+      "value": "星兰公会档案被打上『可被研究院调取』的标记——终端浮窗：双横线方框+三字母缩写+暗红印记；POV内星兰不知含义、读者通过前章研究院数据中心铺垫可串联",
+      "payload": {
+        "urgency": "medium",
+        "planted_chapter": 10,
+        "expected_payoff": "11-20章之间研究院/姚宇线触发调取动作",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "memory_facts:open_loop:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-open_loop-5f4eae0d2750f933",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "星兰在公会大厅外回廊风中闻到陌生气味——铁、纸、像很旧的木头的甜；她不知此味来源，把它当成回廊的味道",
+      "field": "status",
+      "value": "星兰在公会大厅外回廊风中闻到陌生气味——铁、纸、像很旧的木头的甜；她不知此味来源，把它当成回廊的味道",
+      "payload": {
+        "urgency": "low",
+        "planted_chapter": 10,
+        "expected_payoff": "20章前以相似气味再次出现作为锚点",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "memory_facts:open_loop:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
+    },
+    {
+      "id": "mem-open_loop-bd8abf1eca38f6bb",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "齐心透露『后来有一次任务我没再回去』——他从研究院外勤队离开的具体原因/那次任务的内容尚未交代",
+      "field": "status",
+      "value": "齐心透露『后来有一次任务我没再回去』——他从研究院外勤队离开的具体原因/那次任务的内容尚未交代",
+      "payload": {
+        "urgency": "medium",
+        "planted_chapter": 10,
+        "expected_payoff": "中卷揭示，与研究院/姚宇线交汇",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 10,
+      "evidence": [
+        "memory_facts:open_loop:10"
+      ],
+      "updated_at": "2026-05-15T23:44:05"
     }
   ],
   "reader_promises": [],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-05-15T23:07:36",
-    "total_items": 102
+    "last_updated": "2026-05-15T23:44:05",
+    "total_items": 130
   }
 }
