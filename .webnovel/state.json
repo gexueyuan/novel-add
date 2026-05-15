@@ -32,9 +32,9 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 5,
-    "total_words": 4832,
-    "last_updated": "2026-05-13 17:59:31",
+    "current_chapter": 7,
+    "total_words": 7729,
+    "last_updated": "2026-05-15 18:03:39",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -46,7 +46,8 @@
     ],
     "chapter_status": {
       "1": "chapter_committed",
-      "5": "chapter_committed"
+      "5": "chapter_committed",
+      "7": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -56,10 +57,11 @@
       "layer": 1,
       "bottleneck": "",
       "combat_ability": "无咒语风刃——真空切割，掌心短暂闪现蓝金色光芒；释放后指尖皮肤裂纹、力竭",
-      "revealed_to": "齐心目睹风刃及蓝金色光芒全过程，确认其拥有超越时代认知的魔法素力量"
+      "revealed_to": "齐心目睹风刃及蓝金色光芒全过程，确认其拥有超越时代认知的魔法素力量",
+      "perception": "可通过调慢呼吸感知洞壁/母石脉冲"
     },
     "location": {
-      "current": "东郊农田",
+      "current": "旧矿洞最深处小厅",
       "last_chapter": 0
     },
     "golden_finger": {
@@ -73,6 +75,9 @@
     "physiology": {
       "temperature": "异常冰冷（如深冬湖水）",
       "magic_emission": "身体向外散发魔法素能量"
+    },
+    "physical": {
+      "fingertip_temperature": "首次有温度（按上母石后）"
     }
   },
   "relationships": {},
@@ -106,7 +111,7 @@
     "xinglan": {
       "status": "首次实战后力竭，指腹裂纹渗血，膝盖旧伤重新渗血",
       "location": {
-        "current": "东郊农田"
+        "current": "旧矿洞最深处小厅"
       },
       "physiology": {
         "temperature": "异常冰冷（如深冬湖水）",
@@ -114,7 +119,11 @@
       },
       "power": {
         "combat_ability": "无咒语风刃——真空切割，掌心短暂闪现蓝金色光芒；释放后指尖皮肤裂纹、力竭",
-        "revealed_to": "齐心目睹风刃及蓝金色光芒全过程，确认其拥有超越时代认知的魔法素力量"
+        "revealed_to": "齐心目睹风刃及蓝金色光芒全过程，确认其拥有超越时代认知的魔法素力量",
+        "perception": "可通过调慢呼吸感知洞壁/母石脉冲"
+      },
+      "physical": {
+        "fingertip_temperature": "首次有温度（按上母石后）"
       }
     },
     "qixin": {
@@ -122,10 +131,22 @@
       "decision": "决定违反猎魔公会条例，将星兰带回营地",
       "attitude": {
         "toward_xinglan": "直面确认——目睹战斗能力后说『需要谈谈』，第4章决定被赋予具体形状"
+      },
+      "location": {
+        "current": "旧矿洞"
+      },
+      "knowledge": {
+        "old_mine_status": "确认异常激活，已标记位置"
       }
     },
     "li_ge": {
-      "status": "被巨型铁甲魔物甩尾击晕，护肩炸裂，倒地昏迷"
+      "status": "被巨型铁甲魔物甩尾击晕，护肩炸裂，倒地昏迷",
+      "physical": {
+        "head_lump": "持续发作，过母石时捂头"
+      }
+    },
+    "old_mine_cave": {
+      "status": "异常激活，存在母石与活化魔物"
     }
   }
 }

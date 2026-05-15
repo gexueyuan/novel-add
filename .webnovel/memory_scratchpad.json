@@ -237,12 +237,12 @@
       "payload": {
         "old_value": "营地帐篷"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "state_change:xinglan:location.current:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T18:03:39"
     },
     {
       "id": "mem-character_state-3b32c98d0b403a62",
@@ -306,12 +306,12 @@
         "tier": "核心",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "entity_new:xinglan:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T18:03:39"
     },
     {
       "id": "mem-character_state-380075493763e7d3",
@@ -342,12 +342,12 @@
         "tier": "重要",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "entity_new:li_ge:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T18:03:39"
     },
     {
       "id": "mem-character_state-61d81cdba40f5c69",
@@ -384,6 +384,233 @@
         "entity_new:lao_zhao:5"
       ],
       "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-character_state-ab11679d9841c2f9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "location.current",
+      "value": "旧矿洞最深处小厅",
+      "payload": {
+        "old_value": "北境营地"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "state_change:xinglan:location.current:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-aa3d8740f689f8ba",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "power.perception",
+      "value": "可通过调慢呼吸感知洞壁/母石脉冲",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "state_change:xinglan:power.perception:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-970180c7083f1898",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "physical.fingertip_temperature",
+      "value": "首次有温度（按上母石后）",
+      "payload": {
+        "old_value": "无"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "state_change:xinglan:physical.fingertip_temperature:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-ab0662910d39e035",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "location.current",
+      "value": "旧矿洞",
+      "payload": {
+        "old_value": "北境营地"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "state_change:qixin:location.current:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-67a2bd6b13752111",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "knowledge.old_mine_status",
+      "value": "确认异常激活，已标记位置",
+      "payload": {
+        "old_value": "已枯竭七年"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "state_change:qixin:knowledge.old_mine_status:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-604ec2f498996307",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "old_mine_cave",
+      "field": "status",
+      "value": "异常激活，存在母石与活化魔物",
+      "payload": {
+        "old_value": "已枯竭七年"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "state_change:old_mine_cave:status:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-c14b51b273dc3369",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "physical.head_lump",
+      "value": "持续发作，过母石时捂头",
+      "payload": {
+        "old_value": "受伤后未消"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "state_change:li_ge:physical.head_lump:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-bd023be8d3f7a40d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "old_mine_cave",
+      "field": "first_seen",
+      "value": "旧矿洞",
+      "payload": {
+        "tier": "重要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "entity_new:old_mine_cave:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-72ef92267cf31957",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "mother_stone",
+      "field": "first_seen",
+      "value": "母石",
+      "payload": {
+        "tier": "核心",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "entity_new:mother_stone:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-63758d953caade9d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "activated_mine_rat",
+      "field": "first_seen",
+      "value": "活化矿耗",
+      "payload": {
+        "tier": "重要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "entity_new:activated_mine_rat:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-2b8113c5a0860740",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "mana_detector",
+      "field": "first_seen",
+      "value": "便携式魔法素探测器",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "entity_new:mana_detector:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-2c624633762d9239",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "first_seen",
+      "value": "xinglan",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "entity_new:xinglan:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-character_state-e11c7dbc9730bae6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "first_seen",
+      "value": "li_ge",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "entity_new:li_ge:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
     }
   ],
   "story_facts": [],
@@ -405,6 +632,60 @@
         "memory_facts:world_rule:5"
       ],
       "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-world_rule-0112e51b0d6e93c0",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "魔法素/矿洞",
+      "field": "world_rule_revealed",
+      "value": "矿务局标记'已枯竭'的旧矿洞会出现异常激活——洞壁裂纹渗出蓝光脉冲，魔法素探测器全部异常，原本枯竭区域可重新孕育魔物",
+      "payload": {
+        "scope": "北境矿区",
+        "rule_text": "矿务局标记'已枯竭'的旧矿洞会出现异常激活——洞壁裂纹渗出蓝光脉冲，魔法素探测器全部异常，原本枯竭区域可重新孕育魔物"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "memory_facts:world_rule:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-world_rule-32767839d77fc5ce",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "魔物分类",
+      "field": "world_rule_revealed",
+      "value": "存在'活化魔物'变种——形似旧种但背覆半透明青蓝硬甲，甲下有碎晶可独立搏动，与洞壁脉冲同步，受洞内魔法素活化而生",
+      "payload": {
+        "scope": "异常激活矿洞内",
+        "rule_text": "存在'活化魔物'变种——形似旧种但背覆半透明青蓝硬甲，甲下有碎晶可独立搏动，与洞壁脉冲同步，受洞内魔法素活化而生"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "memory_facts:world_rule:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-world_rule-60e4aa8ab8a05a9b",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "母石属性",
+      "field": "world_rule_revealed",
+      "value": "母石与星兰之间存在反向呼吸-光强同步：星兰吸气则石内蓝光淡一层，星兰呼气则浓一层，'她做一半，它做另一半'",
+      "payload": {
+        "scope": "母石-星兰共鸣机制",
+        "rule_text": "母石与星兰之间存在反向呼吸-光强同步：星兰吸气则石内蓝光淡一层，星兰呼气则浓一层，'她做一半，它做另一半'"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "memory_facts:world_rule:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
     }
   ],
   "timeline": [],
@@ -528,13 +809,93 @@
         "memory_facts:open_loop:5"
       ],
       "updated_at": "2026-05-13T18:00:37"
+    },
+    {
+      "id": "mem-open_loop-599894d3c336cc79",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "星兰与旧矿洞最大母石建立呼吸-蓝光反向同步，心跳首次合上耳后节拍，手按上后未挪开——共鸣意义、母石本质、是否会被齐心或队员发现均悬而未决",
+      "field": "status",
+      "value": "星兰与旧矿洞最大母石建立呼吸-蓝光反向同步，心跳首次合上耳后节拍，手按上后未挪开——共鸣意义、母石本质、是否会被齐心或队员发现均悬而未决",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 7,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "memory_facts:open_loop:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-open_loop-86e3697c5ff83402",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "星兰右手第二次自主行动——麦田那次方向是'避'（不被碰到），这次方向是'触'（去碰母石），同源但反向",
+      "field": "status",
+      "value": "星兰右手第二次自主行动——麦田那次方向是'避'（不被碰到），这次方向是'触'（去碰母石），同源但反向",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 7,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "memory_facts:open_loop:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-open_loop-fdcc983dfe54cb12",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "齐心命令'标记位置，撤'，老赵在塌方点旁洞壁按下金属标识扣——这次异常发现尚未上报公会，后续如何处理、是否引来更高层关注未知",
+      "field": "status",
+      "value": "齐心命令'标记位置，撤'，老赵在塌方点旁洞壁按下金属标识扣——这次异常发现尚未上报公会，后续如何处理、是否引来更高层关注未知",
+      "payload": {
+        "urgency": "medium",
+        "planted_chapter": 7,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "memory_facts:open_loop:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-open_loop-835a870c2daae027",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "李哥后脑勺肿包持续未消，本章再次发作蹲下缓一秒——伤情可能不只是普通外伤",
+      "field": "status",
+      "value": "李哥后脑勺肿包持续未消，本章再次发作蹲下缓一秒——伤情可能不只是普通外伤",
+      "payload": {
+        "urgency": "low",
+        "planted_chapter": 7,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 7,
+      "evidence": [
+        "memory_facts:open_loop:7"
+      ],
+      "updated_at": "2026-05-15T18:03:39"
     }
   ],
   "reader_promises": [],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-05-13T18:00:37",
-    "total_items": 29
+    "last_updated": "2026-05-15T18:03:39",
+    "total_items": 49
   }
 }

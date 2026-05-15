@@ -1,0 +1,124 @@
+[
+  {
+    "event_id": "evt-ch7-001",
+    "chapter": 7,
+    "event_type": "world_rule_revealed",
+    "subject": "old_mine_cave",
+    "payload": {
+      "rule_content": "矿务局标记'已枯竭'的旧矿洞会出现异常激活——洞壁裂纹渗出蓝光脉冲，魔法素探测器全部异常，原本枯竭区域可重新孕育魔物",
+      "rule_category": "魔法素/矿洞",
+      "scope": "北境矿区"
+    }
+  },
+  {
+    "event_id": "evt-ch7-002",
+    "chapter": 7,
+    "event_type": "world_rule_revealed",
+    "subject": "activated_mine_rat",
+    "payload": {
+      "rule_content": "存在'活化魔物'变种——形似旧种但背覆半透明青蓝硬甲，甲下有碎晶可独立搏动，与洞壁脉冲同步，受洞内魔法素活化而生",
+      "rule_category": "魔物分类",
+      "scope": "异常激活矿洞内"
+    }
+  },
+  {
+    "event_id": "evt-ch7-003",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "xinglan",
+    "payload": {
+      "field": "power.perception",
+      "old": null,
+      "new": "通过调慢呼吸半拍即可看见洞壁裂纹中蓝光脉冲，闭眼仍见",
+      "trigger": "在旧矿洞耳后骨头感知到母石脉冲并将自身呼吸调到该节拍"
+    }
+  },
+  {
+    "event_id": "evt-ch7-004",
+    "chapter": 7,
+    "event_type": "character_state_changed",
+    "subject": "xinglan",
+    "payload": {
+      "field": "physical.fingertip_temperature",
+      "old": "无",
+      "new": "首次有了温度",
+      "trigger": "指尖按上母石的瞬间"
+    }
+  },
+  {
+    "event_id": "evt-ch7-005",
+    "chapter": 7,
+    "event_type": "world_rule_revealed",
+    "subject": "mother_stone",
+    "payload": {
+      "rule_content": "母石与星兰之间存在反向呼吸-光强同步：星兰吸气则石内蓝光淡一层，星兰呼气则浓一层，'她做一半，它做另一半'",
+      "rule_category": "母石属性",
+      "scope": "母石-星兰共鸣机制"
+    }
+  },
+  {
+    "event_id": "evt-ch7-006",
+    "chapter": 7,
+    "event_type": "open_loop_created",
+    "subject": "mother_stone_resonance",
+    "payload": {
+      "content": "星兰与旧矿洞最大母石建立呼吸-蓝光反向同步，心跳首次合上耳后节拍，手按上后未挪开——共鸣意义、母石本质、是否会被齐心或队员发现均悬而未决",
+      "loop_type": "能力觉醒/世界设定",
+      "unanswered_question": "母石是什么？星兰为何能与之共鸣？这种共鸣会带来什么后果？",
+      "urgency": "high",
+      "planted_chapter": 7
+    }
+  },
+  {
+    "event_id": "evt-ch7-007",
+    "chapter": 7,
+    "event_type": "open_loop_created",
+    "subject": "right_hand_autonomy",
+    "payload": {
+      "content": "星兰右手第二次自主行动——麦田那次方向是'避'（不被碰到），这次方向是'触'（去碰母石），同源但反向",
+      "loop_type": "能力机制",
+      "unanswered_question": "右手依据什么判断'避'与'触'？是否有更高意识在借星兰的身体行动？",
+      "urgency": "high",
+      "planted_chapter": 7
+    }
+  },
+  {
+    "event_id": "evt-ch7-008",
+    "chapter": 7,
+    "event_type": "open_loop_created",
+    "subject": "old_mine_anomaly_report",
+    "payload": {
+      "content": "齐心命令'标记位置，撤'，老赵在塌方点旁洞壁按下金属标识扣——这次异常发现尚未上报公会，后续如何处理、是否引来更高层关注未知",
+      "loop_type": "组织/任务",
+      "unanswered_question": "齐心会如何上报？公会会派谁来？星兰共鸣是否会被记录？",
+      "urgency": "medium",
+      "planted_chapter": 7
+    }
+  },
+  {
+    "event_id": "evt-ch7-009",
+    "chapter": 7,
+    "event_type": "open_loop_created",
+    "subject": "li_ge_head_lump",
+    "payload": {
+      "content": "李哥后脑勺肿包持续未消，本章再次发作蹲下缓一秒——伤情可能不只是普通外伤",
+      "loop_type": "角色伏笔",
+      "unanswered_question": "肿包是否与魔法素污染有关？李哥是否会更严重？",
+      "urgency": "low",
+      "planted_chapter": 7
+    }
+  },
+  {
+    "event_id": "evt-ch7-010",
+    "chapter": 7,
+    "event_type": "artifact_obtained",
+    "subject": "old_mine_marker",
+    "payload": {
+      "artifact_id": "old_mine_marker",
+      "name": "金属标识扣",
+      "owner": "qixin",
+      "location": "旧矿洞塌方点旁洞壁",
+      "purpose": "标记异常激活位置"
+    }
+  }
+]

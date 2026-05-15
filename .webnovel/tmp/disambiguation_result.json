@@ -1,26 +1,18 @@
 {
-    "pending": [
-        {
-            "mention": "银月城",
-            "candidates": [],
-            "context": "齐心曾服役八年的城市——先在城防部队四年，后调军事情报科四年。情报科开始介入猎魔公会晋升体系后，齐心不愿配合审查队友而申请转岗离开",
-            "resolution": "new_entity",
-            "confidence": 0.95
-        },
-        {
-            "mention": "军事情报科",
-            "candidates": [],
-            "context": "银月城下属部门，负责监视内部忠诚度与私下交易，后介入猎魔公会晋升体系审查队长副队长评级",
-            "resolution": "new_entity",
-            "confidence": 0.9
-        },
-        {
-            "mention": "年轻队员",
-            "candidates": [
-                {"entity_id": "unnamed_member", "confidence": 0.95}
-            ],
-            "context": "篝火边削木棍削不出形状扔进火里，抱着膝盖靠粮袋睡着，脚边扔着削烂的树枝",
-            "resolution": "same_entity"
-        }
-    ]
+  "chapter": 7,
+  "resolved": [
+    {"mention": "星兰", "entity_id": "xinglan", "confidence": 1.0},
+    {"mention": "齐心", "entity_id": "qixin", "confidence": 1.0},
+    {"mention": "老赵", "entity_id": "lao_zhao", "confidence": 1.0},
+    {"mention": "李哥", "entity_id": "li_ge", "confidence": 1.0},
+    {"mention": "年轻队员", "entity_id": "unnamed_member", "confidence": 1.0},
+    {"mention": "北境/北境营地", "entity_id": "north_mine", "confidence": 0.95}
+  ],
+  "new_entities": [
+    {"suggested_id": "old_mine_cave", "name": "旧矿洞", "type": "地点", "tier": "重要", "confidence": 0.95, "desc": "位于北境矿区西北，矿务局标'已枯竭'七年，齐心七年前亲手封过"},
+    {"suggested_id": "activated_mine_rat", "name": "活化矿耗", "type": "物品", "tier": "重要", "confidence": 0.9, "desc": "形似放大矿耗，背覆半透明青蓝色硬甲，甲上纹路与洞壁脉冲同步"},
+    {"suggested_id": "mother_stone", "name": "母石", "type": "物品", "tier": "核心", "confidence": 0.95, "desc": "嵌在旧矿洞最深处洞顶的深蓝色石头，比人头还大，能与星兰呼吸反向同步"},
+    {"suggested_id": "mana_detector", "name": "便携式魔法素探测器", "type": "物品", "tier": "装饰", "confidence": 0.85, "desc": "公会标准装备，指针式与新发数显式两种"}
+  ],
+  "pending": []
 }

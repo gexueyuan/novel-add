@@ -1,0 +1,839 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 7,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_007.json",
+    "review": "chapter_007.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "id": "CBN",
+        "name": "巡逻发现异常波动",
+        "required": true
+      },
+      {
+        "id": "CPN1",
+        "name": "探测器读数异常",
+        "required": true
+      },
+      {
+        "id": "CPN2",
+        "name": "星兰感知到结晶石呼吸",
+        "required": true
+      },
+      {
+        "id": "CPN3",
+        "name": "被活化魔物",
+        "required": true
+      },
+      {
+        "id": "CEN",
+        "name": "星兰与最大母石共鸣",
+        "required": true
+      }
+    ],
+    "covered_nodes": [
+      {
+        "id": "CBN",
+        "name": "巡逻发现异常波动",
+        "evidence_lines": [
+          3,
+          15,
+          17,
+          18
+        ],
+        "evidence": "第10天清晨小队往北境西北旧矿洞巡逻，到坡顶时齐心腰间探测器响起异常'咔'声"
+      },
+      {
+        "id": "CPN1",
+        "name": "探测器读数异常",
+        "evidence_lines": [
+          17,
+          21,
+          23,
+          25
+        ],
+        "evidence": "齐心探测器指针撞最右弹回零，换探头仍抽；老赵同型号也抽；年轻队员新发探测器屏幕直接红了"
+      },
+      {
+        "id": "CPN2",
+        "name": "星兰感知到结晶石呼吸",
+        "evidence_lines": [
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "evidence": "星兰耳后骨头里有压力，每隔几秒一声闷响；她调呼吸到那节拍后整条洞壁'亮'了，闭眼仍见蓝光从裂纹渗出"
+      },
+      {
+        "id": "CPN3",
+        "name": "被活化魔物",
+        "evidence_lines": [
+          67,
+          68,
+          69,
+          71,
+          73,
+          81,
+          83
+        ],
+        "evidence": "三只活化矿耗从碎石缝渗出，背上半透明青蓝甲，纹路与洞壁裂纹同步跳动；老赵驱散器击碎甲；甲下碎晶仍稳定搏动与洞壁脉冲合一"
+      },
+      {
+        "id": "CEN",
+        "name": "星兰与最大母石共鸣",
+        "evidence_lines": [
+          97,
+          99,
+          117,
+          119,
+          121,
+          123,
+          129
+        ],
+        "evidence": "小厅最深处洞顶嵌一块比人头还大的深蓝石头；星兰指尖按上后，吸气石头淡、呼气石头浓，反向同步；她心跳第一次和耳后节拍合上"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "name": "齐心命令撤离并标记位置",
+        "evidence_lines": [
+          91,
+          93
+        ],
+        "evidence": "齐心说'标记位置，撤'，老赵从腰里掏出金属标识扣按在塌方点旁洞壁上"
+      },
+      {
+        "name": "李哥后脑勺肿包持续发作",
+        "evidence_lines": [
+          55,
+          101,
+          127
+        ],
+        "evidence": "李哥肩晃、肿包闷他；过母石时捂后脑勺；最后蹲下缓一秒"
+      },
+      {
+        "name": "星兰右手再次自主行动",
+        "evidence_lines": [
+          113,
+          115
+        ],
+        "evidence": "右手不是她抬的，'是它自己抬的'，与麦田那次同源但方向反过来——这次是要去碰"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "issues": [
+      {
+        "severity": "high",
+        "category": "ai_flavor",
+        "location": "全章多处",
+        "description": "「不是X，是Y」句式高频反复出现，全章约3000字内出现12处以上同结构句，已成为本章主导句式，构成强烈的AI味节拍",
+        "evidence": "第11段「不是装出来的慢，是把节奏往下压半拍」；第17段「不是常规的提示音。是指针撞到刻度盘最右端然后弹回零的那种」；第41段「不是检查温度，是确认松紧」；第49段「不是真的亮。她闭上眼睛，亮还在。是她『看见』了亮」；第61段「不是水的反光，是自带的」；第71段「甲不是矿耗那种棕褐色——是一片半透明的青蓝」；第75段「渗出来的不是血，是一种很慢的、和洞壁同步的光」；第85段「不是抖，不是抽搐，是节奏稳定的、慢的搏动」；第101段「不是表面的蓝，是从里面透出来的蓝」「不是人磨的，是水磨的」；第117段「不是她抬的。是它自己抬的」；第123段「不是被太阳晒过的那种温，是从里面透出来的温」；第129段「她和它不是在做同一件事——是她做一半，它做另一半」",
+        "fix_hint": "保留3-4处最关键的「不是A是B」（建议保留第17、85、117段），其余改为直接陈述、动作描写或意象呈现",
+        "blocking": false
+      },
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "第17、85、109、127段",
+        "description": "短促同构「一下。一下。」在全章重复出现4次，节奏标点过度复用",
+        "evidence": "第17段「再一下，再弹回。再一下。」；第85段「一下，一下。」；第109段「一下。一下。」；第127段「一下。一下。」",
+        "fix_hint": "至少替换两处「一下。一下。」为具体感觉描写或场景声音",
+        "blocking": false
+      },
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "第43、49、129段",
+        "description": "展示后紧跟解释的模式——给出动作/感觉后立刻补一句对该动作的元解读",
+        "evidence": "第43段「她不是在看石头，她在听石头」；第49段先描述后解释；第129段「她和它不是在做同一件事——是她做一半，它做另一半」",
+        "fix_hint": "删除或改写解释性总结句",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "continuity",
+        "location": "第55段",
+        "description": "「上一次她答应过齐心」把第6章齐心的单方告诫升级为双方约定",
+        "evidence": "第6章原文齐心：「从今天开始，不要在人前用它。」星兰未明确应允",
+        "fix_hint": "改为「上一次齐心交代过她」",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "logic",
+        "location": "第97段",
+        "description": "齐心「标记位置，撤」后选择穿越未排查的异常小厅「因为更短」，与其专业克制性格轻微冲突",
+        "fix_hint": "补一句战术理由（原路塌方更危险）",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "character",
+        "location": "第133段",
+        "description": "李哥被齐心明确指派盯星兰，两米距离内完全未察觉星兰停步伸手按石",
+        "fix_hint": "加一笔肿包头晕或脚下分神，给「没看见」一个具体理由",
+        "blocking": false
+      }
+    ],
+    "summary": "6个问题：0个阻断，1个高优（『不是A是B』句式密集），3中2低；CBN/CPN2/CPN3/CEN 全部命中；时间线正确；禁区均守住",
+    "high_count": 1,
+    "medium_count": 2,
+    "low_count": 3,
+    "total_count": 6
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "id": "CBN",
+        "name": "巡逻发现异常波动",
+        "required": true
+      },
+      {
+        "id": "CPN1",
+        "name": "探测器读数异常",
+        "required": true
+      },
+      {
+        "id": "CPN2",
+        "name": "星兰感知到结晶石呼吸",
+        "required": true
+      },
+      {
+        "id": "CPN3",
+        "name": "被活化魔物",
+        "required": true
+      },
+      {
+        "id": "CEN",
+        "name": "星兰与最大母石共鸣",
+        "required": true
+      }
+    ],
+    "covered_nodes": [
+      {
+        "id": "CBN",
+        "name": "巡逻发现异常波动",
+        "evidence_lines": [
+          3,
+          15,
+          17,
+          18
+        ],
+        "evidence": "第10天清晨小队往北境西北旧矿洞巡逻，到坡顶时齐心腰间探测器响起异常'咔'声"
+      },
+      {
+        "id": "CPN1",
+        "name": "探测器读数异常",
+        "evidence_lines": [
+          17,
+          21,
+          23,
+          25
+        ],
+        "evidence": "齐心探测器指针撞最右弹回零，换探头仍抽；老赵同型号也抽；年轻队员新发探测器屏幕直接红了"
+      },
+      {
+        "id": "CPN2",
+        "name": "星兰感知到结晶石呼吸",
+        "evidence_lines": [
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "evidence": "星兰耳后骨头里有压力，每隔几秒一声闷响；她调呼吸到那节拍后整条洞壁'亮'了，闭眼仍见蓝光从裂纹渗出"
+      },
+      {
+        "id": "CPN3",
+        "name": "被活化魔物",
+        "evidence_lines": [
+          67,
+          68,
+          69,
+          71,
+          73,
+          81,
+          83
+        ],
+        "evidence": "三只活化矿耗从碎石缝渗出，背上半透明青蓝甲，纹路与洞壁裂纹同步跳动；老赵驱散器击碎甲；甲下碎晶仍稳定搏动与洞壁脉冲合一"
+      },
+      {
+        "id": "CEN",
+        "name": "星兰与最大母石共鸣",
+        "evidence_lines": [
+          97,
+          99,
+          117,
+          119,
+          121,
+          123,
+          129
+        ],
+        "evidence": "小厅最深处洞顶嵌一块比人头还大的深蓝石头；星兰指尖按上后，吸气石头淡、呼气石头浓，反向同步；她心跳第一次和耳后节拍合上"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "name": "齐心命令撤离并标记位置",
+        "evidence_lines": [
+          91,
+          93
+        ],
+        "evidence": "齐心说'标记位置，撤'，老赵从腰里掏出金属标识扣按在塌方点旁洞壁上"
+      },
+      {
+        "name": "李哥后脑勺肿包持续发作",
+        "evidence_lines": [
+          55,
+          101,
+          127
+        ],
+        "evidence": "李哥肩晃、肿包闷他；过母石时捂后脑勺；最后蹲下缓一秒"
+      },
+      {
+        "name": "星兰右手再次自主行动",
+        "evidence_lines": [
+          113,
+          115
+        ],
+        "evidence": "右手不是她抬的，'是它自己抬的'，与麦田那次同源但方向反过来——这次是要去碰"
+      }
+    ],
+    "chapter": 7,
+    "coverage_rate": 1.0,
+    "summary": "全部5个必须节点均已覆盖，证据明确；额外节点3个均强化了主线钩子。"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 7,
+    "resolved": [
+      {
+        "mention": "星兰",
+        "entity_id": "xinglan",
+        "confidence": 1.0
+      },
+      {
+        "mention": "齐心",
+        "entity_id": "qixin",
+        "confidence": 1.0
+      },
+      {
+        "mention": "老赵",
+        "entity_id": "lao_zhao",
+        "confidence": 1.0
+      },
+      {
+        "mention": "李哥",
+        "entity_id": "li_ge",
+        "confidence": 1.0
+      },
+      {
+        "mention": "年轻队员",
+        "entity_id": "unnamed_member",
+        "confidence": 1.0
+      },
+      {
+        "mention": "北境/北境营地",
+        "entity_id": "north_mine",
+        "confidence": 0.95
+      }
+    ],
+    "new_entities": [
+      {
+        "suggested_id": "old_mine_cave",
+        "name": "旧矿洞",
+        "type": "地点",
+        "tier": "重要",
+        "confidence": 0.95,
+        "desc": "位于北境矿区西北，矿务局标'已枯竭'七年，齐心七年前亲手封过"
+      },
+      {
+        "suggested_id": "activated_mine_rat",
+        "name": "活化矿耗",
+        "type": "物品",
+        "tier": "重要",
+        "confidence": 0.9,
+        "desc": "形似放大矿耗，背覆半透明青蓝色硬甲，甲上纹路与洞壁脉冲同步"
+      },
+      {
+        "suggested_id": "mother_stone",
+        "name": "母石",
+        "type": "物品",
+        "tier": "核心",
+        "confidence": 0.95,
+        "desc": "嵌在旧矿洞最深处洞顶的深蓝色石头，比人头还大，能与星兰呼吸反向同步"
+      },
+      {
+        "suggested_id": "mana_detector",
+        "name": "便携式魔法素探测器",
+        "type": "物品",
+        "tier": "装饰",
+        "confidence": 0.85,
+        "desc": "公会标准装备，指针式与新发数显式两种"
+      }
+    ]
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch7-001",
+      "chapter": 7,
+      "event_type": "world_rule_revealed",
+      "subject": "old_mine_cave",
+      "payload": {
+        "rule_content": "矿务局标记'已枯竭'的旧矿洞会出现异常激活——洞壁裂纹渗出蓝光脉冲，魔法素探测器全部异常，原本枯竭区域可重新孕育魔物",
+        "rule_category": "魔法素/矿洞",
+        "scope": "北境矿区"
+      }
+    },
+    {
+      "event_id": "evt-ch7-002",
+      "chapter": 7,
+      "event_type": "world_rule_revealed",
+      "subject": "activated_mine_rat",
+      "payload": {
+        "rule_content": "存在'活化魔物'变种——形似旧种但背覆半透明青蓝硬甲，甲下有碎晶可独立搏动，与洞壁脉冲同步，受洞内魔法素活化而生",
+        "rule_category": "魔物分类",
+        "scope": "异常激活矿洞内"
+      }
+    },
+    {
+      "event_id": "evt-ch7-003",
+      "chapter": 7,
+      "event_type": "character_state_changed",
+      "subject": "xinglan",
+      "payload": {
+        "field": "power.perception",
+        "old": null,
+        "new": "通过调慢呼吸半拍即可看见洞壁裂纹中蓝光脉冲，闭眼仍见",
+        "trigger": "在旧矿洞耳后骨头感知到母石脉冲并将自身呼吸调到该节拍"
+      }
+    },
+    {
+      "event_id": "evt-ch7-004",
+      "chapter": 7,
+      "event_type": "character_state_changed",
+      "subject": "xinglan",
+      "payload": {
+        "field": "physical.fingertip_temperature",
+        "old": "无",
+        "new": "首次有了温度",
+        "trigger": "指尖按上母石的瞬间"
+      }
+    },
+    {
+      "event_id": "evt-ch7-005",
+      "chapter": 7,
+      "event_type": "world_rule_revealed",
+      "subject": "mother_stone",
+      "payload": {
+        "rule_content": "母石与星兰之间存在反向呼吸-光强同步：星兰吸气则石内蓝光淡一层，星兰呼气则浓一层，'她做一半，它做另一半'",
+        "rule_category": "母石属性",
+        "scope": "母石-星兰共鸣机制"
+      }
+    },
+    {
+      "event_id": "evt-ch7-006",
+      "chapter": 7,
+      "event_type": "open_loop_created",
+      "subject": "mother_stone_resonance",
+      "payload": {
+        "content": "星兰与旧矿洞最大母石建立呼吸-蓝光反向同步，心跳首次合上耳后节拍，手按上后未挪开——共鸣意义、母石本质、是否会被齐心或队员发现均悬而未决",
+        "loop_type": "能力觉醒/世界设定",
+        "unanswered_question": "母石是什么？星兰为何能与之共鸣？这种共鸣会带来什么后果？",
+        "urgency": "high",
+        "planted_chapter": 7
+      }
+    },
+    {
+      "event_id": "evt-ch7-007",
+      "chapter": 7,
+      "event_type": "open_loop_created",
+      "subject": "right_hand_autonomy",
+      "payload": {
+        "content": "星兰右手第二次自主行动——麦田那次方向是'避'（不被碰到），这次方向是'触'（去碰母石），同源但反向",
+        "loop_type": "能力机制",
+        "unanswered_question": "右手依据什么判断'避'与'触'？是否有更高意识在借星兰的身体行动？",
+        "urgency": "high",
+        "planted_chapter": 7
+      }
+    },
+    {
+      "event_id": "evt-ch7-008",
+      "chapter": 7,
+      "event_type": "open_loop_created",
+      "subject": "old_mine_anomaly_report",
+      "payload": {
+        "content": "齐心命令'标记位置，撤'，老赵在塌方点旁洞壁按下金属标识扣——这次异常发现尚未上报公会，后续如何处理、是否引来更高层关注未知",
+        "loop_type": "组织/任务",
+        "unanswered_question": "齐心会如何上报？公会会派谁来？星兰共鸣是否会被记录？",
+        "urgency": "medium",
+        "planted_chapter": 7
+      }
+    },
+    {
+      "event_id": "evt-ch7-009",
+      "chapter": 7,
+      "event_type": "open_loop_created",
+      "subject": "li_ge_head_lump",
+      "payload": {
+        "content": "李哥后脑勺肿包持续未消，本章再次发作蹲下缓一秒——伤情可能不只是普通外伤",
+        "loop_type": "角色伏笔",
+        "unanswered_question": "肿包是否与魔法素污染有关？李哥是否会更严重？",
+        "urgency": "low",
+        "planted_chapter": 7
+      }
+    },
+    {
+      "event_id": "evt-ch7-010",
+      "chapter": 7,
+      "event_type": "artifact_obtained",
+      "subject": "old_mine_marker",
+      "payload": {
+        "artifact_id": "old_mine_marker",
+        "name": "金属标识扣",
+        "owner": "qixin",
+        "location": "旧矿洞塌方点旁洞壁",
+        "purpose": "标记异常激活位置"
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "xinglan",
+      "field": "location.current",
+      "old": "北境营地",
+      "new": "旧矿洞最深处小厅"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "power.perception",
+      "old": null,
+      "new": "可通过调慢呼吸感知洞壁/母石脉冲"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "physical.fingertip_temperature",
+      "old": "无",
+      "new": "首次有温度（按上母石后）"
+    },
+    {
+      "entity_id": "qixin",
+      "field": "location.current",
+      "old": "北境营地",
+      "new": "旧矿洞"
+    },
+    {
+      "entity_id": "qixin",
+      "field": "knowledge.old_mine_status",
+      "old": "已枯竭七年",
+      "new": "确认异常激活，已标记位置"
+    },
+    {
+      "entity_id": "old_mine_cave",
+      "field": "status",
+      "old": "已枯竭七年",
+      "new": "异常激活，存在母石与活化魔物"
+    },
+    {
+      "entity_id": "li_ge",
+      "field": "physical.head_lump",
+      "old": "受伤后未消",
+      "new": "持续发作，过母石时捂头"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "old_mine_cave",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "重要",
+      "payload": {
+        "name": "旧矿洞",
+        "location": "北境矿区西北，距营地一个半小时路程",
+        "official_status": "矿务局标'已枯竭'七年",
+        "sealed_by": "qixin",
+        "sealed_years_ago": 7,
+        "current_state": "异常激活",
+        "feature": "洞顶嵌母石，洞壁裂纹有蓝光脉冲",
+        "first_appearance": 7
+      }
+    },
+    {
+      "entity_id": "mother_stone",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "核心",
+      "payload": {
+        "name": "母石",
+        "location": "旧矿洞最深处洞顶",
+        "size": "比人头还大",
+        "color": "深蓝色，从内透出",
+        "surface": "边缘磨圆如水冲千年",
+        "temperature": "比常温温热半度",
+        "ability": "可与星兰呼吸反向同步——星兰吸则石淡，星兰呼则石浓",
+        "first_appearance": 7
+      }
+    },
+    {
+      "entity_id": "activated_mine_rat",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "重要",
+      "payload": {
+        "name": "活化矿耗",
+        "form": "放大版矿耗，背覆硬甲",
+        "armor": "半透明青蓝色，纹路与洞壁裂纹同步搏动",
+        "internal": "甲下碎晶可独立稳定搏动，与洞壁脉冲合一",
+        "habitat": "旧矿洞碎石缝",
+        "first_appearance": 7,
+        "killed_count_ch7": 3
+      }
+    },
+    {
+      "entity_id": "mana_detector",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "装饰",
+      "payload": {
+        "name": "便携式魔法素探测器",
+        "issuer": "猎魔公会",
+        "variants": [
+          "指针式（旧）",
+          "数字屏式（新发）"
+        ],
+        "anomaly_signature": "指针撞最右刻度弹回零并发出'咔'声",
+        "first_appearance": 7
+      }
+    },
+    {
+      "entity_id": "xinglan",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "is_protagonist": true,
+      "payload": {
+        "power.perception": "可通过调整呼吸节奏感知母石/洞壁脉冲",
+        "power.right_hand": "右手具有独立行动倾向（麦田为'避'，母石为'触'）",
+        "physical.fingertip_temperature": "首次有了温度",
+        "behavior.discipline": "刻意压慢半拍走，避免领先队伍"
+      }
+    },
+    {
+      "entity_id": "li_ge",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "physical.head_lump": "后脑勺肿包持续发作未消"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "xinglan",
+      "type": "角色",
+      "mentions": [
+        "星兰",
+        "她"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "qixin",
+      "type": "角色",
+      "mentions": [
+        "齐心",
+        "他"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "lao_zhao",
+      "type": "角色",
+      "mentions": [
+        "老赵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "li_ge",
+      "type": "角色",
+      "mentions": [
+        "李哥"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "unnamed_member",
+      "type": "角色",
+      "mentions": [
+        "年轻队员"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "north_mine",
+      "type": "地点",
+      "mentions": [
+        "北境营地",
+        "北境"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "old_mine_cave",
+      "type": "地点",
+      "mentions": [
+        "旧矿洞",
+        "矿口",
+        "小厅"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "mother_stone",
+      "type": "物品",
+      "mentions": [
+        "那块石头",
+        "母石"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "activated_mine_rat",
+      "type": "物品",
+      "mentions": [
+        "活化矿耗",
+        "魔物"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "mana_detector",
+      "type": "物品",
+      "mentions": [
+        "便携式魔法素探测器",
+        "探测器"
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 3,
+      "end_line": 14,
+      "location": "北境营地往西北旧矿洞外坡",
+      "summary": "第10天清晨小队步行一个半小时抵达旧矿洞口，齐心今天带全员，星兰刻意压慢半拍走在李哥后",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "unnamed_member"
+      ],
+      "content": "巡逻路途与队形布置，矿洞外观——封洞水泥桩、灰绿苔，引出'已枯竭'背景"
+    },
+    {
+      "index": 2,
+      "start_line": 15,
+      "end_line": 35,
+      "location": "旧矿洞口坡顶",
+      "summary": "齐心便携探测器异常'咔'响，老赵同型号、年轻队员新发数显屏均异常，齐心决定进洞排查",
+      "characters": [
+        "qixin",
+        "lao_zhao",
+        "unnamed_member",
+        "li_ge",
+        "xinglan"
+      ],
+      "content": "三台探测器都报异常，齐心安排十米间距、靠墙走的进洞队形"
+    },
+    {
+      "index": 3,
+      "start_line": 37,
+      "end_line": 56,
+      "location": "旧矿洞内（前段）",
+      "summary": "结晶石灯进洞由白转蓝，洞壁反光自带，星兰耳后骨头感知慢半拍脉冲并将呼吸调过去——洞壁'亮'了，她又调回退后半米",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "unnamed_member"
+      ],
+      "content": "魔法素环境异常的视觉体现，星兰首次主动验证自己的感知能力"
+    },
+    {
+      "index": 4,
+      "start_line": 57,
+      "end_line": 88,
+      "location": "塌方小厅",
+      "summary": "三只青蓝甲活化矿耗从碎石缝渗出，老赵驱散器开火，齐心补枪，二十秒清场；甲下碎晶仍稳定搏动与洞壁同步",
+      "characters": [
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "unnamed_member",
+        "xinglan"
+      ],
+      "content": "首次遭遇活化魔物，揭示'活化'机制——甲下碎晶与洞壁脉冲合一"
+    },
+    {
+      "index": 5,
+      "start_line": 89,
+      "end_line": 96,
+      "location": "塌方小厅",
+      "summary": "齐心命令标记位置撤离，老赵在塌方点旁按下金属标识扣，撤离路线需穿过小厅",
+      "characters": [
+        "qixin",
+        "lao_zhao"
+      ],
+      "content": "队长决策与撤退路线——为后续再访留下钩子"
+    },
+    {
+      "index": 6,
+      "start_line": 97,
+      "end_line": 131,
+      "location": "小厅最深处母石下方",
+      "summary": "洞顶嵌人头大深蓝母石，星兰右手自主按上石面，吸石淡呼石浓反向同步，心跳首次合上耳后节拍，齐心已走出七八米未回头，她的手没挪开",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "unnamed_member"
+      ],
+      "content": "全章高潮——星兰与母石共鸣，右手自主性第二次显现，悬念全开"
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "awakening",
+  "summary_text": "---\nchapter: 0007\ntime: \"第10天清晨\"\nlocation: \"北境西北旧矿洞\"\ncharacters: [\"星兰\", \"齐心\", \"老赵\", \"李哥\", \"年轻队员\"]\nstate_changes: [\"旧矿洞: 已枯竭七年→异常激活\", \"星兰: 感知能力首次外显（呼吸调拍后看见洞壁蓝光脉冲）\", \"星兰: 指尖第一次有温度（按上母石后）\", \"星兰: 右手第二次自主行动（方向：触）\"]\nhook_type: \"共鸣钩+悬念钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n第10天清晨，齐心带全员巡逻北境西北旧矿洞——七年前他亲手封的'已枯竭'之地。坡顶探测器集体抽搐，新发数显式直接红屏。入洞后结晶石灯反借洞壁发蓝，星兰耳后骨头感到慢半拍闷响，将呼吸调过去后整条洞壁蓝光裂纹便'亮'了。三只半透明青蓝甲的活化矿耗从碎石缝渗出，二十秒被清场，甲下碎晶仍与洞壁脉冲共振。撤离时小厅最深处洞顶嵌着比人头还大的深蓝母石，星兰右手第二次自主抬起按上去——这次方向是'触'。她吸石淡、她呼石浓，指尖第一次有温度，心跳第一次合上耳后节拍。齐心已在前方七八米外没回头，她的手没挪开。\n## 伏笔\n- [埋设] 星兰与母石的呼吸-蓝光反向共鸣——共鸣机制、母石本质、是否被发现均悬而未决\n- [埋设] 星兰右手自主行动的双向性——麦田为'避'，母石为'触'，是否有更高意识借身体行动\n- [埋设] 旧矿洞异常发现尚未上报——齐心如何处置、公会反应、共鸣是否被记录均未知\n- [埋设] 李哥后脑勺肿包持续发作——可能不只是普通外伤\n## 承接点\n星兰的手按在母石上没挪开，齐心已走出七八米未回头——共鸣会被发现吗？",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}
