@@ -1,22 +1,14 @@
 {
-  "chapter": 8,
   "pending": [],
-  "auto_resolved": [
-    {"alias": "星兰", "entity_id": "xinglan", "confidence": 0.99, "method": "alias_table"},
-    {"alias": "齐心", "entity_id": "qixin", "confidence": 0.99, "method": "alias_table"},
-    {"alias": "老赵", "entity_id": "lao_zhao", "confidence": 0.99, "method": "alias_table"},
-    {"alias": "李哥", "entity_id": "li_ge", "confidence": 0.99, "method": "alias_table"},
-    {"alias": "年轻队员", "entity_id": "unnamed_member", "confidence": 0.95, "method": "alias_table"},
-    {"alias": "脉冲驱散器", "entity_id": "pulse_dispeller", "confidence": 0.85, "method": "new_entity_create", "warning": "新装备实体，首次出现"},
-    {"alias": "数显式探测器", "entity_id": "mana_detector", "confidence": 0.9, "method": "alias_match", "warning": "前章已出现的探测器类装备"},
-    {"alias": "矿石巨像", "entity_id": "stone_golem_elite", "confidence": 0.9, "method": "new_entity_create"},
-    {"alias": "古代防御魔法阵", "entity_id": "ancient_ward_array", "confidence": 0.85, "method": "new_entity_create"},
-    {"alias": "乱石滩", "entity_id": "broken_rock_flat", "confidence": 0.85, "method": "new_entity_create"},
-    {"alias": "甲片", "entity_id": "carapace_shard_sample", "confidence": 0.8, "method": "new_entity_create", "warning": "活化矿耗甲片样品，与activated_mine_rat关联"},
-    {"alias": "碎晶", "entity_id": "broken_crystal_sample", "confidence": 0.8, "method": "new_entity_create", "warning": "与mother_stone脉光同源"}
-  ],
-  "warnings": [
-    "李哥canonical_name当前为li_ge而非中文，建议后续清洗",
-    "xinglan canonical_name当前为xinglan而非星兰，建议后续清洗"
+  "resolved": [
+    {"mention": "星兰", "resolved_id": "xinglan", "confidence": 1.0, "method": "alias_match"},
+    {"mention": "齐心", "resolved_id": "qixin", "confidence": 1.0, "method": "alias_match"},
+    {"mention": "老赵", "resolved_id": "lao_zhao", "confidence": 1.0, "method": "alias_match"},
+    {"mention": "李哥", "resolved_id": "li_ge", "confidence": 1.0, "method": "alias_match"},
+    {"mention": "年轻队员", "resolved_id": "unnamed_member", "confidence": 0.95, "method": "alias_match"},
+    {"mention": "年轻研究员", "resolved_id": "young_researcher_silvermoon", "confidence": 0.9, "method": "new_entity_creation", "note": "新角色，姓名牌别在胸口但未给出名字，作为研究院侧观测点"},
+    {"mention": "银月城", "resolved_id": "silvermoon_city", "confidence": 0.95, "method": "new_entity_creation"},
+    {"mention": "研究院数据中心", "resolved_id": "silvermoon_research_data_center", "confidence": 0.9, "method": "new_entity_creation"},
+    {"mention": "探测器电源模块", "resolved_id": "detector_power_module", "confidence": 0.85, "method": "new_entity_creation", "note": "齐心从 mana_detector 中拆出的电源模块，作为违规物证由齐心私藏"}
   ]
 }

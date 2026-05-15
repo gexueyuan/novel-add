@@ -32,9 +32,9 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 8,
-    "total_words": 11089,
-    "last_updated": "2026-05-15 18:26:24",
+    "current_chapter": 9,
+    "total_words": 13625,
+    "last_updated": "2026-05-15 23:07:36",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -48,7 +48,8 @@
       "1": "chapter_committed",
       "5": "chapter_committed",
       "7": "chapter_committed",
-      "8": "chapter_committed"
+      "8": "chapter_committed",
+      "9": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -88,7 +89,9 @@
     },
     "social": {
       "exposure": "能力被齐心/老赵/年轻队员当面目击"
-    }
+    },
+    "social_status_in_team": "小队共谋的秘密",
+    "consent_to_silence": "下巴下压点头，承诺『问到你你就说你不知道』"
   },
   "relationships": {},
   "disambiguation_warnings": [],
@@ -143,7 +146,9 @@
       },
       "social": {
         "exposure": "能力被齐心/老赵/年轻队员当面目击"
-      }
+      },
+      "social_status_in_team": "小队共谋的秘密",
+      "consent_to_silence": "下巴下压点头，承诺『问到你你就说你不知道』"
     },
     "qixin": {
       "status": "任务完成，携神秘少女返回营地",
@@ -162,10 +167,14 @@
       },
       "plans": {
         "protect_xinglan_plan": "在能力觉醒前散去"
+      },
+      "decision_on_xinglan": "集体隐瞒，承担责任『出事算我的』",
+      "carries": {
+        "detector_power_module": "内衬口袋，违规私藏"
       }
     },
     "li_ge": {
-      "status": "死亡",
+      "status": "deceased",
       "physical": {
         "head_lump": "持续发作，过母石时捂头"
       }
@@ -174,10 +183,23 @@
       "status": "异常激活，存在母石与活化魔物"
     },
     "unnamed_member": {
-      "status": "重伤（左小臂血雾，丧失战斗力）"
+      "status": "重伤（左小臂血雾，丧失战斗力）",
+      "stance_on_xinglan": "公开辩护者/共谋者"
     },
     "stone_golem_elite": {
       "status": "自陷岩层后挣脱，向北面更深山坳撤退（未被击杀）"
+    },
+    "lao_zhao": {
+      "stance_on_reporting": "犹豫后默认隐瞒",
+      "carries": {
+        "broken_crystal_sample": "2片，外侧口袋未上交"
+      }
+    },
+    "mana_detector": {
+      "status": "空壳挂腰，电源模块被拆"
+    },
+    "silvermoon_research_data_center": {
+      "anomaly_signal_detected": "第12条未知波形被识别但尚未上报（指尖悬停于通讯键上方1cm）"
     }
   }
 }

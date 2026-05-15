@@ -1,0 +1,137 @@
+[
+  {
+    "event_id": "evt-ch9-001",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "li_ge",
+    "payload": {
+      "field": "status",
+      "old": "severely_injured",
+      "new": "deceased",
+      "trigger": "老赵手停李哥鼻孔下三秒未感知呼吸后宣布『他没了』",
+      "location": "broken_rock_flat"
+    }
+  },
+  {
+    "event_id": "evt-ch9-002",
+    "chapter": 9,
+    "event_type": "relationship_changed",
+    "subject": "unnamed_member",
+    "payload": {
+      "to_entity": "xinglan",
+      "relationship_type": "公开辩护者/共谋者",
+      "old_relationship": "被救者/目击者",
+      "trigger": "年轻队员主动说『她救了我们两次』『不要报她』『我没看见』",
+      "evidence_quote": "『矿洞里她最先听到的，是她。刚才那个阵——是她。队长，不要报她』"
+    }
+  },
+  {
+    "event_id": "evt-ch9-003",
+    "chapter": 9,
+    "event_type": "world_rule_revealed",
+    "subject": "hunters_guild",
+    "payload": {
+      "rule_content": "公会规定：异常事件须在两小时之内上报；隐报有重罚——老赵亲历两例隐报者，一在牢里，一已死",
+      "rule_category": "公会制度/合规",
+      "scope": "所有公会小队成员",
+      "evidence": "老赵『这事按规矩两小时之内得报』；『公会十九年。我见过两个隐报的，一个在牢里，一个不在了』"
+    }
+  },
+  {
+    "event_id": "evt-ch9-004",
+    "chapter": 9,
+    "event_type": "world_rule_broken",
+    "subject": "qixin",
+    "payload": {
+      "rule_violated": "公会两小时上报规矩 + 装备袋样品须上交清点",
+      "violation_action": "齐心拆下探测器电源模块塞进内衬口袋（抹台账）；老赵把两片碎晶放进个人外侧口袋（未上交）；年轻队员声明『我没看见』；星兰承诺保持沉默",
+      "consequence_pending": "若被研究院或公会查证，全员同担罪责；齐心已声明『出事算我的』",
+      "scope": "整支小队四人共谋"
+    }
+  },
+  {
+    "event_id": "evt-ch9-005",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "team_silence_pact",
+    "payload": {
+      "content": "小队四人达成沉默约定：齐心拆探测器电源模块抹台账、老赵私藏两片碎晶、年轻队员声明未见、星兰承诺装不知；任何后续质询都将考验这一隐瞒契约",
+      "loop_type": "共谋/隐瞒",
+      "unanswered_question": "这个沉默约定能撑多久？被谁、何时、以何种方式戳破？",
+      "urgency": "high",
+      "planted_chapter": 9,
+      "expected_payoff": "公会/研究院介入调查时"
+    }
+  },
+  {
+    "event_id": "evt-ch9-006",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "silvermoon_anomaly_waveform",
+    "payload": {
+      "content": "银月城研究院数据中心年轻研究员发现第12条陌生波形（短脉冲→断→约90秒异常持续，含两个奇异驼峰，末端被压一下，与已知装备库/自然现象库均不匹配），皱眉伸手向通讯键，指尖停在键上方一公分悬停未按",
+      "loop_type": "外部调查/远端注意",
+      "unanswered_question": "他会不会按下通讯键？这条波形会不会被上报？谁会接到？",
+      "urgency": "high",
+      "planted_chapter": 9,
+      "expected_payoff": "下一章/数章内研究员是否按下通讯键决定外部势力是否介入"
+    }
+  },
+  {
+    "event_id": "evt-ch9-007",
+    "chapter": 9,
+    "event_type": "open_loop_created",
+    "subject": "qixin_takes_blame",
+    "payload": {
+      "content": "齐心当众宣布『出事算我的』，把全队违规风险背在自己身上",
+      "loop_type": "承诺/担责",
+      "unanswered_question": "齐心未来如何兑现这句承诺？是被公会问责还是被同伴反向保护？",
+      "urgency": "medium",
+      "planted_chapter": 9,
+      "expected_payoff": "公会调查或星兰身份暴露时"
+    }
+  },
+  {
+    "event_id": "evt-ch9-008",
+    "chapter": 9,
+    "event_type": "artifact_obtained",
+    "subject": "qixin",
+    "payload": {
+      "artifact_id": "detector_power_module",
+      "name": "探测器电源模块",
+      "owner": "qixin",
+      "holder": "qixin",
+      "container": "内衬口袋",
+      "source": "从 mana_detector 后盖拧开后抠出",
+      "compliance_status": "违规私藏，已抹去这两小时台账"
+    }
+  },
+  {
+    "event_id": "evt-ch9-009",
+    "chapter": 9,
+    "event_type": "artifact_obtained",
+    "subject": "lao_zhao",
+    "payload": {
+      "artifact_id": "broken_crystal_sample",
+      "name": "碎晶样品",
+      "count": 2,
+      "owner": "lao_zhao",
+      "holder": "lao_zhao",
+      "container": "外侧口袋（非装备袋）",
+      "compliance_status": "未按规上交公会清点"
+    }
+  },
+  {
+    "event_id": "evt-ch9-010",
+    "chapter": 9,
+    "event_type": "character_state_changed",
+    "subject": "xinglan",
+    "payload": {
+      "field": "social_status_in_team",
+      "old": "小队治疗师",
+      "new": "小队共谋的秘密",
+      "trigger": "全队达成沉默约定后，星兰从被救助/被治疗的对象转为需要被掩护的秘密",
+      "physiological_note": "发声被耳后骨头一敲打断，只发出『不要——』两音节"
+    }
+  }
+]

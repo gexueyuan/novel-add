@@ -1,119 +1,385 @@
 {
   "entities_appeared": [
     {"id": "xinglan", "type": "角色", "mentions": ["星兰", "她"], "confidence": 1.0},
-    {"id": "qixin", "type": "角色", "mentions": ["齐心", "他"], "confidence": 1.0},
+    {"id": "qixin", "type": "角色", "mentions": ["齐心", "队长"], "confidence": 1.0},
     {"id": "lao_zhao", "type": "角色", "mentions": ["老赵"], "confidence": 1.0},
     {"id": "li_ge", "type": "角色", "mentions": ["李哥"], "confidence": 1.0},
-    {"id": "unnamed_member", "type": "角色", "mentions": ["年轻队员"], "confidence": 0.95},
-    {"id": "stone_golem_elite", "type": "物品", "mentions": ["矿石巨像", "巨像", "那东西"], "confidence": 0.9},
-    {"id": "ancient_ward_array", "type": "物品", "mentions": ["古代防御魔法阵", "魔法阵", "光膜"], "confidence": 0.85},
-    {"id": "broken_rock_flat", "type": "地点", "mentions": ["乱石滩", "干涸的河谷"], "confidence": 0.9},
-    {"id": "old_mine_cave", "type": "地点", "mentions": ["旧矿洞"], "confidence": 0.95},
-    {"id": "north_mine", "type": "地点", "mentions": ["北境营地"], "confidence": 0.9},
-    {"id": "pulse_dispeller", "type": "物品", "mentions": ["脉冲驱散器"], "confidence": 0.85},
-    {"id": "mana_detector", "type": "物品", "mentions": ["数显式探测器"], "confidence": 0.9},
-    {"id": "carapace_shard_sample", "type": "物品", "mentions": ["甲片"], "confidence": 0.8},
-    {"id": "broken_crystal_sample", "type": "物品", "mentions": ["碎晶"], "confidence": 0.8}
-  ],
-  "entities_new": [
-    {"suggested_id": "stone_golem_elite", "name": "矿石巨像", "type": "物品", "tier": "重要", "rationale": "首个精英级魔物，与活化矿耗、母石脉光同源，关键反派模板"},
-    {"suggested_id": "ancient_ward_array", "name": "古代防御魔法阵", "type": "物品", "tier": "重要", "rationale": "星兰首次成阵防御魔法，三层结构（六道短线/十二角/字符圈）+残页光膜，未来法术体系基底"},
-    {"suggested_id": "broken_rock_flat", "name": "乱石滩", "type": "地点", "tier": "装饰", "rationale": "本章战场，干涸河谷"},
-    {"suggested_id": "pulse_dispeller", "name": "脉冲驱散器", "type": "物品", "tier": "装饰", "rationale": "公会标配反魔装备，对精英巨像无效"},
-    {"suggested_id": "carapace_shard_sample", "name": "活化矿耗甲片样品", "type": "物品", "tier": "装饰", "rationale": "返回公会的实物样品，与碎晶同袋"},
-    {"suggested_id": "broken_crystal_sample", "name": "碎晶样品", "type": "物品", "tier": "装饰", "rationale": "三块；落地后与巨像同节奏跳动，同源伏笔"}
+    {"id": "unnamed_member", "type": "角色", "mentions": ["年轻队员", "小子"], "confidence": 1.0},
+    {"id": "young_researcher_silvermoon", "type": "角色", "mentions": ["年轻研究员"], "confidence": 0.9},
+    {"id": "broken_rock_flat", "type": "地点", "mentions": ["乱石滩", "岩坡背风", "岩坡"], "confidence": 1.0},
+    {"id": "silvermoon_city", "type": "地点", "mentions": ["银月城"], "confidence": 0.95},
+    {"id": "silvermoon_research_data_center", "type": "地点", "mentions": ["研究院数据中心"], "confidence": 0.9},
+    {"id": "hunters_guild", "type": "组织", "mentions": ["公会"], "confidence": 0.95},
+    {"id": "mana_detector", "type": "物品", "mentions": ["探测器"], "confidence": 1.0},
+    {"id": "detector_power_module", "type": "物品", "mentions": ["电源模块"], "confidence": 0.9},
+    {"id": "broken_crystal_sample", "type": "物品", "mentions": ["碎晶", "两片碎晶"], "confidence": 0.95},
+    {"id": "north_mine", "type": "地点", "mentions": ["北境矿区"], "confidence": 0.85}
   ],
   "entity_deltas": [
-    {"entity_id": "stone_golem_elite", "action": "upsert", "entity_type": "物品", "tier": "重要",
-     "payload": {"name": "矿石巨像", "category": "精英魔物", "height_m": 4, "composition": "地表岩石+暗沉结晶聚合", "features": ["无清晰脖颈腰线", "无眼，仅顶端横向裂缝渗脉光", "可现拔河谷岩石接成加长手臂作为鞭击武器", "脉光与母石/活化矿耗同节奏跳"], "weakness_observed": ["对子弹/脉冲驱散器/探测器免疫", "自重过大可压塌承重岩层并自陷"]}},
-    {"entity_id": "ancient_ward_array", "action": "upsert", "entity_type": "物品", "tier": "重要",
-     "payload": {"name": "古代防御魔法阵", "category": "古代魔法", "color": "蓝金", "structure": {"inner": "六道短线围成的环", "middle": "十二个不闭合的角", "outer": "未知字符圈"}, "manifestation": "残页书状半透明蓝金光膜，每片刻有更细密字符", "behavior": "由内向外亮起，结束时由外向内收灭", "performance_observed": ["吃住巨像两次正面砸击", "侧面光膜存在缺角，第三击碎岩漏入致李哥二次受创"], "caster_cost": ["施法者嘴角出血", "膝盖旧伤崩开", "耳鼻同时出血", "施法后跪倒"]}},
-    {"entity_id": "broken_rock_flat", "action": "upsert", "entity_type": "地点", "tier": "装饰",
-     "payload": {"name": "乱石滩", "description": "干涸河谷底部，多年前山洪冲空旧河床，散满灰色棱角岩石，最大膝盖高，两侧低矮岩坡"}},
-    {"entity_id": "pulse_dispeller", "action": "upsert", "entity_type": "物品", "tier": "装饰",
-     "payload": {"name": "脉冲驱散器", "category": "公会反魔装备", "effect_observed": "蓝白色能量，仅能崩开巨像表层碎石，对深层结晶无效"}},
-    {"entity_id": "mana_detector", "action": "upsert", "entity_type": "物品", "tier": "装饰",
-     "payload": {"reliability_observed": "面对精英魔物开机即从屏中烧出洞，本章彻底报废"}},
-    {"entity_id": "carapace_shard_sample", "action": "upsert", "entity_type": "物品", "tier": "装饰",
-     "payload": {"name": "活化矿耗甲片样品", "source": "第7章被清掉的活化矿耗", "carrier": "lao_zhao", "container": "油布裹背囊", "purpose": "带回猎魔公会做样品"}},
-    {"entity_id": "broken_crystal_sample", "action": "upsert", "entity_type": "物品", "tier": "装饰",
-     "payload": {"name": "碎晶样品", "count": 3, "source": "第7章旧矿洞", "behavior": "落地不滚远，停在落点持续跳动，节奏与矿石巨像脉光同步"}},
-    {"entity_id": "li_ge", "action": "upsert", "entity_type": "角色", "tier": "重要",
-     "payload": {"status": "deceased", "death_chapter": 8, "death_cause": "被矿石巨像加长手砸出三米弹于乱石；屏障漏入碎岩二次撞击致死", "predeath_state": "耳后肿包反复闷响，反应慢半拍"}},
-    {"entity_id": "unnamed_member", "action": "upsert", "entity_type": "角色", "tier": "重要",
-     "payload": {"status": "severely_injured", "injury": "左小臂自肘以下被岩屑炸成血雾，丧失战斗力", "trauma": "目击星兰瞳孔火焰最近，事后后退一步又停住"}},
-    {"entity_id": "xinglan", "action": "upsert", "entity_type": "角色", "tier": "核心", "is_protagonist": true,
-     "payload": {
-       "ability_status": "古代防御魔法首次实战，被全员目击",
-       "physiology": {"ear_skull_lump": "持续低频闷响每隔数秒一次，自2天前矿洞调息后未停", "post_cast_bleeding": ["嘴角", "膝盖旧伤", "耳鼻", "指腹旧裂纹"]},
-       "eyes_state": "瞳孔深处持续燃蓝金火焰，从虹膜向外烧，眨眼压一拍仍在；本人不知不可见",
-       "self_perception": "只觉得很冷，张嘴无声",
-       "agency_note": "施法时'身体里那个不属于她的东西又替她做了决定'"
-     }}
+    {
+      "entity_id": "li_ge",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "status": "deceased",
+        "confirmed_chapter": 9,
+        "confirmation_method": "老赵手停在鼻孔下三秒未感知到呼吸",
+        "death_cause": "第8章被矿石巨像加长手砸出三米弹于乱石；古阵屏障侧面缺角致碎岩二次撞击"
+      }
+    },
+    {
+      "entity_id": "unnamed_member",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "status": "severely_injured",
+        "injury": "左小臂自肘以下被岩屑炸成血雾，整片湿透，无法承重",
+        "stance_on_xinglan": "公开为星兰辩护，主动声明『不要报她』、『我没看见』",
+        "trauma_signs": "牙齿打颤、肩胛塌陷",
+        "moral_position": "由目击者转为共谋者"
+      }
+    },
+    {
+      "entity_id": "lao_zhao",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "stance_on_reporting": "犹豫但默认隐瞒；表态『我没拒，我说我得想』",
+        "violation": "把两片碎晶放进自己外侧口袋（非装备袋），未按规上交公会",
+        "carries": ["broken_crystal_sample x2 (个人外侧口袋)"],
+        "experience_quote": "『公会十九年。我见过两个隐报的，一个在牢里，一个不在了』"
+      }
+    },
+    {
+      "entity_id": "qixin",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "payload": {
+        "decision": "决定集体隐瞒星兰异常，公开承担『出事算我的』",
+        "violation": "拆下探测器电源模块塞进自己内衬口袋，抹去这两小时台账",
+        "carries": ["detector_power_module (内衬口袋)"],
+        "leadership_mode": "由队长转为对队员违规的庇护者",
+        "voice_state": "声音比平时更哑、慢半拍"
+      }
+    },
+    {
+      "entity_id": "xinglan",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "is_protagonist": true,
+      "payload": {
+        "social_status_in_team": "由『小队治疗师』转为『小队共谋的秘密』",
+        "physiology": {
+          "throat_iron_taste": "喉咙铁锈味，可咳出微量",
+          "ear_skull_thump": "耳后骨头沉沉一敲，像被按下停止键，发声中断",
+          "pupil_fire": "瞳孔深处蓝中带金的火，眨眼压一拍仍在"
+        },
+        "speech_state": "只能发出『不要——』两个音节，无法续完整句",
+        "comprehension": "听不全『报/公会/研究院』的轻重，靠对照齐心面部肌肉变化来判断",
+        "consent": "对齐心『问到你你就说你不知道』下巴下压点头",
+        "gesture_to_unnamed_member": "右手向年轻队员血雾小臂伸出三公分，停住后收回压在自己膝盖上"
+      }
+    },
+    {
+      "entity_id": "detector_power_module",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "装饰",
+      "payload": {
+        "name": "探测器电源模块",
+        "source": "从 mana_detector 后盖拧开后抠出",
+        "holder": "qixin",
+        "container": "齐心内衬口袋",
+        "function": "存有这两小时探测器运行台账，被拆下即等于抹去时间证据",
+        "status": "违规私藏证物"
+      }
+    },
+    {
+      "entity_id": "mana_detector",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "装饰",
+      "payload": {
+        "status": "空壳挂回腰间，电源模块被拆走",
+        "weight_change": "空壳子轻了，挂上时在胯骨上撞出一声短而闷的响"
+      }
+    },
+    {
+      "entity_id": "broken_crystal_sample",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "装饰",
+      "payload": {
+        "name": "碎晶样品",
+        "count_in_lao_zhao_pocket": 2,
+        "container": "lao_zhao 外侧口袋（非装备袋）",
+        "compliance_status": "未按规上交公会清点"
+      }
+    },
+    {
+      "entity_id": "young_researcher_silvermoon",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "装饰",
+      "payload": {
+        "name": "年轻研究员",
+        "affiliation": "silvermoon_research_data_center",
+        "tenure": "进单位第三年",
+        "shift": "夜班第二小时",
+        "name_tag": "胸口姓名牌（未给出名字）",
+        "discovery": "在 12 条并排波形中识别出第 12 条陌生波形（短脉冲→断→约90秒持续异常波形，含两个奇异驼峰，末端被压一下）",
+        "verification": "比对装备库参考波形与自然现象库均无匹配",
+        "action_state": "皱眉，伸手向通讯键，指尖停在键上方一公分悬停未按"
+      }
+    },
+    {
+      "entity_id": "silvermoon_city",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "重要",
+      "payload": {
+        "name": "银月城",
+        "distance_from_field": "距离乱石滩战场几百公里外",
+        "facilities": ["研究院数据中心"]
+      }
+    },
+    {
+      "entity_id": "silvermoon_research_data_center",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "重要",
+      "payload": {
+        "name": "研究院数据中心",
+        "located_in": "silvermoon_city",
+        "function": "夜班监控城市能源消耗、北境矿区抽水、商路上结晶石装甲列车尾流等十一条已知波形 + 新出现的未知波形",
+        "operation_mode": "屏幕并排显示 12 条波形，可调用『装备库参考波形』『自然现象库』比对"
+      }
+    },
+    {
+      "entity_id": "broken_rock_flat",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "装饰",
+      "payload": {
+        "current_state": "战斗后第12天傍晚→入夜，四人在岩坡背风面坐下，天彻底黑",
+        "north_terrain": "北面更深的山坳吞掉最后一线日光"
+      }
+    }
   ],
   "state_deltas": [
-    {"entity_id": "xinglan", "field": "ability.ancient_magic", "old": "未公开使用", "new": "首次成阵防御被全员目击"},
-    {"entity_id": "xinglan", "field": "physiology.eyes", "old": "正常", "new": "瞳孔深处蓝金火焰持续燃烧（本人不可见）"},
-    {"entity_id": "xinglan", "field": "physiology.bleeding", "old": "无", "new": "嘴角/耳鼻/膝盖旧伤/指腹旧裂纹同时出血"},
-    {"entity_id": "xinglan", "field": "physiology.ear_lump", "old": "轻微闷响", "new": "战中变重至胸腔共鸣"},
-    {"entity_id": "xinglan", "field": "social.exposure", "old": "未暴露", "new": "能力被齐心/老赵/年轻队员当面目击"},
-    {"entity_id": "li_ge", "field": "status", "old": "存活但伤病", "new": "死亡"},
-    {"entity_id": "unnamed_member", "field": "status", "old": "健康", "new": "重伤（左小臂血雾，丧失战斗力）"},
-    {"entity_id": "qixin", "field": "leadership.command_state", "old": "持续指挥", "new": "战后未发出任何处置指令；下意识按腰间探测器又松开"},
-    {"entity_id": "qixin", "field": "plans.protect_xinglan_plan", "old": "心中盘算最坏情况下拽至身后", "new": "在能力觉醒前散去"},
-    {"entity_id": "stone_golem_elite", "field": "status", "old": "未出现", "new": "自陷岩层后挣脱，向北面更深山坳撤退（未被击杀）"}
+    {"entity_id": "li_ge", "field": "status", "old": "severely_injured", "new": "deceased"},
+    {"entity_id": "unnamed_member", "field": "stance_on_xinglan", "old": "目击者", "new": "公开辩护者/共谋者"},
+    {"entity_id": "lao_zhao", "field": "stance_on_reporting", "old": "按规矩两小时之内须上报", "new": "犹豫后默认隐瞒"},
+    {"entity_id": "lao_zhao", "field": "carries.broken_crystal_sample", "old": null, "new": "2片，外侧口袋未上交"},
+    {"entity_id": "qixin", "field": "decision_on_xinglan", "old": "未决", "new": "集体隐瞒，承担责任『出事算我的』"},
+    {"entity_id": "qixin", "field": "carries.detector_power_module", "old": null, "new": "内衬口袋，违规私藏"},
+    {"entity_id": "mana_detector", "field": "status", "old": "随身使用", "new": "空壳挂腰，电源模块被拆"},
+    {"entity_id": "xinglan", "field": "social_status_in_team", "old": "小队治疗师", "new": "小队共谋的秘密"},
+    {"entity_id": "xinglan", "field": "consent_to_silence", "old": null, "new": "下巴下压点头，承诺『问到你你就说你不知道』"},
+    {"entity_id": "silvermoon_research_data_center", "field": "anomaly_signal_detected", "old": null, "new": "第12条未知波形被识别但尚未上报（指尖悬停于通讯键上方1cm）"}
   ],
   "accepted_events": [
-    {"event_id": "evt-ch008-001", "chapter": 8, "event_type": "character_state_changed",
-     "subject": "li_ge",
-     "payload": {"field": "status", "old": "alive_injured", "new": "deceased", "cause": "矿石巨像加长手砸击+屏障漏入碎岩二次撞击", "location": "broken_rock_flat"}},
-    {"event_id": "evt-ch008-002", "chapter": 8, "event_type": "character_state_changed",
-     "subject": "unnamed_member",
-     "payload": {"field": "status", "old": "healthy", "new": "severely_injured", "injury": "左小臂自肘以下血雾", "lost_combat_capability": true}},
-    {"event_id": "evt-ch008-003", "chapter": 8, "event_type": "power_breakthrough",
-     "subject": "xinglan",
-     "payload": {"field": "ability.ancient_magic", "old": "未公开成阵", "new": "首次成阵：三层蓝金几何阵+残页书状光膜", "trigger": "本能/'不属于她的东西'代行决定", "witnessed_by": ["qixin", "lao_zhao", "unnamed_member"]}},
-    {"event_id": "evt-ch008-004", "chapter": 8, "event_type": "world_rule_revealed",
-     "subject": "ancient_ward_array",
-     "payload": {"rule_content": "古代防御魔法以多层符号（内圈六道短线/十二角/字符圈）为基，地表立起残页书状半透明蓝金光膜，能吃住精英级魔物正面砸击；存在结构缺角导致侧面漏伤", "rule_category": "magic_system", "scope": "ancient_arts"}},
-    {"event_id": "evt-ch008-005", "chapter": 8, "event_type": "world_rule_revealed",
-     "subject": "modern_tech_vs_elite",
-     "payload": {"rule_content": "现代猎魔科技装备（脉冲驱散器/枪械/数显式探测器）对精英级矿物系魔物全面无效甚至被反制烧毁", "rule_category": "tech_limit", "scope": "elite_monster_class"}},
-    {"event_id": "evt-ch008-006", "chapter": 8, "event_type": "world_rule_revealed",
-     "subject": "stone_golem_elite",
-     "payload": {"rule_content": "矿石巨像由地表岩石与暗沉结晶聚合，可现拔河谷岩石接成加长肢体作为远程鞭击武器；脉光与母石/活化矿耗/碎晶同节奏跳动，提示同源", "rule_category": "monster_anatomy", "scope": "elite_class"}},
-    {"event_id": "evt-ch008-007", "chapter": 8, "event_type": "open_loop_created",
-     "subject": "xinglan_eye_flame_persistent",
-     "payload": {"content": "魔法阵收灭后，星兰瞳孔深处蓝金火焰未消，眨眼仅被压住一拍仍在；她自己看不见", "loop_type": "身体异象", "unanswered_question": "瞳孔火焰是什么？是否会被其他人事后利用或追踪？", "urgency": "high", "planted_chapter": 8, "expected_payoff": "近期章节"}},
-    {"event_id": "evt-ch008-008", "chapter": 8, "event_type": "open_loop_created",
-     "subject": "ward_array_gap_killed_li_ge",
-     "payload": {"content": "星兰的防御阵存在侧面缺角，第三击碎岩从缺口漏入二次砸中李哥致死——她的力量同时救人也杀人", "loop_type": "道德/能力代价", "unanswered_question": "星兰能否得知是自己的屏障漏伤了李哥？同伴会如何归因？", "urgency": "high", "planted_chapter": 8, "expected_payoff": "下一章"}},
-    {"event_id": "evt-ch008-009", "chapter": 8, "event_type": "open_loop_created",
-     "subject": "golem_crystal_same_source",
-     "payload": {"content": "老赵背囊散落的活化矿耗甲片与三块碎晶落地不滚，停在落点持续跳动，节奏与矿石巨像脉光同步；巨像在那个方向多停了半秒", "loop_type": "同源伏笔", "unanswered_question": "矿石巨像、活化矿耗、母石、碎晶是否同源？样品是否会成为下一次袭击的诱饵？", "urgency": "medium", "planted_chapter": 8, "expected_payoff": "中期章节"}},
-    {"event_id": "evt-ch008-010", "chapter": 8, "event_type": "open_loop_created",
-     "subject": "qixin_silent_no_command",
-     "payload": {"content": "战后齐心未发出任何处置指令，下意识按腰间探测器又松开；他这两天'再争取一点时间'的盘算在那一秒散了", "loop_type": "队长决断危机", "unanswered_question": "齐心将如何对外（公会）和对内（小队、星兰）解释这一切？是上报、隐瞒，还是自行处置？", "urgency": "high", "planted_chapter": 8, "expected_payoff": "下一章"}},
-    {"event_id": "evt-ch008-011", "chapter": 8, "event_type": "relationship_changed",
-     "subject": "xinglan",
-     "payload": {"to_entity": "qixin", "relationship_type": "guardian_to_witnessed", "old": "暗中保护对象", "new": "公开异类被目击；保护计划失效"}},
-    {"event_id": "evt-ch008-012", "chapter": 8, "event_type": "relationship_changed",
-     "subject": "xinglan",
-     "payload": {"to_entity": "unnamed_member", "relationship_type": "fear_distance", "old": "队友", "new": "目睹瞳孔火焰最近，事后后退一步又停住——恐惧距离形成"}},
-    {"event_id": "evt-ch008-013", "chapter": 8, "event_type": "artifact_obtained",
-     "subject": "lao_zhao",
-     "payload": {"artifact_id": "carapace_shard_sample", "name": "活化矿耗甲片样品", "owner": "lao_zhao", "purpose": "带回猎魔公会做样品", "co_obtained": ["broken_crystal_sample"]}}
+    {
+      "event_id": "evt-ch9-001",
+      "chapter": 9,
+      "event_type": "character_state_changed",
+      "subject": "li_ge",
+      "payload": {
+        "field": "status",
+        "old": "severely_injured",
+        "new": "deceased",
+        "trigger": "老赵手停李哥鼻孔下三秒未感知呼吸后宣布『他没了』",
+        "location": "broken_rock_flat"
+      }
+    },
+    {
+      "event_id": "evt-ch9-002",
+      "chapter": 9,
+      "event_type": "relationship_changed",
+      "subject": "unnamed_member",
+      "payload": {
+        "to_entity": "xinglan",
+        "relationship_type": "公开辩护者/共谋者",
+        "old_relationship": "被救者/目击者",
+        "trigger": "年轻队员主动说『她救了我们两次』『不要报她』『我没看见』",
+        "evidence_quote": "『矿洞里她最先听到的，是她。刚才那个阵——是她。队长，不要报她』"
+      }
+    },
+    {
+      "event_id": "evt-ch9-003",
+      "chapter": 9,
+      "event_type": "world_rule_revealed",
+      "subject": "hunters_guild",
+      "payload": {
+        "rule_content": "公会规定：异常事件须在两小时之内上报；隐报有重罚——老赵亲历两例隐报者，一在牢里，一已死",
+        "rule_category": "公会制度/合规",
+        "scope": "所有公会小队成员",
+        "evidence": "老赵『这事按规矩两小时之内得报』；『公会十九年。我见过两个隐报的，一个在牢里，一个不在了』"
+      }
+    },
+    {
+      "event_id": "evt-ch9-004",
+      "chapter": 9,
+      "event_type": "world_rule_broken",
+      "subject": "qixin",
+      "payload": {
+        "rule_violated": "公会两小时上报规矩 + 装备袋样品须上交清点",
+        "violation_action": "齐心拆下探测器电源模块塞进内衬口袋（抹台账）；老赵把两片碎晶放进个人外侧口袋（未上交）；年轻队员声明『我没看见』；星兰承诺保持沉默",
+        "consequence_pending": "若被研究院或公会查证，全员同担罪责；齐心已声明『出事算我的』",
+        "scope": "整支小队四人共谋"
+      }
+    },
+    {
+      "event_id": "evt-ch9-005",
+      "chapter": 9,
+      "event_type": "open_loop_created",
+      "subject": "team_silence_pact",
+      "payload": {
+        "content": "小队四人达成沉默约定：齐心拆探测器电源模块抹台账、老赵私藏两片碎晶、年轻队员声明未见、星兰承诺装不知；任何后续质询都将考验这一隐瞒契约",
+        "loop_type": "共谋/隐瞒",
+        "unanswered_question": "这个沉默约定能撑多久？被谁、何时、以何种方式戳破？",
+        "urgency": "high",
+        "planted_chapter": 9,
+        "expected_payoff": "公会/研究院介入调查时"
+      }
+    },
+    {
+      "event_id": "evt-ch9-006",
+      "chapter": 9,
+      "event_type": "open_loop_created",
+      "subject": "silvermoon_anomaly_waveform",
+      "payload": {
+        "content": "银月城研究院数据中心年轻研究员发现第12条陌生波形（短脉冲→断→约90秒异常持续，含两个奇异驼峰，末端被压一下，与已知装备库/自然现象库均不匹配），皱眉伸手向通讯键，指尖停在键上方一公分悬停未按",
+        "loop_type": "外部调查/远端注意",
+        "unanswered_question": "他会不会按下通讯键？这条波形会不会被上报？谁会接到？",
+        "urgency": "high",
+        "planted_chapter": 9,
+        "expected_payoff": "下一章/数章内研究员是否按下通讯键决定外部势力是否介入"
+      }
+    },
+    {
+      "event_id": "evt-ch9-007",
+      "chapter": 9,
+      "event_type": "open_loop_created",
+      "subject": "qixin_takes_blame",
+      "payload": {
+        "content": "齐心当众宣布『出事算我的』，把全队违规风险背在自己身上",
+        "loop_type": "承诺/担责",
+        "unanswered_question": "齐心未来如何兑现这句承诺？是被公会问责还是被同伴反向保护？",
+        "urgency": "medium",
+        "planted_chapter": 9,
+        "expected_payoff": "公会调查或星兰身份暴露时"
+      }
+    },
+    {
+      "event_id": "evt-ch9-008",
+      "chapter": 9,
+      "event_type": "artifact_obtained",
+      "subject": "qixin",
+      "payload": {
+        "artifact_id": "detector_power_module",
+        "name": "探测器电源模块",
+        "owner": "qixin",
+        "holder": "qixin",
+        "container": "内衬口袋",
+        "source": "从 mana_detector 后盖拧开后抠出",
+        "compliance_status": "违规私藏，已抹去这两小时台账"
+      }
+    },
+    {
+      "event_id": "evt-ch9-009",
+      "chapter": 9,
+      "event_type": "artifact_obtained",
+      "subject": "lao_zhao",
+      "payload": {
+        "artifact_id": "broken_crystal_sample",
+        "name": "碎晶样品",
+        "count": 2,
+        "owner": "lao_zhao",
+        "holder": "lao_zhao",
+        "container": "外侧口袋（非装备袋）",
+        "compliance_status": "未按规上交公会清点"
+      }
+    },
+    {
+      "event_id": "evt-ch9-010",
+      "chapter": 9,
+      "event_type": "character_state_changed",
+      "subject": "xinglan",
+      "payload": {
+        "field": "social_status_in_team",
+        "old": "小队治疗师",
+        "new": "小队共谋的秘密",
+        "trigger": "全队达成沉默约定后，星兰从被救助/被治疗的对象转为需要被掩护的秘密",
+        "physiological_note": "发声被耳后骨头一敲打断，只发出『不要——』两音节"
+      }
+    }
   ],
-  "summary_text": "返程第二天上午，齐心带队绕南乱石滩行至干涸河谷，地皮自下而上拱起一具四米高的矿石巨像——精英级，由岩石与暗沉结晶聚合，脉光与老赵背囊里的活化矿耗甲片、三块碎晶同节奏跳。脉冲驱散器、子弹、新发探测器二十秒内全部失效，巨像现拔岩石接成加长手鞭，年轻队员左小臂被岩屑炸成血雾，李哥被砸出三米弹在乱石上。齐心扑向星兰未及，星兰双手外推，脚下亮起三层蓝金几何阵——六道短线/十二角/字符圈——地面立起残页书状的半透明蓝金光膜。屏障吃住两击，第三击侧面缺角漏入碎岩二次掀翻李哥，巨像第四下自陷岩层挣脱后向北撤退。星兰嘴角、膝盖旧伤、耳鼻同时出血，跪倒乱石；瞳孔深处燃起一团蓝金火，全员目击，她自己看不见。齐心未发出任何指令。\n## 伏笔\n- [埋设] 星兰瞳孔蓝金火焰未消（evt-ch008-007）\n- [埋设] 防御阵缺角致李哥死亡的代价（evt-ch008-008）\n- [埋设] 巨像与碎晶/活化矿耗/母石同源伏笔（evt-ch008-009）\n- [埋设] 齐心战后零指令的决断危机（evt-ch008-010）\n## 承接点\n齐心、老赵、年轻队员围跪着的星兰半圈，没人开口，没人下令。",
   "scenes": [
-    {"index": 1, "start_line": 1, "end_line": 14, "location": "返程山路（旧矿洞→北境营地，绕南）", "summary": "返程第二日上午十点，齐心带队绕南乱石滩；老赵背囊里装着活化矿耗甲片与三块碎晶；李哥肿包未消未要求换岗；星兰耳后骨头持续闷响、攥右手确认存在感", "characters": ["qixin", "lao_zhao", "li_ge", "xinglan", "unnamed_member"]},
-    {"index": 2, "start_line": 15, "end_line": 38, "location": "broken_rock_flat", "summary": "乱石滩底部岩皮上拱，矿石巨像现身——四米高、由岩石与暗沉结晶聚合、顶端裂缝渗脉光，与碎晶同节奏跳；脉冲驱散器、子弹、数显式探测器二十秒内全部失效，巨像无固定目标转身'像在挑'，齐心改命令撤", "characters": ["qixin", "lao_zhao", "li_ge", "xinglan", "unnamed_member", "stone_golem_elite", "pulse_dispeller", "mana_detector"]},
-    {"index": 3, "start_line": 39, "end_line": 70, "location": "broken_rock_flat", "summary": "巨像加长手鞭尾扫年轻队员，左小臂血雾倒地；老赵拽人时背囊松开散出甲片与碎晶，碎晶落地不滚与巨像同节奏跳；李哥从北侧引火被加长手砸出三米；齐心枪空、扑向星兰未及", "characters": ["stone_golem_elite", "unnamed_member", "lao_zhao", "li_ge", "qixin", "xinglan", "carapace_shard_sample", "broken_crystal_sample"]},
-    {"index": 4, "start_line": 71, "end_line": 128, "location": "broken_rock_flat", "summary": "星兰双手外推，脚下展开三层蓝金几何阵，地面立起残页书状半透明蓝金光膜；吃住两击后侧面缺角漏入碎岩二次砸中李哥；星兰嘴角/膝盖/耳鼻先后出血；巨像第四下自陷岩层挣脱后向北山坳撤退", "characters": ["xinglan", "stone_golem_elite", "ancient_ward_array", "li_ge"]},
-    {"index": 5, "start_line": 129, "end_line": 169, "location": "broken_rock_flat", "summary": "魔法阵由外向内收灭，星兰跪地双手撑乱石指腹崩血；老赵确认李哥死亡；齐心未给任何指令；四人围星兰半圈站定；星兰瞳孔深处蓝金火焰被全员目击，她自己看不见，只觉得冷，张嘴无声", "characters": ["xinglan", "qixin", "lao_zhao", "unnamed_member", "li_ge"]}
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 27,
+      "location": "broken_rock_flat 岩坡背风面",
+      "summary": "傍晚天黑时分，老赵确认李哥已死，提醒齐心两小时上报规矩。齐心未答，注视星兰瞳孔深处的蓝金火与渗血指腹，慢半拍只问了一句『她现在能走吗』。",
+      "characters": ["lao_zhao", "li_ge", "qixin", "xinglan", "unnamed_member"]
+    },
+    {
+      "index": 2,
+      "start_line": 28,
+      "end_line": 50,
+      "location": "broken_rock_flat 岩坡",
+      "summary": "年轻队员强撑伤臂开口为星兰辩护，连说两次『她救了我们两次』，再补上『队长，不要报她』。老赵以十九年公会经验提醒隐报代价『一个在牢里，一个不在了』，但表明『我没拒，我说我得想』。",
+      "characters": ["unnamed_member", "lao_zhao", "qixin", "xinglan"]
+    },
+    {
+      "index": 3,
+      "start_line": 51,
+      "end_line": 78,
+      "location": "broken_rock_flat 岩坡背风面",
+      "summary": "老赵把两片碎晶放进个人外侧口袋（非装备袋）按住未松。齐心听见星兰说出『不要——』两音节后没等她接，从腰间拔下探测器，拧开后盖抠出电源模块，宣告『这两个钟头，我的台账上没有』，并点名老赵那两片碎晶也不在装备袋里。",
+      "characters": ["qixin", "lao_zhao", "xinglan", "unnamed_member"]
+    },
+    {
+      "index": 4,
+      "start_line": 79,
+      "end_line": 103,
+      "location": "broken_rock_flat 岩坡背风面",
+      "summary": "年轻队员主动声明『我没看见』；齐心叮嘱星兰『问到你你就说你不知道』，星兰下巴下压点头。齐心『出事算我的』，把电源模块塞进内衬，空壳子挂回腰带闷响一声。星兰对年轻队员伸手又收回，四人沉默坐入夜色。",
+      "characters": ["unnamed_member", "qixin", "xinglan", "lao_zhao"]
+    },
+    {
+      "index": 5,
+      "start_line": 104,
+      "end_line": 127,
+      "location": "silvermoon_research_data_center",
+      "summary": "几百公里外银月城研究院数据中心，夜班第二小时。年轻研究员在十二条波形中识别出第12条陌生波形，比对装备库与自然现象库均无匹配，皱眉伸手向通讯键，指尖停在键上方一公分悬停未按。",
+      "characters": ["young_researcher_silvermoon"]
+    }
   ],
-  "scenes_chunked": 5,
-  "dominant_strand": "awakening",
-  "timing_ms": {"extract_total": 0},
-  "bottlenecks_top3": []
+  "summary_text": "李哥气绝。乱石滩岩坡背风处，老赵提醒『两小时之内得报』，齐心却盯着星兰瞳里的蓝金火没作声。年轻队员强撑伤臂为星兰说话，『她救了我们两次』『不要报她』。老赵以十九年公会经验讲出隐报代价，却把两片碎晶塞进自己外侧口袋。齐心拧开探测器后盖抠走电源模块——『这两个钟头，我的台账上没有』。年轻队员补一句『我没看见』，星兰下巴下压算是答应。齐心『出事算我的』。四人在黑下去的夜色里坐成共犯。几百公里外，银月城研究院的年轻研究员皱眉看着第十二条不熟的波形，指尖停在通讯键上方一公分。",
+  "dominant_strand": "ethics_and_secret",
+  "hook_type": "悬置钩",
+  "hook_strength": "strong",
+  "yaml_frontmatter": {
+    "chapter": "0009",
+    "time": "第12天傍晚→入夜，约2小时",
+    "location": "乱石滩岩坡背风处 / 银月城研究院数据中心",
+    "characters": ["齐心", "老赵", "年轻队员", "星兰", "李哥(死亡确认)", "年轻研究员"],
+    "state_changes": [
+      "李哥: 重伤→死亡确认",
+      "星兰: 小队治疗师→小队共谋的秘密",
+      "齐心: 持有违规物（探测器电源模块）",
+      "老赵: 持有未上交的两片碎晶",
+      "年轻队员: 目击者→共谋者",
+      "研究院: 出现一条尚未上报的异常波形"
+    ],
+    "hook_type": "悬置钩",
+    "hook_strength": "strong"
+  }
 }

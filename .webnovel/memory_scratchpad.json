@@ -324,12 +324,12 @@
         "tier": "核心",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "entity_new:qixin:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T23:07:36"
     },
     {
       "id": "mem-character_state-d9004659d8c9adb9",
@@ -378,12 +378,12 @@
         "tier": "重要",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "entity_new:lao_zhao:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T23:07:36"
     },
     {
       "id": "mem-character_state-ab11679d9841c2f9",
@@ -707,12 +707,12 @@
       "payload": {
         "old_value": "存活但伤病"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "state_change:li_ge:status:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:07:36"
     },
     {
       "id": "mem-character_state-bf0aeabc06385e52",
@@ -829,12 +829,12 @@
         "tier": "装饰",
         "type": "地点"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "entity_new:broken_rock_flat:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:07:36"
     },
     {
       "id": "mem-character_state-ec43a167b275e2f1",
@@ -865,12 +865,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "entity_new:mana_detector:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:07:36"
     },
     {
       "id": "mem-character_state-f8ffc6e616ec5663",
@@ -901,12 +901,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "entity_new:broken_crystal_sample:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:07:36"
     },
     {
       "id": "mem-character_state-7178621e0072f2eb",
@@ -919,12 +919,12 @@
         "tier": "重要",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "entity_new:li_ge:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:07:36"
     },
     {
       "id": "mem-character_state-3f3c90fc7c1a83f7",
@@ -937,12 +937,12 @@
         "tier": "重要",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "entity_new:unnamed_member:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:07:36"
     },
     {
       "id": "mem-character_state-648ccf32b9494813",
@@ -955,12 +955,398 @@
         "tier": "核心",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 8,
       "evidence": [
         "entity_new:xinglan:8"
       ],
-      "updated_at": "2026-05-15T18:26:24"
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-27f9831bbb0c555e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "status",
+      "value": "deceased",
+      "payload": {
+        "old_value": "severely_injured"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:li_ge:status:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-8d2aaefd3d22ab6f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "unnamed_member",
+      "field": "stance_on_xinglan",
+      "value": "公开辩护者/共谋者",
+      "payload": {
+        "old_value": "目击者"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:unnamed_member:stance_on_xinglan:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-9bf3e7e2ac75e4d1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_zhao",
+      "field": "stance_on_reporting",
+      "value": "犹豫后默认隐瞒",
+      "payload": {
+        "old_value": "按规矩两小时之内须上报"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:lao_zhao:stance_on_reporting:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-6662d226605d034d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_zhao",
+      "field": "carries.broken_crystal_sample",
+      "value": "2片，外侧口袋未上交",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:lao_zhao:carries.broken_crystal_sample:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-0626c66bd184b26c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "decision_on_xinglan",
+      "value": "集体隐瞒，承担责任『出事算我的』",
+      "payload": {
+        "old_value": "未决"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:qixin:decision_on_xinglan:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-f222e071b0c90620",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "carries.detector_power_module",
+      "value": "内衬口袋，违规私藏",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:qixin:carries.detector_power_module:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-6aa5d88d3336e0a7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "mana_detector",
+      "field": "status",
+      "value": "空壳挂腰，电源模块被拆",
+      "payload": {
+        "old_value": "随身使用"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:mana_detector:status:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-a0afb4d3c4ce7e4f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "social_status_in_team",
+      "value": "小队共谋的秘密",
+      "payload": {
+        "old_value": "小队治疗师"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:xinglan:social_status_in_team:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-7709b235fa6aaebc",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "consent_to_silence",
+      "value": "下巴下压点头，承诺『问到你你就说你不知道』",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:xinglan:consent_to_silence:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-60112bfbd789a094",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "silvermoon_research_data_center",
+      "field": "anomaly_signal_detected",
+      "value": "第12条未知波形被识别但尚未上报（指尖悬停于通讯键上方1cm）",
+      "payload": {
+        "old_value": null
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "state_change:silvermoon_research_data_center:anomaly_signal_detected:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-02d7dc6ede800de9",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "first_seen",
+      "value": "li_ge",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:li_ge:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-6df78e6959843a0e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "unnamed_member",
+      "field": "first_seen",
+      "value": "unnamed_member",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:unnamed_member:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-826215404e5c6017",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "lao_zhao",
+      "field": "first_seen",
+      "value": "lao_zhao",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:lao_zhao:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-954d07cf78819909",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "first_seen",
+      "value": "qixin",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:qixin:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-fcf9c0ef76d02690",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "first_seen",
+      "value": "xinglan",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:xinglan:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-6ce6403413da9f2b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "detector_power_module",
+      "field": "first_seen",
+      "value": "探测器电源模块",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:detector_power_module:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-3901a700d6fda180",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "mana_detector",
+      "field": "first_seen",
+      "value": "mana_detector",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:mana_detector:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-1877e4c38ed80dcf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "broken_crystal_sample",
+      "field": "first_seen",
+      "value": "碎晶样品",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:broken_crystal_sample:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-f48679b116a40504",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "young_researcher_silvermoon",
+      "field": "first_seen",
+      "value": "年轻研究员",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:young_researcher_silvermoon:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-e20a51d62b282d28",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "silvermoon_city",
+      "field": "first_seen",
+      "value": "银月城",
+      "payload": {
+        "tier": "重要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:silvermoon_city:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-990aa830a6d14e6c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "silvermoon_research_data_center",
+      "field": "first_seen",
+      "value": "研究院数据中心",
+      "payload": {
+        "tier": "重要",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:silvermoon_research_data_center:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-character_state-f0886e0bf2223496",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "broken_rock_flat",
+      "field": "first_seen",
+      "value": "broken_rock_flat",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "entity_new:broken_rock_flat:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
     }
   ],
   "story_facts": [],
@@ -1090,6 +1476,24 @@
         "memory_facts:world_rule:8"
       ],
       "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-world_rule-306fc4329adde440",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "公会制度/合规",
+      "field": "world_rule_revealed",
+      "value": "公会规定：异常事件须在两小时之内上报；隐报有重罚——老赵亲历两例隐报者，一在牢里，一已死",
+      "payload": {
+        "scope": "所有公会小队成员",
+        "rule_text": "公会规定：异常事件须在两小时之内上报；隐报有重罚——老赵亲历两例隐报者，一在牢里，一已死"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "memory_facts:world_rule:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
     }
   ],
   "timeline": [],
@@ -1373,13 +1777,73 @@
         "memory_facts:open_loop:8"
       ],
       "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-open_loop-e28bb38ed0115705",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "小队四人达成沉默约定：齐心拆探测器电源模块抹台账、老赵私藏两片碎晶、年轻队员声明未见、星兰承诺装不知；任何后续质询都将考验这一隐瞒契约",
+      "field": "status",
+      "value": "小队四人达成沉默约定：齐心拆探测器电源模块抹台账、老赵私藏两片碎晶、年轻队员声明未见、星兰承诺装不知；任何后续质询都将考验这一隐瞒契约",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 9,
+        "expected_payoff": "公会/研究院介入调查时",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "memory_facts:open_loop:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-open_loop-87337827af04da56",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "银月城研究院数据中心年轻研究员发现第12条陌生波形（短脉冲→断→约90秒异常持续，含两个奇异驼峰，末端被压一下，与已知装备库/自然现象库均不匹配），皱眉伸手向通讯键，指尖停在键上方一公分悬停未按",
+      "field": "status",
+      "value": "银月城研究院数据中心年轻研究员发现第12条陌生波形（短脉冲→断→约90秒异常持续，含两个奇异驼峰，末端被压一下，与已知装备库/自然现象库均不匹配），皱眉伸手向通讯键，指尖停在键上方一公分悬停未按",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 9,
+        "expected_payoff": "下一章/数章内研究员是否按下通讯键决定外部势力是否介入",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "memory_facts:open_loop:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
+    },
+    {
+      "id": "mem-open_loop-bf0a9bc9e94cf174",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "齐心当众宣布『出事算我的』，把全队违规风险背在自己身上",
+      "field": "status",
+      "value": "齐心当众宣布『出事算我的』，把全队违规风险背在自己身上",
+      "payload": {
+        "urgency": "medium",
+        "planted_chapter": 9,
+        "expected_payoff": "公会调查或星兰身份暴露时",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 9,
+      "evidence": [
+        "memory_facts:open_loop:9"
+      ],
+      "updated_at": "2026-05-15T23:07:36"
     }
   ],
   "reader_promises": [],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-05-15T18:26:24",
-    "total_items": 76
+    "last_updated": "2026-05-15T23:07:36",
+    "total_items": 102
   }
 }
