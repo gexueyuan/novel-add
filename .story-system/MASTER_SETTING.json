@@ -3,7 +3,7 @@
     "schema_version": "story-system/v1",
     "contract_type": "MASTER_SETTING",
     "generator_version": "phase1",
-    "query": "小队在常规巡逻中遭遇异常魔法素波动；调查旧矿洞，发现魔法结晶石在自我活化；遭遇被活化的低级魔物；星兰按上最大结晶石，蓝光与她的呼吸同步"
+    "query": "返程途中遭遇精英魔物（矿石巨像型），常规科技装备无效；两名队员重伤；星兰本能释放古代防御魔法屏障；力竭跪倒，眼中蓝金色火焰燃烧而不自知"
   },
   "route": {
     "primary_genre": "西幻冒险",
@@ -36,6 +36,16 @@
       "table": "金手指与设定",
       "id": "SY-002",
       "summary": "异能或魔法副作用能防止战力崩坏，也能给角色制造持续性的选择压力和剧情张力。",
+      "reasoning_rule": "奇幻",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    },
+    {
+      "table": "桥段套路",
+      "id": "TR-020",
+      "summary": "科技 uplift 桥段好看时，不只是做出东西，而是让古代条件下一步步逼近现代工艺的过程本身有戏。",
       "reasoning_rule": "奇幻",
       "priority_rank": 999,
       "chapter_keyword_score": 0,

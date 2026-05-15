@@ -288,12 +288,12 @@
       "payload": {
         "old_value": "未在本章前展现战斗状态"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "state_change:li_ge:status:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T18:26:24"
     },
     {
       "id": "mem-character_state-623eec4e76bd54c6",
@@ -360,12 +360,12 @@
         "tier": "装饰",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "entity_new:unnamed_member:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T18:26:24"
     },
     {
       "id": "mem-character_state-377e734010280329",
@@ -569,12 +569,12 @@
         "tier": "装饰",
         "type": "物品"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 7,
       "evidence": [
         "entity_new:mana_detector:7"
       ],
-      "updated_at": "2026-05-15T18:03:39"
+      "updated_at": "2026-05-15T18:26:24"
     },
     {
       "id": "mem-character_state-2c624633762d9239",
@@ -587,12 +587,12 @@
         "tier": "核心",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 7,
       "evidence": [
         "entity_new:xinglan:7"
       ],
-      "updated_at": "2026-05-15T18:03:39"
+      "updated_at": "2026-05-15T18:26:24"
     },
     {
       "id": "mem-character_state-e11c7dbc9730bae6",
@@ -605,12 +605,362 @@
         "tier": "重要",
         "type": "角色"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 7,
       "evidence": [
         "entity_new:li_ge:7"
       ],
-      "updated_at": "2026-05-15T18:03:39"
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-faeabcb83556dd11",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "ability.ancient_magic",
+      "value": "首次成阵防御被全员目击",
+      "payload": {
+        "old_value": "未公开使用"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:xinglan:ability.ancient_magic:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-abeec163e35a9e13",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "physiology.eyes",
+      "value": "瞳孔深处蓝金火焰持续燃烧（本人不可见）",
+      "payload": {
+        "old_value": "正常"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:xinglan:physiology.eyes:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-aecefa2c9f3a64d6",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "physiology.bleeding",
+      "value": "嘴角/耳鼻/膝盖旧伤/指腹旧裂纹同时出血",
+      "payload": {
+        "old_value": "无"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:xinglan:physiology.bleeding:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-c0754aebfea373cf",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "physiology.ear_lump",
+      "value": "战中变重至胸腔共鸣",
+      "payload": {
+        "old_value": "轻微闷响"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:xinglan:physiology.ear_lump:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-138211a57912ad6c",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "social.exposure",
+      "value": "能力被齐心/老赵/年轻队员当面目击",
+      "payload": {
+        "old_value": "未暴露"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:xinglan:social.exposure:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-8c178623c2a8565a",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "status",
+      "value": "死亡",
+      "payload": {
+        "old_value": "存活但伤病"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:li_ge:status:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-bf0aeabc06385e52",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "unnamed_member",
+      "field": "status",
+      "value": "重伤（左小臂血雾，丧失战斗力）",
+      "payload": {
+        "old_value": "健康"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:unnamed_member:status:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-a16aedfeb625857b",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "leadership.command_state",
+      "value": "战后未发出任何处置指令；下意识按腰间探测器又松开",
+      "payload": {
+        "old_value": "持续指挥"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:qixin:leadership.command_state:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-9f6b15b29fc65f60",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "qixin",
+      "field": "plans.protect_xinglan_plan",
+      "value": "在能力觉醒前散去",
+      "payload": {
+        "old_value": "心中盘算最坏情况下拽至身后"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:qixin:plans.protect_xinglan_plan:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-74dedde795609d5e",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "stone_golem_elite",
+      "field": "status",
+      "value": "自陷岩层后挣脱，向北面更深山坳撤退（未被击杀）",
+      "payload": {
+        "old_value": "未出现"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "state_change:stone_golem_elite:status:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-125ea98b4136ec06",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "stone_golem_elite",
+      "field": "first_seen",
+      "value": "矿石巨像",
+      "payload": {
+        "tier": "重要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:stone_golem_elite:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-7a5a270f6900ea0d",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "ancient_ward_array",
+      "field": "first_seen",
+      "value": "古代防御魔法阵",
+      "payload": {
+        "tier": "重要",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:ancient_ward_array:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-02332d1cbd9e6091",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "broken_rock_flat",
+      "field": "first_seen",
+      "value": "乱石滩",
+      "payload": {
+        "tier": "装饰",
+        "type": "地点"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:broken_rock_flat:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-ec43a167b275e2f1",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "pulse_dispeller",
+      "field": "first_seen",
+      "value": "脉冲驱散器",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:pulse_dispeller:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-67ed6999e19c63ab",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "mana_detector",
+      "field": "first_seen",
+      "value": "mana_detector",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:mana_detector:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-f8ffc6e616ec5663",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "carapace_shard_sample",
+      "field": "first_seen",
+      "value": "活化矿耗甲片样品",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:carapace_shard_sample:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-5f64abcf8941ad05",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "broken_crystal_sample",
+      "field": "first_seen",
+      "value": "碎晶样品",
+      "payload": {
+        "tier": "装饰",
+        "type": "物品"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:broken_crystal_sample:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-7178621e0072f2eb",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "li_ge",
+      "field": "first_seen",
+      "value": "li_ge",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:li_ge:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-3f3c90fc7c1a83f7",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "unnamed_member",
+      "field": "first_seen",
+      "value": "unnamed_member",
+      "payload": {
+        "tier": "重要",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:unnamed_member:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-character_state-648ccf32b9494813",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xinglan",
+      "field": "first_seen",
+      "value": "xinglan",
+      "payload": {
+        "tier": "核心",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "entity_new:xinglan:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
     }
   ],
   "story_facts": [],
@@ -626,12 +976,12 @@
         "scope": "personal",
         "rule_text": "蓝金色光芒即魔法素形态——这个时代已经不存在了。星兰在第3章答应过齐心不能在别人面前暴露力量。她的魔法力量在受到致命威胁时会在无意识状态下被触发——『身体里另一个更深层的东西已经替她做了决定』，无需咒语即可释放。释放后指尖皮肤出现裂纹（空气被抽走），消耗极大立即力竭。"
       },
-      "status": "active",
+      "status": "outdated",
       "source_chapter": 5,
       "evidence": [
         "memory_facts:world_rule:5"
       ],
-      "updated_at": "2026-05-13T18:00:37"
+      "updated_at": "2026-05-15T18:26:24"
     },
     {
       "id": "mem-world_rule-0112e51b0d6e93c0",
@@ -686,6 +1036,60 @@
         "memory_facts:world_rule:7"
       ],
       "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-world_rule-09db08e75ccef14a",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "magic_system",
+      "field": "world_rule_revealed",
+      "value": "古代防御魔法以多层符号（内圈六道短线/十二角/字符圈）为基，地表立起残页书状半透明蓝金光膜，能吃住精英级魔物正面砸击；存在结构缺角导致侧面漏伤",
+      "payload": {
+        "scope": "ancient_arts",
+        "rule_text": "古代防御魔法以多层符号（内圈六道短线/十二角/字符圈）为基，地表立起残页书状半透明蓝金光膜，能吃住精英级魔物正面砸击；存在结构缺角导致侧面漏伤"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "memory_facts:world_rule:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-world_rule-cc0c6cb96a92b587",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "tech_limit",
+      "field": "world_rule_revealed",
+      "value": "现代猎魔科技装备（脉冲驱散器/枪械/数显式探测器）对精英级矿物系魔物全面无效甚至被反制烧毁",
+      "payload": {
+        "scope": "elite_monster_class",
+        "rule_text": "现代猎魔科技装备（脉冲驱散器/枪械/数显式探测器）对精英级矿物系魔物全面无效甚至被反制烧毁"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "memory_facts:world_rule:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-world_rule-c9e7627a66d21397",
+      "layer": "semantic",
+      "category": "world_rule",
+      "subject": "monster_anatomy",
+      "field": "world_rule_revealed",
+      "value": "矿石巨像由地表岩石与暗沉结晶聚合，可现拔河谷岩石接成加长肢体作为远程鞭击武器；脉光与母石/活化矿耗/碎晶同节奏跳动，提示同源",
+      "payload": {
+        "scope": "elite_class",
+        "rule_text": "矿石巨像由地表岩石与暗沉结晶聚合，可现拔河谷岩石接成加长肢体作为远程鞭击武器；脉光与母石/活化矿耗/碎晶同节奏跳动，提示同源"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "memory_facts:world_rule:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
     }
   ],
   "timeline": [],
@@ -889,13 +1293,93 @@
         "memory_facts:open_loop:7"
       ],
       "updated_at": "2026-05-15T18:03:39"
+    },
+    {
+      "id": "mem-open_loop-f0e0f087d7681127",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "魔法阵收灭后，星兰瞳孔深处蓝金火焰未消，眨眼仅被压住一拍仍在；她自己看不见",
+      "field": "status",
+      "value": "魔法阵收灭后，星兰瞳孔深处蓝金火焰未消，眨眼仅被压住一拍仍在；她自己看不见",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 8,
+        "expected_payoff": "近期章节",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "memory_facts:open_loop:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-open_loop-b099dc6d583a3996",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "星兰的防御阵存在侧面缺角，第三击碎岩从缺口漏入二次砸中李哥致死——她的力量同时救人也杀人",
+      "field": "status",
+      "value": "星兰的防御阵存在侧面缺角，第三击碎岩从缺口漏入二次砸中李哥致死——她的力量同时救人也杀人",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 8,
+        "expected_payoff": "下一章",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "memory_facts:open_loop:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-open_loop-91dc6cffffa81ed7",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "老赵背囊散落的活化矿耗甲片与三块碎晶落地不滚，停在落点持续跳动，节奏与矿石巨像脉光同步；巨像在那个方向多停了半秒",
+      "field": "status",
+      "value": "老赵背囊散落的活化矿耗甲片与三块碎晶落地不滚，停在落点持续跳动，节奏与矿石巨像脉光同步；巨像在那个方向多停了半秒",
+      "payload": {
+        "urgency": "medium",
+        "planted_chapter": 8,
+        "expected_payoff": "中期章节",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "memory_facts:open_loop:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
+    },
+    {
+      "id": "mem-open_loop-37a4fd500b4f6a70",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "战后齐心未发出任何处置指令，下意识按腰间探测器又松开；他这两天'再争取一点时间'的盘算在那一秒散了",
+      "field": "status",
+      "value": "战后齐心未发出任何处置指令，下意识按腰间探测器又松开；他这两天'再争取一点时间'的盘算在那一秒散了",
+      "payload": {
+        "urgency": "high",
+        "planted_chapter": 8,
+        "expected_payoff": "下一章",
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 8,
+      "evidence": [
+        "memory_facts:open_loop:8"
+      ],
+      "updated_at": "2026-05-15T18:26:24"
     }
   ],
   "reader_promises": [],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-05-15T18:03:39",
-    "total_items": 49
+    "last_updated": "2026-05-15T18:26:24",
+    "total_items": 76
   }
 }

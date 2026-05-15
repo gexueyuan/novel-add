@@ -1,28 +1,28 @@
 {
-  "chapter": 7,
-  "start_chapter": 7,
-  "end_chapter": 7,
-  "overall_score": 67.0,
+  "chapter": 8,
+  "start_chapter": 8,
+  "end_chapter": 8,
+  "overall_score": 52.0,
   "dimension_scores": {
     "continuity": 98.0,
     "setting": 100.0,
     "character": 98.0,
     "timeline": 100.0,
-    "ai_flavor": 73.0,
+    "ai_flavor": 58.0,
     "logic": 98.0,
     "pacing": 100.0,
     "other": 100.0
   },
   "severity_counts": {
     "critical": 0,
-    "high": 1,
+    "high": 2,
     "medium": 2,
     "low": 3
   },
   "critical_issues": [],
-  "report_file": "审查报告/第0007章审查报告.md",
-  "notes": "6个问题：0个阻断，1个高优（『不是A是B』句式密集），3中2低；CBN/CPN2/CPN3/CEN 全部命中；时间线正确；禁区均守住 | issues=6 | blocking=0 | categories=ai_flavor,character,continuity,logic",
-  "issues_count": 6,
+  "report_file": "审查报告/第0008章审查报告.md",
+  "notes": "7个问题：0个阻断，2个高优（『不是A是B』句式11处+段末感悟句）；CBN/CPN3/CEN 全部命中；禁区均守住（星兰未主动施法/咒语/攻击；屏障有缺口并造成李哥二次伤害；章末无质问对话；未解锁记忆碎片）；时间线第12天正确 | issues=7 | blocking=0 | categories=ai_flavor,character,continuity,logic",
+  "issues_count": 7,
   "blocking_count": 0,
   "categories": [
     "ai_flavor",
@@ -30,5 +30,5 @@
     "continuity",
     "logic"
   ],
-  "timestamp": "2026-05-15T17:54:53"
+  "timestamp": "2026-05-15T18:18:30"
 }

@@ -1,0 +1,173 @@
+[
+  {
+    "event_id": "evt-ch008-001",
+    "chapter": 8,
+    "event_type": "character_state_changed",
+    "subject": "li_ge",
+    "payload": {
+      "field": "status",
+      "old": "alive_injured",
+      "new": "deceased",
+      "cause": "矿石巨像加长手砸击+屏障漏入碎岩二次撞击",
+      "location": "broken_rock_flat"
+    }
+  },
+  {
+    "event_id": "evt-ch008-002",
+    "chapter": 8,
+    "event_type": "character_state_changed",
+    "subject": "unnamed_member",
+    "payload": {
+      "field": "status",
+      "old": "healthy",
+      "new": "severely_injured",
+      "injury": "左小臂自肘以下血雾",
+      "lost_combat_capability": true
+    }
+  },
+  {
+    "event_id": "evt-ch008-003",
+    "chapter": 8,
+    "event_type": "power_breakthrough",
+    "subject": "xinglan",
+    "payload": {
+      "field": "ability.ancient_magic",
+      "old": "未公开成阵",
+      "new": "首次成阵：三层蓝金几何阵+残页书状光膜",
+      "trigger": "本能/'不属于她的东西'代行决定",
+      "witnessed_by": [
+        "qixin",
+        "lao_zhao",
+        "unnamed_member"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-ch008-004",
+    "chapter": 8,
+    "event_type": "world_rule_revealed",
+    "subject": "ancient_ward_array",
+    "payload": {
+      "rule_content": "古代防御魔法以多层符号（内圈六道短线/十二角/字符圈）为基，地表立起残页书状半透明蓝金光膜，能吃住精英级魔物正面砸击；存在结构缺角导致侧面漏伤",
+      "rule_category": "magic_system",
+      "scope": "ancient_arts"
+    }
+  },
+  {
+    "event_id": "evt-ch008-005",
+    "chapter": 8,
+    "event_type": "world_rule_revealed",
+    "subject": "modern_tech_vs_elite",
+    "payload": {
+      "rule_content": "现代猎魔科技装备（脉冲驱散器/枪械/数显式探测器）对精英级矿物系魔物全面无效甚至被反制烧毁",
+      "rule_category": "tech_limit",
+      "scope": "elite_monster_class"
+    }
+  },
+  {
+    "event_id": "evt-ch008-006",
+    "chapter": 8,
+    "event_type": "world_rule_revealed",
+    "subject": "stone_golem_elite",
+    "payload": {
+      "rule_content": "矿石巨像由地表岩石与暗沉结晶聚合，可现拔河谷岩石接成加长肢体作为远程鞭击武器；脉光与母石/活化矿耗/碎晶同节奏跳动，提示同源",
+      "rule_category": "monster_anatomy",
+      "scope": "elite_class"
+    }
+  },
+  {
+    "event_id": "evt-ch008-007",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "xinglan_eye_flame_persistent",
+    "payload": {
+      "content": "魔法阵收灭后，星兰瞳孔深处蓝金火焰未消，眨眼仅被压住一拍仍在；她自己看不见",
+      "loop_type": "身体异象",
+      "unanswered_question": "瞳孔火焰是什么？是否会被其他人事后利用或追踪？",
+      "urgency": "high",
+      "planted_chapter": 8,
+      "expected_payoff": "近期章节"
+    }
+  },
+  {
+    "event_id": "evt-ch008-008",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "ward_array_gap_killed_li_ge",
+    "payload": {
+      "content": "星兰的防御阵存在侧面缺角，第三击碎岩从缺口漏入二次砸中李哥致死——她的力量同时救人也杀人",
+      "loop_type": "道德/能力代价",
+      "unanswered_question": "星兰能否得知是自己的屏障漏伤了李哥？同伴会如何归因？",
+      "urgency": "high",
+      "planted_chapter": 8,
+      "expected_payoff": "下一章"
+    }
+  },
+  {
+    "event_id": "evt-ch008-009",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "golem_crystal_same_source",
+    "payload": {
+      "content": "老赵背囊散落的活化矿耗甲片与三块碎晶落地不滚，停在落点持续跳动，节奏与矿石巨像脉光同步；巨像在那个方向多停了半秒",
+      "loop_type": "同源伏笔",
+      "unanswered_question": "矿石巨像、活化矿耗、母石、碎晶是否同源？样品是否会成为下一次袭击的诱饵？",
+      "urgency": "medium",
+      "planted_chapter": 8,
+      "expected_payoff": "中期章节"
+    }
+  },
+  {
+    "event_id": "evt-ch008-010",
+    "chapter": 8,
+    "event_type": "open_loop_created",
+    "subject": "qixin_silent_no_command",
+    "payload": {
+      "content": "战后齐心未发出任何处置指令，下意识按腰间探测器又松开；他这两天'再争取一点时间'的盘算在那一秒散了",
+      "loop_type": "队长决断危机",
+      "unanswered_question": "齐心将如何对外（公会）和对内（小队、星兰）解释这一切？是上报、隐瞒，还是自行处置？",
+      "urgency": "high",
+      "planted_chapter": 8,
+      "expected_payoff": "下一章"
+    }
+  },
+  {
+    "event_id": "evt-ch008-011",
+    "chapter": 8,
+    "event_type": "relationship_changed",
+    "subject": "xinglan",
+    "payload": {
+      "to_entity": "qixin",
+      "relationship_type": "guardian_to_witnessed",
+      "old": "暗中保护对象",
+      "new": "公开异类被目击；保护计划失效"
+    }
+  },
+  {
+    "event_id": "evt-ch008-012",
+    "chapter": 8,
+    "event_type": "relationship_changed",
+    "subject": "xinglan",
+    "payload": {
+      "to_entity": "unnamed_member",
+      "relationship_type": "fear_distance",
+      "old": "队友",
+      "new": "目睹瞳孔火焰最近，事后后退一步又停住——恐惧距离形成"
+    }
+  },
+  {
+    "event_id": "evt-ch008-013",
+    "chapter": 8,
+    "event_type": "artifact_obtained",
+    "subject": "lao_zhao",
+    "payload": {
+      "artifact_id": "carapace_shard_sample",
+      "name": "活化矿耗甲片样品",
+      "owner": "lao_zhao",
+      "purpose": "带回猎魔公会做样品",
+      "co_obtained": [
+        "broken_crystal_sample"
+      ]
+    }
+  }
+]

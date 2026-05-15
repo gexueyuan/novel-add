@@ -32,9 +32,9 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 7,
-    "total_words": 7729,
-    "last_updated": "2026-05-15 18:03:39",
+    "current_chapter": 8,
+    "total_words": 11089,
+    "last_updated": "2026-05-15 18:26:24",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -47,7 +47,8 @@
     "chapter_status": {
       "1": "chapter_committed",
       "5": "chapter_committed",
-      "7": "chapter_committed"
+      "7": "chapter_committed",
+      "8": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -74,10 +75,19 @@
     "status": "首次实战后力竭，指腹裂纹渗血，膝盖旧伤重新渗血",
     "physiology": {
       "temperature": "异常冰冷（如深冬湖水）",
-      "magic_emission": "身体向外散发魔法素能量"
+      "magic_emission": "身体向外散发魔法素能量",
+      "eyes": "瞳孔深处蓝金火焰持续燃烧（本人不可见）",
+      "bleeding": "嘴角/耳鼻/膝盖旧伤/指腹旧裂纹同时出血",
+      "ear_lump": "战中变重至胸腔共鸣"
     },
     "physical": {
       "fingertip_temperature": "首次有温度（按上母石后）"
+    },
+    "ability": {
+      "ancient_magic": "首次成阵防御被全员目击"
+    },
+    "social": {
+      "exposure": "能力被齐心/老赵/年轻队员当面目击"
     }
   },
   "relationships": {},
@@ -115,7 +125,10 @@
       },
       "physiology": {
         "temperature": "异常冰冷（如深冬湖水）",
-        "magic_emission": "身体向外散发魔法素能量"
+        "magic_emission": "身体向外散发魔法素能量",
+        "eyes": "瞳孔深处蓝金火焰持续燃烧（本人不可见）",
+        "bleeding": "嘴角/耳鼻/膝盖旧伤/指腹旧裂纹同时出血",
+        "ear_lump": "战中变重至胸腔共鸣"
       },
       "power": {
         "combat_ability": "无咒语风刃——真空切割，掌心短暂闪现蓝金色光芒；释放后指尖皮肤裂纹、力竭",
@@ -124,6 +137,12 @@
       },
       "physical": {
         "fingertip_temperature": "首次有温度（按上母石后）"
+      },
+      "ability": {
+        "ancient_magic": "首次成阵防御被全员目击"
+      },
+      "social": {
+        "exposure": "能力被齐心/老赵/年轻队员当面目击"
       }
     },
     "qixin": {
@@ -137,16 +156,28 @@
       },
       "knowledge": {
         "old_mine_status": "确认异常激活，已标记位置"
+      },
+      "leadership": {
+        "command_state": "战后未发出任何处置指令；下意识按腰间探测器又松开"
+      },
+      "plans": {
+        "protect_xinglan_plan": "在能力觉醒前散去"
       }
     },
     "li_ge": {
-      "status": "被巨型铁甲魔物甩尾击晕，护肩炸裂，倒地昏迷",
+      "status": "死亡",
       "physical": {
         "head_lump": "持续发作，过母石时捂头"
       }
     },
     "old_mine_cave": {
       "status": "异常激活，存在母石与活化魔物"
+    },
+    "unnamed_member": {
+      "status": "重伤（左小臂血雾，丧失战斗力）"
+    },
+    "stone_golem_elite": {
+      "status": "自陷岩层后挣脱，向北面更深山坳撤退（未被击杀）"
     }
   }
 }

@@ -41,3 +41,8 @@
 {"timestamp": "2026-05-15T17:57:30.746998", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
 {"timestamp": "2026-05-15T17:57:32.075469", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-05-15T17:57:38.509825", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-05-15T18:21:26.234364", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 14}
+{"timestamp": "2026-05-15T18:21:27.428005", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-05-15T18:21:32.488163", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-05-15T18:21:33.953037", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-05-15T18:21:35.399785", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}

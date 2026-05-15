@@ -1,0 +1,1153 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 8,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_008.json",
+    "review": "chapter_008.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      {
+        "id": "CBN",
+        "name": "遭遇精英魔物-矿石巨像",
+        "category": "冲突触发"
+      },
+      {
+        "id": "CPN1",
+        "name": "科技装备无效化",
+        "category": "渐进升级"
+      },
+      {
+        "id": "CPN2",
+        "name": "队员重伤/死亡（年轻队员重伤、李哥阵亡）",
+        "category": "渐进升级"
+      },
+      {
+        "id": "CPN3",
+        "name": "星兰本能展开古代防御魔法屏障",
+        "category": "能力觉醒"
+      },
+      {
+        "id": "CEN",
+        "name": "星兰跪倒，眼中燃起蓝金火焰被全员目击",
+        "category": "情绪高点"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "id": "CBN",
+        "evidence_lines": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "evidence": "乱石滩底部岩石抬起，由地表岩石与暗沉结晶聚合的四米高巨像，无眼，顶部横向裂缝渗脉光"
+      },
+      {
+        "id": "CPN1",
+        "evidence_lines": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "evidence": "脉冲驱散器只崩开一小片碎石、子弹嵌进岩缝未穿透、新发数显式探测器开机即烧出洞——三种装备全部失效"
+      },
+      {
+        "id": "CPN2",
+        "evidence_lines": [
+          41,
+          42,
+          43,
+          44,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          113,
+          139
+        ],
+        "evidence": "年轻队员左小臂被岩屑炸成血雾倒地；李哥被加长手砸出三米弹在乱石上不动；屏障漏伤后又被尖石二次掀翻；老赵摸鼻息后手停住"
+      },
+      {
+        "id": "CPN3",
+        "evidence_lines": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          99,
+          103,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "evidence": "星兰双手外推，脚下展开三层蓝金几何阵（内圈六道短线/十二角/字符圈），地面立起残页状半透明蓝金光膜，吃住三击，第三击侧面缺角漏入碎岩砸中李哥"
+      },
+      {
+        "id": "CEN",
+        "evidence_lines": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ],
+        "evidence": "魔法阵从外向内收灭，星兰膝盖先着地、双手撑乱石、指腹旧裂纹崩开滴血；齐心、老赵、年轻队员围成半圈站定不动；星兰瞳孔深处蓝金火焰从虹膜向外烧，眨眼压一拍仍在，她自己看不见"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "id": "EXTRA1",
+        "name": "返程绕南路线交代（旧矿洞→乱石滩）",
+        "evidence_lines": [
+          3,
+          4,
+          5
+        ],
+        "rationale": "提供时间锚点（第12天上午）与空间转移背景，必要的时空铺垫"
+      },
+      {
+        "id": "EXTRA2",
+        "name": "碎晶散落与巨像同节奏跳同源伏笔",
+        "evidence_lines": [
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "rationale": "暗示巨像与活化矿耗、母石样品同源，未来章节关键线索"
+      },
+      {
+        "id": "EXTRA3",
+        "name": "巨像自陷岩层撤退（非被击退）",
+        "evidence_lines": [
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "rationale": "保留精英魔物压制感，避免主角光环；同时给出星兰未真正击杀的真实结果"
+      },
+      {
+        "id": "EXTRA4",
+        "name": "齐心未发出任何处置指令",
+        "evidence_lines": [
+          137,
+          138,
+          139,
+          140,
+          162,
+          163
+        ],
+        "rationale": "队长权威首次缺位，与下章悬念呼应"
+      }
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "issues": [
+      {
+        "severity": "high",
+        "category": "ai_flavor",
+        "location": "全章多处（第17/41/71/85/91/103/117/135/143/155/159段）",
+        "description": "「不是A，是B」/「不是A——是B」句式高频出现，全章共11处同结构句，已成为本章主导句式，构成强烈的AI味节拍",
+        "evidence": "第17段「不是震感。是地面有东西在抬」；第41段「不是它本来的手，是从它脚下的河谷地里又拔起一截岩石」；第71段「不是为了保护她。是想把她拽到自己背后」；第85段「不是右手。这次是两只手」；第91段「不是散光，是几何」；第103段「不是金属声。是一种闷在胸腔里的低频」；第117段「砸进来的不是巨像的整只手，是被光膜削掉的一小段碎岩」；第135段「不是熄灭——是从最外那一圈字开始……」；第143段「他先看的不是星兰」；第155段「不是反光。是从虹膜里向外烧出来的一团蓝中带金的光」；第159段「不是道歉，也不是解释」",
+        "fix_hint": "保留3-4处最关键的「不是A是B」（如第91段魔法阵展开、第103段第一击声、第155段瞳孔火焰），其余改为直接陈述、动作描写或意象呈现",
+        "blocking": false
+      },
+      {
+        "severity": "high",
+        "category": "ai_flavor",
+        "location": "第53、57、65、71、117段",
+        "description": "段末感悟/总结句反复出现，每个关键动作后用一句独立短句替读者下结论，构成「展示后解释」的AI味节拍",
+        "evidence": "第53段独立成段「它认得」；第57段独立成段「李哥是用自己换的」；第65段「整个乱石滩在那一秒安静下来」；第71段末「——他的身体替他记住了这件事」；第117段末「这次他真的不会再起来了」",
+        "fix_hint": "至少删除或改写两处段末总结句，用动作或场景延续替代直接断言",
+        "blocking": false
+      },
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "第41、43、95、131段",
+        "description": "明喻句密度偏高且半数为常见喻体，章末出现「像它来的时候一样不解释」此类抽象判断式比拟，带AI味",
+        "evidence": "第41段「像一根加长的鞭子」；第43段「岩屑像散弹一样炸开」；第95段「像一本只剩残页的书被人摊开扣在了地上」；第131段「像它来的时候一样不解释」",
+        "fix_hint": "保留第95段（独特意象），其余明喻可降为直接动作描写；第131段「不解释」是抽象判断先行，建议改为具体动作（如「头也不回」）",
+        "blocking": false
+      },
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "第155段",
+        "description": "瞳孔火焰描写中「一下，再一下」节奏标点复用、且对眨眼动作做了元解读，出现展示后紧跟解释的模式",
+        "evidence": "第155段「缓慢地从瞳孔的圆心往外蔓延，到了瞳孔边缘又被眼皮挡回去一截，再蔓延出来。一下，再一下。她眨眼的时候，火被眼皮压住了一拍，再睁开，火还在」",
+        "fix_hint": "删去「一下，再一下」节奏短句，让眨眼动作自身呈现即可",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "continuity",
+        "location": "第3-7段（开篇过渡）",
+        "description": "本章开篇直接进入「返程的第二天」并提及「旧矿洞」「带血甲片」「碎晶样品」，但上章（第7章）按时间线只是常规巡逻发现异常魔法素波动，并未明确到达矿洞和取得样品。两章之间存在被压缩的事件（取样过程），需要核对是否在第7章已交代",
+        "evidence": "本章第3段「从旧矿洞往北境营地方向走」、第7段「老赵的背囊里装着一枚带血的青蓝色甲片和三块从甲下掘出的活化碎晶」；时间线第7章定义为「常规巡逻中发现异常魔法素波动」，未含取样战斗",
+        "fix_hint": "在本章前两段补一句简短回顾交代矿洞内取得样品的过程，或确认上章已铺垫；否则读者会产生事件缺失感",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "character",
+        "location": "第59段",
+        "description": "李哥「眼神里有一种被自己背叛的茫然」属于直接标签化情绪定性，且为第三方视角难以观察的内心状态投射",
+        "evidence": "第59段「他抬头看那块砸下来的岩石的时候，眼神里有一种被自己背叛的茫然」",
+        "fix_hint": "改为外显动作，如「他抬头时眼睛只来得及张大一下」，让读者从动作推测情绪",
+        "blocking": false
+      },
+      {
+        "severity": "low",
+        "category": "logic",
+        "location": "第123段",
+        "description": "巨像砸第四下时「被自己脚下震塌的一片岩壁卡住」「砸碎了乱石滩这一段的承重层」缺少前文铺垫——前三击均未对地面造成可见破坏，第四击突然引发承重层塌陷略显巧合",
+        "evidence": "第123段「它的拳头在落到一半的时候被自己脚下震塌的一片岩壁卡住了。它砸碎了乱石滩这一段的承重层，自己的下半身陷了下去」；前文未提及乱石滩为干涸河谷底+空腔结构",
+        "fix_hint": "在第15段「干涸的河谷底部」后补一句「底下是被水冲空的旧河床」，给后文塌陷一个伏笔",
+        "blocking": false
+      }
+    ],
+    "summary": "7个问题：0个阻断，2个高优（『不是A是B』句式11处+段末感悟句）；CBN/CPN3/CEN 全部命中；禁区均守住（星兰未主动施法/咒语/攻击；屏障有缺口并造成李哥二次伤害；章末无质问对话；未解锁记忆碎片）；时间线第12天正确",
+    "high_count": 2,
+    "medium_count": 2,
+    "low_count": 3,
+    "total_count": 7
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      {
+        "id": "CBN",
+        "name": "遭遇精英魔物-矿石巨像",
+        "category": "冲突触发"
+      },
+      {
+        "id": "CPN1",
+        "name": "科技装备无效化",
+        "category": "渐进升级"
+      },
+      {
+        "id": "CPN2",
+        "name": "队员重伤/死亡（年轻队员重伤、李哥阵亡）",
+        "category": "渐进升级"
+      },
+      {
+        "id": "CPN3",
+        "name": "星兰本能展开古代防御魔法屏障",
+        "category": "能力觉醒"
+      },
+      {
+        "id": "CEN",
+        "name": "星兰跪倒，眼中燃起蓝金火焰被全员目击",
+        "category": "情绪高点"
+      }
+    ],
+    "covered_nodes": [
+      {
+        "id": "CBN",
+        "evidence_lines": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "evidence": "乱石滩底部岩石抬起，由地表岩石与暗沉结晶聚合的四米高巨像，无眼，顶部横向裂缝渗脉光"
+      },
+      {
+        "id": "CPN1",
+        "evidence_lines": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "evidence": "脉冲驱散器只崩开一小片碎石、子弹嵌进岩缝未穿透、新发数显式探测器开机即烧出洞——三种装备全部失效"
+      },
+      {
+        "id": "CPN2",
+        "evidence_lines": [
+          41,
+          42,
+          43,
+          44,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          113,
+          139
+        ],
+        "evidence": "年轻队员左小臂被岩屑炸成血雾倒地；李哥被加长手砸出三米弹在乱石上不动；屏障漏伤后又被尖石二次掀翻；老赵摸鼻息后手停住"
+      },
+      {
+        "id": "CPN3",
+        "evidence_lines": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          99,
+          103,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "evidence": "星兰双手外推，脚下展开三层蓝金几何阵（内圈六道短线/十二角/字符圈），地面立起残页状半透明蓝金光膜，吃住三击，第三击侧面缺角漏入碎岩砸中李哥"
+      },
+      {
+        "id": "CEN",
+        "evidence_lines": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153
+        ],
+        "evidence": "魔法阵从外向内收灭，星兰膝盖先着地、双手撑乱石、指腹旧裂纹崩开滴血；齐心、老赵、年轻队员围成半圈站定不动；星兰瞳孔深处蓝金火焰从虹膜向外烧，眨眼压一拍仍在，她自己看不见"
+      }
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      {
+        "id": "EXTRA1",
+        "name": "返程绕南路线交代（旧矿洞→乱石滩）",
+        "evidence_lines": [
+          3,
+          4,
+          5
+        ],
+        "rationale": "提供时间锚点（第12天上午）与空间转移背景，必要的时空铺垫"
+      },
+      {
+        "id": "EXTRA2",
+        "name": "碎晶散落与巨像同节奏跳同源伏笔",
+        "evidence_lines": [
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "rationale": "暗示巨像与活化矿耗、母石样品同源，未来章节关键线索"
+      },
+      {
+        "id": "EXTRA3",
+        "name": "巨像自陷岩层撤退（非被击退）",
+        "evidence_lines": [
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "rationale": "保留精英魔物压制感，避免主角光环；同时给出星兰未真正击杀的真实结果"
+      },
+      {
+        "id": "EXTRA4",
+        "name": "齐心未发出任何处置指令",
+        "evidence_lines": [
+          137,
+          138,
+          139,
+          140,
+          162,
+          163
+        ],
+        "rationale": "队长权威首次缺位，与下章悬念呼应"
+      }
+    ],
+    "chapter": 8,
+    "coverage_rate": 1.0,
+    "notes": "全部计划节点兑现；额外节点皆服务伏笔/结构，未偏离主线"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 8,
+    "auto_resolved": [
+      {
+        "alias": "星兰",
+        "entity_id": "xinglan",
+        "confidence": 0.99,
+        "method": "alias_table"
+      },
+      {
+        "alias": "齐心",
+        "entity_id": "qixin",
+        "confidence": 0.99,
+        "method": "alias_table"
+      },
+      {
+        "alias": "老赵",
+        "entity_id": "lao_zhao",
+        "confidence": 0.99,
+        "method": "alias_table"
+      },
+      {
+        "alias": "李哥",
+        "entity_id": "li_ge",
+        "confidence": 0.99,
+        "method": "alias_table"
+      },
+      {
+        "alias": "年轻队员",
+        "entity_id": "unnamed_member",
+        "confidence": 0.95,
+        "method": "alias_table"
+      },
+      {
+        "alias": "脉冲驱散器",
+        "entity_id": "pulse_dispeller",
+        "confidence": 0.85,
+        "method": "new_entity_create",
+        "warning": "新装备实体，首次出现"
+      },
+      {
+        "alias": "数显式探测器",
+        "entity_id": "mana_detector",
+        "confidence": 0.9,
+        "method": "alias_match",
+        "warning": "前章已出现的探测器类装备"
+      },
+      {
+        "alias": "矿石巨像",
+        "entity_id": "stone_golem_elite",
+        "confidence": 0.9,
+        "method": "new_entity_create"
+      },
+      {
+        "alias": "古代防御魔法阵",
+        "entity_id": "ancient_ward_array",
+        "confidence": 0.85,
+        "method": "new_entity_create"
+      },
+      {
+        "alias": "乱石滩",
+        "entity_id": "broken_rock_flat",
+        "confidence": 0.85,
+        "method": "new_entity_create"
+      },
+      {
+        "alias": "甲片",
+        "entity_id": "carapace_shard_sample",
+        "confidence": 0.8,
+        "method": "new_entity_create",
+        "warning": "活化矿耗甲片样品，与activated_mine_rat关联"
+      },
+      {
+        "alias": "碎晶",
+        "entity_id": "broken_crystal_sample",
+        "confidence": 0.8,
+        "method": "new_entity_create",
+        "warning": "与mother_stone脉光同源"
+      }
+    ],
+    "warnings": [
+      "李哥canonical_name当前为li_ge而非中文，建议后续清洗",
+      "xinglan canonical_name当前为xinglan而非星兰，建议后续清洗"
+    ]
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch008-001",
+      "chapter": 8,
+      "event_type": "character_state_changed",
+      "subject": "li_ge",
+      "payload": {
+        "field": "status",
+        "old": "alive_injured",
+        "new": "deceased",
+        "cause": "矿石巨像加长手砸击+屏障漏入碎岩二次撞击",
+        "location": "broken_rock_flat"
+      }
+    },
+    {
+      "event_id": "evt-ch008-002",
+      "chapter": 8,
+      "event_type": "character_state_changed",
+      "subject": "unnamed_member",
+      "payload": {
+        "field": "status",
+        "old": "healthy",
+        "new": "severely_injured",
+        "injury": "左小臂自肘以下血雾",
+        "lost_combat_capability": true
+      }
+    },
+    {
+      "event_id": "evt-ch008-003",
+      "chapter": 8,
+      "event_type": "power_breakthrough",
+      "subject": "xinglan",
+      "payload": {
+        "field": "ability.ancient_magic",
+        "old": "未公开成阵",
+        "new": "首次成阵：三层蓝金几何阵+残页书状光膜",
+        "trigger": "本能/'不属于她的东西'代行决定",
+        "witnessed_by": [
+          "qixin",
+          "lao_zhao",
+          "unnamed_member"
+        ]
+      }
+    },
+    {
+      "event_id": "evt-ch008-004",
+      "chapter": 8,
+      "event_type": "world_rule_revealed",
+      "subject": "ancient_ward_array",
+      "payload": {
+        "rule_content": "古代防御魔法以多层符号（内圈六道短线/十二角/字符圈）为基，地表立起残页书状半透明蓝金光膜，能吃住精英级魔物正面砸击；存在结构缺角导致侧面漏伤",
+        "rule_category": "magic_system",
+        "scope": "ancient_arts"
+      }
+    },
+    {
+      "event_id": "evt-ch008-005",
+      "chapter": 8,
+      "event_type": "world_rule_revealed",
+      "subject": "modern_tech_vs_elite",
+      "payload": {
+        "rule_content": "现代猎魔科技装备（脉冲驱散器/枪械/数显式探测器）对精英级矿物系魔物全面无效甚至被反制烧毁",
+        "rule_category": "tech_limit",
+        "scope": "elite_monster_class"
+      }
+    },
+    {
+      "event_id": "evt-ch008-006",
+      "chapter": 8,
+      "event_type": "world_rule_revealed",
+      "subject": "stone_golem_elite",
+      "payload": {
+        "rule_content": "矿石巨像由地表岩石与暗沉结晶聚合，可现拔河谷岩石接成加长肢体作为远程鞭击武器；脉光与母石/活化矿耗/碎晶同节奏跳动，提示同源",
+        "rule_category": "monster_anatomy",
+        "scope": "elite_class"
+      }
+    },
+    {
+      "event_id": "evt-ch008-007",
+      "chapter": 8,
+      "event_type": "open_loop_created",
+      "subject": "xinglan_eye_flame_persistent",
+      "payload": {
+        "content": "魔法阵收灭后，星兰瞳孔深处蓝金火焰未消，眨眼仅被压住一拍仍在；她自己看不见",
+        "loop_type": "身体异象",
+        "unanswered_question": "瞳孔火焰是什么？是否会被其他人事后利用或追踪？",
+        "urgency": "high",
+        "planted_chapter": 8,
+        "expected_payoff": "近期章节"
+      }
+    },
+    {
+      "event_id": "evt-ch008-008",
+      "chapter": 8,
+      "event_type": "open_loop_created",
+      "subject": "ward_array_gap_killed_li_ge",
+      "payload": {
+        "content": "星兰的防御阵存在侧面缺角，第三击碎岩从缺口漏入二次砸中李哥致死——她的力量同时救人也杀人",
+        "loop_type": "道德/能力代价",
+        "unanswered_question": "星兰能否得知是自己的屏障漏伤了李哥？同伴会如何归因？",
+        "urgency": "high",
+        "planted_chapter": 8,
+        "expected_payoff": "下一章"
+      }
+    },
+    {
+      "event_id": "evt-ch008-009",
+      "chapter": 8,
+      "event_type": "open_loop_created",
+      "subject": "golem_crystal_same_source",
+      "payload": {
+        "content": "老赵背囊散落的活化矿耗甲片与三块碎晶落地不滚，停在落点持续跳动，节奏与矿石巨像脉光同步；巨像在那个方向多停了半秒",
+        "loop_type": "同源伏笔",
+        "unanswered_question": "矿石巨像、活化矿耗、母石、碎晶是否同源？样品是否会成为下一次袭击的诱饵？",
+        "urgency": "medium",
+        "planted_chapter": 8,
+        "expected_payoff": "中期章节"
+      }
+    },
+    {
+      "event_id": "evt-ch008-010",
+      "chapter": 8,
+      "event_type": "open_loop_created",
+      "subject": "qixin_silent_no_command",
+      "payload": {
+        "content": "战后齐心未发出任何处置指令，下意识按腰间探测器又松开；他这两天'再争取一点时间'的盘算在那一秒散了",
+        "loop_type": "队长决断危机",
+        "unanswered_question": "齐心将如何对外（公会）和对内（小队、星兰）解释这一切？是上报、隐瞒，还是自行处置？",
+        "urgency": "high",
+        "planted_chapter": 8,
+        "expected_payoff": "下一章"
+      }
+    },
+    {
+      "event_id": "evt-ch008-011",
+      "chapter": 8,
+      "event_type": "relationship_changed",
+      "subject": "xinglan",
+      "payload": {
+        "to_entity": "qixin",
+        "relationship_type": "guardian_to_witnessed",
+        "old": "暗中保护对象",
+        "new": "公开异类被目击；保护计划失效"
+      }
+    },
+    {
+      "event_id": "evt-ch008-012",
+      "chapter": 8,
+      "event_type": "relationship_changed",
+      "subject": "xinglan",
+      "payload": {
+        "to_entity": "unnamed_member",
+        "relationship_type": "fear_distance",
+        "old": "队友",
+        "new": "目睹瞳孔火焰最近，事后后退一步又停住——恐惧距离形成"
+      }
+    },
+    {
+      "event_id": "evt-ch008-013",
+      "chapter": 8,
+      "event_type": "artifact_obtained",
+      "subject": "lao_zhao",
+      "payload": {
+        "artifact_id": "carapace_shard_sample",
+        "name": "活化矿耗甲片样品",
+        "owner": "lao_zhao",
+        "purpose": "带回猎魔公会做样品",
+        "co_obtained": [
+          "broken_crystal_sample"
+        ]
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "xinglan",
+      "field": "ability.ancient_magic",
+      "old": "未公开使用",
+      "new": "首次成阵防御被全员目击"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "physiology.eyes",
+      "old": "正常",
+      "new": "瞳孔深处蓝金火焰持续燃烧（本人不可见）"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "physiology.bleeding",
+      "old": "无",
+      "new": "嘴角/耳鼻/膝盖旧伤/指腹旧裂纹同时出血"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "physiology.ear_lump",
+      "old": "轻微闷响",
+      "new": "战中变重至胸腔共鸣"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "social.exposure",
+      "old": "未暴露",
+      "new": "能力被齐心/老赵/年轻队员当面目击"
+    },
+    {
+      "entity_id": "li_ge",
+      "field": "status",
+      "old": "存活但伤病",
+      "new": "死亡"
+    },
+    {
+      "entity_id": "unnamed_member",
+      "field": "status",
+      "old": "健康",
+      "new": "重伤（左小臂血雾，丧失战斗力）"
+    },
+    {
+      "entity_id": "qixin",
+      "field": "leadership.command_state",
+      "old": "持续指挥",
+      "new": "战后未发出任何处置指令；下意识按腰间探测器又松开"
+    },
+    {
+      "entity_id": "qixin",
+      "field": "plans.protect_xinglan_plan",
+      "old": "心中盘算最坏情况下拽至身后",
+      "new": "在能力觉醒前散去"
+    },
+    {
+      "entity_id": "stone_golem_elite",
+      "field": "status",
+      "old": "未出现",
+      "new": "自陷岩层后挣脱，向北面更深山坳撤退（未被击杀）"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "stone_golem_elite",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "重要",
+      "payload": {
+        "name": "矿石巨像",
+        "category": "精英魔物",
+        "height_m": 4,
+        "composition": "地表岩石+暗沉结晶聚合",
+        "features": [
+          "无清晰脖颈腰线",
+          "无眼，仅顶端横向裂缝渗脉光",
+          "可现拔河谷岩石接成加长手臂作为鞭击武器",
+          "脉光与母石/活化矿耗同节奏跳"
+        ],
+        "weakness_observed": [
+          "对子弹/脉冲驱散器/探测器免疫",
+          "自重过大可压塌承重岩层并自陷"
+        ]
+      }
+    },
+    {
+      "entity_id": "ancient_ward_array",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "重要",
+      "payload": {
+        "name": "古代防御魔法阵",
+        "category": "古代魔法",
+        "color": "蓝金",
+        "structure": {
+          "inner": "六道短线围成的环",
+          "middle": "十二个不闭合的角",
+          "outer": "未知字符圈"
+        },
+        "manifestation": "残页书状半透明蓝金光膜，每片刻有更细密字符",
+        "behavior": "由内向外亮起，结束时由外向内收灭",
+        "performance_observed": [
+          "吃住巨像两次正面砸击",
+          "侧面光膜存在缺角，第三击碎岩漏入致李哥二次受创"
+        ],
+        "caster_cost": [
+          "施法者嘴角出血",
+          "膝盖旧伤崩开",
+          "耳鼻同时出血",
+          "施法后跪倒"
+        ]
+      }
+    },
+    {
+      "entity_id": "broken_rock_flat",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "装饰",
+      "payload": {
+        "name": "乱石滩",
+        "description": "干涸河谷底部，多年前山洪冲空旧河床，散满灰色棱角岩石，最大膝盖高，两侧低矮岩坡"
+      }
+    },
+    {
+      "entity_id": "pulse_dispeller",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "装饰",
+      "payload": {
+        "name": "脉冲驱散器",
+        "category": "公会反魔装备",
+        "effect_observed": "蓝白色能量，仅能崩开巨像表层碎石，对深层结晶无效"
+      }
+    },
+    {
+      "entity_id": "mana_detector",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "装饰",
+      "payload": {
+        "reliability_observed": "面对精英魔物开机即从屏中烧出洞，本章彻底报废"
+      }
+    },
+    {
+      "entity_id": "carapace_shard_sample",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "装饰",
+      "payload": {
+        "name": "活化矿耗甲片样品",
+        "source": "第7章被清掉的活化矿耗",
+        "carrier": "lao_zhao",
+        "container": "油布裹背囊",
+        "purpose": "带回猎魔公会做样品"
+      }
+    },
+    {
+      "entity_id": "broken_crystal_sample",
+      "action": "upsert",
+      "entity_type": "物品",
+      "tier": "装饰",
+      "payload": {
+        "name": "碎晶样品",
+        "count": 3,
+        "source": "第7章旧矿洞",
+        "behavior": "落地不滚远，停在落点持续跳动，节奏与矿石巨像脉光同步"
+      }
+    },
+    {
+      "entity_id": "li_ge",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "status": "deceased",
+        "death_chapter": 8,
+        "death_cause": "被矿石巨像加长手砸出三米弹于乱石；屏障漏入碎岩二次撞击致死",
+        "predeath_state": "耳后肿包反复闷响，反应慢半拍"
+      }
+    },
+    {
+      "entity_id": "unnamed_member",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "status": "severely_injured",
+        "injury": "左小臂自肘以下被岩屑炸成血雾，丧失战斗力",
+        "trauma": "目击星兰瞳孔火焰最近，事后后退一步又停住"
+      }
+    },
+    {
+      "entity_id": "xinglan",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "is_protagonist": true,
+      "payload": {
+        "ability_status": "古代防御魔法首次实战，被全员目击",
+        "physiology": {
+          "ear_skull_lump": "持续低频闷响每隔数秒一次，自2天前矿洞调息后未停",
+          "post_cast_bleeding": [
+            "嘴角",
+            "膝盖旧伤",
+            "耳鼻",
+            "指腹旧裂纹"
+          ]
+        },
+        "eyes_state": "瞳孔深处持续燃蓝金火焰，从虹膜向外烧，眨眼压一拍仍在；本人不知不可见",
+        "self_perception": "只觉得很冷，张嘴无声",
+        "agency_note": "施法时'身体里那个不属于她的东西又替她做了决定'"
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "xinglan",
+      "type": "角色",
+      "mentions": [
+        "星兰",
+        "她"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "qixin",
+      "type": "角色",
+      "mentions": [
+        "齐心",
+        "他"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "lao_zhao",
+      "type": "角色",
+      "mentions": [
+        "老赵"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "li_ge",
+      "type": "角色",
+      "mentions": [
+        "李哥"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "unnamed_member",
+      "type": "角色",
+      "mentions": [
+        "年轻队员"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "stone_golem_elite",
+      "type": "物品",
+      "mentions": [
+        "矿石巨像",
+        "巨像",
+        "那东西"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "ancient_ward_array",
+      "type": "物品",
+      "mentions": [
+        "古代防御魔法阵",
+        "魔法阵",
+        "光膜"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "broken_rock_flat",
+      "type": "地点",
+      "mentions": [
+        "乱石滩",
+        "干涸的河谷"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "old_mine_cave",
+      "type": "地点",
+      "mentions": [
+        "旧矿洞"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "north_mine",
+      "type": "地点",
+      "mentions": [
+        "北境营地"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "pulse_dispeller",
+      "type": "物品",
+      "mentions": [
+        "脉冲驱散器"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "mana_detector",
+      "type": "物品",
+      "mentions": [
+        "数显式探测器"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "carapace_shard_sample",
+      "type": "物品",
+      "mentions": [
+        "甲片"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "broken_crystal_sample",
+      "type": "物品",
+      "mentions": [
+        "碎晶"
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 14,
+      "location": "返程山路（旧矿洞→北境营地，绕南）",
+      "summary": "返程第二日上午十点，齐心带队绕南乱石滩；老赵背囊里装着活化矿耗甲片与三块碎晶；李哥肿包未消未要求换岗；星兰耳后骨头持续闷响、攥右手确认存在感",
+      "characters": [
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "xinglan",
+        "unnamed_member"
+      ]
+    },
+    {
+      "index": 2,
+      "start_line": 15,
+      "end_line": 38,
+      "location": "broken_rock_flat",
+      "summary": "乱石滩底部岩皮上拱，矿石巨像现身——四米高、由岩石与暗沉结晶聚合、顶端裂缝渗脉光，与碎晶同节奏跳；脉冲驱散器、子弹、数显式探测器二十秒内全部失效，巨像无固定目标转身'像在挑'，齐心改命令撤",
+      "characters": [
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "xinglan",
+        "unnamed_member",
+        "stone_golem_elite",
+        "pulse_dispeller",
+        "mana_detector"
+      ]
+    },
+    {
+      "index": 3,
+      "start_line": 39,
+      "end_line": 70,
+      "location": "broken_rock_flat",
+      "summary": "巨像加长手鞭尾扫年轻队员，左小臂血雾倒地；老赵拽人时背囊松开散出甲片与碎晶，碎晶落地不滚与巨像同节奏跳；李哥从北侧引火被加长手砸出三米；齐心枪空、扑向星兰未及",
+      "characters": [
+        "stone_golem_elite",
+        "unnamed_member",
+        "lao_zhao",
+        "li_ge",
+        "qixin",
+        "xinglan",
+        "carapace_shard_sample",
+        "broken_crystal_sample"
+      ]
+    },
+    {
+      "index": 4,
+      "start_line": 71,
+      "end_line": 128,
+      "location": "broken_rock_flat",
+      "summary": "星兰双手外推，脚下展开三层蓝金几何阵，地面立起残页书状半透明蓝金光膜；吃住两击后侧面缺角漏入碎岩二次砸中李哥；星兰嘴角/膝盖/耳鼻先后出血；巨像第四下自陷岩层挣脱后向北山坳撤退",
+      "characters": [
+        "xinglan",
+        "stone_golem_elite",
+        "ancient_ward_array",
+        "li_ge"
+      ]
+    },
+    {
+      "index": 5,
+      "start_line": 129,
+      "end_line": 169,
+      "location": "broken_rock_flat",
+      "summary": "魔法阵由外向内收灭，星兰跪地双手撑乱石指腹崩血；老赵确认李哥死亡；齐心未给任何指令；四人围星兰半圈站定；星兰瞳孔深处蓝金火焰被全员目击，她自己看不见，只觉得冷，张嘴无声",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "unnamed_member",
+        "li_ge"
+      ]
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "awakening",
+  "summary_text": "返程第二天上午，齐心带队绕南乱石滩行至干涸河谷，地皮自下而上拱起一具四米高的矿石巨像——精英级，由岩石与暗沉结晶聚合，脉光与老赵背囊里的活化矿耗甲片、三块碎晶同节奏跳。脉冲驱散器、子弹、新发探测器二十秒内全部失效，巨像现拔岩石接成加长手鞭，年轻队员左小臂被岩屑炸成血雾，李哥被砸出三米弹在乱石上。齐心扑向星兰未及，星兰双手外推，脚下亮起三层蓝金几何阵——六道短线/十二角/字符圈——地面立起残页书状的半透明蓝金光膜。屏障吃住两击，第三击侧面缺角漏入碎岩二次掀翻李哥，巨像第四下自陷岩层挣脱后向北撤退。星兰嘴角、膝盖旧伤、耳鼻同时出血，跪倒乱石；瞳孔深处燃起一团蓝金火，全员目击，她自己看不见。齐心未发出任何指令。\n## 伏笔\n- [埋设] 星兰瞳孔蓝金火焰未消（evt-ch008-007）\n- [埋设] 防御阵缺角致李哥死亡的代价（evt-ch008-008）\n- [埋设] 巨像与碎晶/活化矿耗/母石同源伏笔（evt-ch008-009）\n- [埋设] 齐心战后零指令的决断危机（evt-ch008-010）\n## 承接点\n齐心、老赵、年轻队员围跪着的星兰半圈，没人开口，没人下令。",
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

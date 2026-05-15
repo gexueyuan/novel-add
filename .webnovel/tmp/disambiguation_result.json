@@ -1,18 +1,22 @@
 {
-  "chapter": 7,
-  "resolved": [
-    {"mention": "星兰", "entity_id": "xinglan", "confidence": 1.0},
-    {"mention": "齐心", "entity_id": "qixin", "confidence": 1.0},
-    {"mention": "老赵", "entity_id": "lao_zhao", "confidence": 1.0},
-    {"mention": "李哥", "entity_id": "li_ge", "confidence": 1.0},
-    {"mention": "年轻队员", "entity_id": "unnamed_member", "confidence": 1.0},
-    {"mention": "北境/北境营地", "entity_id": "north_mine", "confidence": 0.95}
+  "chapter": 8,
+  "pending": [],
+  "auto_resolved": [
+    {"alias": "星兰", "entity_id": "xinglan", "confidence": 0.99, "method": "alias_table"},
+    {"alias": "齐心", "entity_id": "qixin", "confidence": 0.99, "method": "alias_table"},
+    {"alias": "老赵", "entity_id": "lao_zhao", "confidence": 0.99, "method": "alias_table"},
+    {"alias": "李哥", "entity_id": "li_ge", "confidence": 0.99, "method": "alias_table"},
+    {"alias": "年轻队员", "entity_id": "unnamed_member", "confidence": 0.95, "method": "alias_table"},
+    {"alias": "脉冲驱散器", "entity_id": "pulse_dispeller", "confidence": 0.85, "method": "new_entity_create", "warning": "新装备实体，首次出现"},
+    {"alias": "数显式探测器", "entity_id": "mana_detector", "confidence": 0.9, "method": "alias_match", "warning": "前章已出现的探测器类装备"},
+    {"alias": "矿石巨像", "entity_id": "stone_golem_elite", "confidence": 0.9, "method": "new_entity_create"},
+    {"alias": "古代防御魔法阵", "entity_id": "ancient_ward_array", "confidence": 0.85, "method": "new_entity_create"},
+    {"alias": "乱石滩", "entity_id": "broken_rock_flat", "confidence": 0.85, "method": "new_entity_create"},
+    {"alias": "甲片", "entity_id": "carapace_shard_sample", "confidence": 0.8, "method": "new_entity_create", "warning": "活化矿耗甲片样品，与activated_mine_rat关联"},
+    {"alias": "碎晶", "entity_id": "broken_crystal_sample", "confidence": 0.8, "method": "new_entity_create", "warning": "与mother_stone脉光同源"}
   ],
-  "new_entities": [
-    {"suggested_id": "old_mine_cave", "name": "旧矿洞", "type": "地点", "tier": "重要", "confidence": 0.95, "desc": "位于北境矿区西北，矿务局标'已枯竭'七年，齐心七年前亲手封过"},
-    {"suggested_id": "activated_mine_rat", "name": "活化矿耗", "type": "物品", "tier": "重要", "confidence": 0.9, "desc": "形似放大矿耗，背覆半透明青蓝色硬甲，甲上纹路与洞壁脉冲同步"},
-    {"suggested_id": "mother_stone", "name": "母石", "type": "物品", "tier": "核心", "confidence": 0.95, "desc": "嵌在旧矿洞最深处洞顶的深蓝色石头，比人头还大，能与星兰呼吸反向同步"},
-    {"suggested_id": "mana_detector", "name": "便携式魔法素探测器", "type": "物品", "tier": "装饰", "confidence": 0.85, "desc": "公会标准装备，指针式与新发数显式两种"}
-  ],
-  "pending": []
+  "warnings": [
+    "李哥canonical_name当前为li_ge而非中文，建议后续清洗",
+    "xinglan canonical_name当前为xinglan而非星兰，建议后续清洗"
+  ]
 }
