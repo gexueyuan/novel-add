@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "contract_type": "CHAPTER_BRIEF",
+    "generator_version": "phase1",
+    "chapter": 6
+  },
+  "override_allowed": {
+    "chapter_focus": "齐心和星兰在任务后的篝火旁深夜谈话，彼此坦白过去，建立初步信任"
+  },
+  "chapter_directive": {},
+  "dynamic_context": [
+    {
+      "编号": "SY-002",
+      "适用技能": "init|plan|write",
+      "分类": "设定",
+      "层级": "知识补充",
+      "关键词": "异能副作用|能力代价|使用限制|等价交换",
+      "意图与同义词": "异能副作用怎么设|能力太强怎么平衡|超能力代价",
+      "适用题材": "都市|科幻|奇幻|悬疑",
+      "大模型指令": "越强的能力越要有明确且可持续触发的代价，减轻副作用的方法本身也应成为剧情线。",
+      "核心摘要": "异能或魔法副作用能防止战力崩坏，也能给角色制造持续性的选择压力和剧情张力。",
+      "详细展开": "代价可以是寿命、理智、疼痛、热量、器官损耗或社会风险，但必须与能力强度成正比，并且会真实影响后续决策。",
+      "设定类型": "高代价异能",
+      "数值控制边界": "限制要明确到持续时间|触发条件|恢复成本；若能缓解副作用，缓解手段也必须稀缺且需要付出代价",
+      "与剧情交互方式": "可用于制造危机抉择、资源追逐、主线支线目标和角色牺牲感",
+      "毒点": "",
+      "_table": "金手指与设定",
+      "_priority_rank": 999,
+      "_reasoning_rule": "奇幻",
+      "_chapter_keyword_score": 0,
+      "_combined_rank_score": 0.0
+    }
+  ],
+  "source_trace": [
+    {
+      "table": "题材与调性推理",
+      "id": "GR-021",
+      "reason": "keyword_or_alias_match"
+    },
+    {
+      "table": "金手指与设定",
+      "id": "SY-002",
+      "summary": "异能或魔法副作用能防止战力崩坏，也能给角色制造持续性的选择压力和剧情张力。",
+      "reasoning_rule": "奇幻",
+      "priority_rank": 999,
+      "chapter_keyword_score": 0,
+      "combined_rank_score": 0.0,
+      "inject_target": "CHAPTER_BRIEF.writing_guidance"
+    }
+  ],
+  "reasoning": {
+    "genre": "奇幻",
+    "inject_target": "CHAPTER_BRIEF.writing_guidance",
+    "style_priority": "史诗感 > 冷硬算计 > 日常轻松",
+    "pacing_strategy": "快推慢收 对峙段拉长 过渡段压短"
+  }
+}

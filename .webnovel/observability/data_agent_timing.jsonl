@@ -25,3 +25,16 @@
 {"timestamp": "2026-05-13T17:57:44.367908", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 6}
 {"timestamp": "2026-05-13T18:00:11.367164", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 7}
 {"timestamp": "2026-05-13T18:00:11.882909", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-15T11:32:54.136965", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 23}
+{"timestamp": "2026-05-15T11:32:54.818808", "tool_name": "state_manager:get-entity", "success": true, "elapsed_ms": 7}
+{"timestamp": "2026-05-15T11:35:39.829198", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 9}
+{"timestamp": "2026-05-15T11:35:40.429370", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-05-15T11:36:07.505194", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-05-15T11:36:08.078152", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-05-15T11:36:08.753224", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-05-15T11:36:09.337332", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 银月城"}
+{"timestamp": "2026-05-15T11:36:09.988681", "tool_name": "index_manager:get-by-alias", "success": true, "elapsed_ms": 5}
+{"timestamp": "2026-05-15T11:36:54.454374", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 北境"}
+{"timestamp": "2026-05-15T11:36:55.120237", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 6, "error_code": "NOT_FOUND", "error_message": "未找到别名: 银月"}
+{"timestamp": "2026-05-15T11:36:55.841694", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 银月城军事情报科"}
+{"timestamp": "2026-05-15T11:36:56.434903", "tool_name": "index_manager:get-by-alias", "success": false, "elapsed_ms": 5, "error_code": "NOT_FOUND", "error_message": "未找到别名: 城防部队"}

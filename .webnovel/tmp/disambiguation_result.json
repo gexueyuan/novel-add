@@ -1,3 +1,26 @@
 {
-    "pending": []
+    "pending": [
+        {
+            "mention": "银月城",
+            "candidates": [],
+            "context": "齐心曾服役八年的城市——先在城防部队四年，后调军事情报科四年。情报科开始介入猎魔公会晋升体系后，齐心不愿配合审查队友而申请转岗离开",
+            "resolution": "new_entity",
+            "confidence": 0.95
+        },
+        {
+            "mention": "军事情报科",
+            "candidates": [],
+            "context": "银月城下属部门，负责监视内部忠诚度与私下交易，后介入猎魔公会晋升体系审查队长副队长评级",
+            "resolution": "new_entity",
+            "confidence": 0.9
+        },
+        {
+            "mention": "年轻队员",
+            "candidates": [
+                {"entity_id": "unnamed_member", "confidence": 0.95}
+            ],
+            "context": "篝火边削木棍削不出形状扔进火里，抱着膝盖靠粮袋睡着，脚边扔着削烂的树枝",
+            "resolution": "same_entity"
+        }
+    ]
 }

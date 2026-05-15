@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 6,
+    "status": "rejected"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_006.json",
+    "review": "chapter_006.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "齐心目睹星兰魔法力量后的正面对话——星兰将如何解释力量来源，齐心将如何行动",
+      "李哥伤情确认——是否苏醒，能否继续行动",
+      "任务情报偏差背景——为何出现远超预估的巨型铁甲魔物"
+    ],
+    "covered_nodes": [
+      "齐心在篝火旁与星兰坦诚对话——揭示自身在银月城军事情报科的四年纪实、因拒绝审查猎魔公会晋升体系调任北境担任清扫小队队长",
+      "星兰力量的性质揭示——来自一千多年前的时代，具有自主保护意识（身体先于意识触发），自动触发时掌心无蓝金色光芒，目的不是攻击而是不让星兰被碰到",
+      "齐心明确表态——不是帮，是判断。'我见过很多人因为做了正确的事被毁掉。这里没有。'他愿意为星兰争取时间，但不能保证安全",
+      "李哥已苏醒无碍——'明天能走'，老赵要求平躺观察后已恢复"
+    ],
+    "missed_nodes": [
+      "任务情报偏差原因未解释——巨型铁甲魔物为何出现、背甲铁灰色的变异个体来源、调度台情报为何预估失误，这些悬念仍保持开放"
+    ],
+    "extra_nodes": [
+      "银月城军事情报科背景——曾介入猎魔公会晋升体系审查，不顺从者被调去高危矿区，揭示公会体系背后存在更高级别的控制机制",
+      "星兰的力量具有自主意识——'像是它有自己的想法'，在星兰意识到危险之前已完成防御动作，属于无意识触发的本能保护而非主动攻击",
+      "老赵以沉默表示知情——在篝火旁听到齐心和星兰的对话后，拨柴比应该拨的距离远了一些，暗示对秘密的默许态度而非揭穿",
+      "齐心最后的动作隐喻——杯底磕在石面上扩散出裂纹但未碎，象征当前局势的脆弱平衡：秘密已知但尚未破裂"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "issues": [
+      {
+        "severity": "medium",
+        "category": "ai_flavor",
+        "location": "多处",
+        "description": "句式层问题残留",
+        "blocking": false
+      }
+    ],
+    "summary": "1问题：0阻断"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "齐心目睹星兰魔法力量后的正面对话——星兰将如何解释力量来源，齐心将如何行动",
+      "李哥伤情确认——是否苏醒，能否继续行动",
+      "任务情报偏差背景——为何出现远超预估的巨型铁甲魔物"
+    ],
+    "covered_nodes": [
+      "齐心在篝火旁与星兰坦诚对话——揭示自身在银月城军事情报科的四年纪实、因拒绝审查猎魔公会晋升体系调任北境担任清扫小队队长",
+      "星兰力量的性质揭示——来自一千多年前的时代，具有自主保护意识（身体先于意识触发），自动触发时掌心无蓝金色光芒，目的不是攻击而是不让星兰被碰到",
+      "齐心明确表态——不是帮，是判断。'我见过很多人因为做了正确的事被毁掉。这里没有。'他愿意为星兰争取时间，但不能保证安全",
+      "李哥已苏醒无碍——'明天能走'，老赵要求平躺观察后已恢复"
+    ],
+    "missed_nodes": [
+      "任务情报偏差原因未解释——巨型铁甲魔物为何出现、背甲铁灰色的变异个体来源、调度台情报为何预估失误，这些悬念仍保持开放"
+    ],
+    "extra_nodes": [
+      "银月城军事情报科背景——曾介入猎魔公会晋升体系审查，不顺从者被调去高危矿区，揭示公会体系背后存在更高级别的控制机制",
+      "星兰的力量具有自主意识——'像是它有自己的想法'，在星兰意识到危险之前已完成防御动作，属于无意识触发的本能保护而非主动攻击",
+      "老赵以沉默表示知情——在篝火旁听到齐心和星兰的对话后，拨柴比应该拨的距离远了一些，暗示对秘密的默许态度而非揭穿",
+      "齐心最后的动作隐喻——杯底磕在石面上扩散出裂纹但未碎，象征当前局势的脆弱平衡：秘密已知但尚未破裂"
+    ]
+  },
+  "disambiguation_result": {
+    "pending": [
+      {
+        "mention": "银月城",
+        "candidates": [],
+        "context": "齐心曾服役八年的城市——先在城防部队四年，后调军事情报科四年。情报科开始介入猎魔公会晋升体系后，齐心不愿配合审查队友而申请转岗离开",
+        "resolution": "new_entity",
+        "confidence": 0.95
+      },
+      {
+        "mention": "军事情报科",
+        "candidates": [],
+        "context": "银月城下属部门，负责监视内部忠诚度与私下交易，后介入猎魔公会晋升体系审查队长副队长评级",
+        "resolution": "new_entity",
+        "confidence": 0.9
+      },
+      {
+        "mention": "年轻队员",
+        "candidates": [
+          {
+            "entity_id": "unnamed_member",
+            "confidence": 0.95
+          }
+        ],
+        "context": "篝火边削木棍削不出形状扔进火里，抱着膝盖靠粮袋睡着，脚边扔着削烂的树枝",
+        "resolution": "same_entity"
+      }
+    ]
+  },
+  "accepted_events": [
+    {
+      "event_id": "evt-ch006-001",
+      "chapter": 6,
+      "event_type": "open_loop_closed",
+      "subject": "xinglan",
+      "payload": {
+        "content": "齐心目睹星兰麦田魔法力量后的对话悬念在本章完成——篝火旁齐心揭示了自身背景、告知力量本质、发出警告并给出最终判断",
+        "loop_type": "relationship",
+        "resolved_chapter": 6,
+        "loop_ref": "evt-ch005-004",
+        "unanswered_question": "齐心目睹星兰魔法力量后会如何行动？",
+        "answer_summary": "齐心选择保密并保护——揭示自身过去以建立信任，警告绝不在人前使用，表态'不是帮，是判断'"
+      }
+    },
+    {
+      "event_id": "evt-ch006-002",
+      "chapter": 6,
+      "event_type": "open_loop_closed",
+      "subject": "li_ge",
+      "payload": {
+        "content": "李哥被巨型魔物甩尾击晕后已苏醒——齐心通报'明天能走'，老赵要求平躺观察后恢复",
+        "loop_type": "threat",
+        "resolved_chapter": 6,
+        "loop_ref": "evt-ch005-005",
+        "unanswered_question": "李哥的伤情有多严重？是否能醒来？",
+        "answer_summary": "李哥已苏醒无碍——后脑勺肿了一个包，老赵要求平躺观察，明天可以行动"
+      }
+    },
+    {
+      "event_id": "evt-ch006-003",
+      "chapter": 6,
+      "event_type": "character_state_changed",
+      "subject": "qixin",
+      "payload": {
+        "field": "background.past",
+        "new": "银月城城防部队四年+军事情报科四年。军事情报科介入猎魔公会晋升体系后拒绝配合审查，主动申请转岗北境——'这地方情报科的人嫌远，矿区粉尘伤肺，没人愿意来'。老赵在他来之前已在此地。",
+        "old": "未提及过去经历"
+      }
+    },
+    {
+      "event_id": "evt-ch006-004",
+      "chapter": 6,
+      "event_type": "character_state_changed",
+      "subject": "qixin",
+      "payload": {
+        "field": "attitude.toward_xinglan",
+        "new": "从'需要谈谈'升级为'不是帮，是判断'——揭示自身背景以建立信任，警告她绝不能在他人面前使用力量，承诺争取时间但不保证安全。判断结论：'我见过很多人因为做了正确的事被毁掉。这里没有。'",
+        "old": "直面确认——目睹战斗能力后说'需要谈谈'，第4章决定被赋予具体形状"
+      }
+    },
+    {
+      "event_id": "evt-ch006-005",
+      "chapter": 6,
+      "event_type": "world_rule_revealed",
+      "subject": "xinglan",
+      "payload": {
+        "rule_content": "星兰在麦田释放的那种力量（真空风刃/蓝金色光芒/魔法素形态）——这个时代已不存在，它在一千多年前就消失了。该力量具有自主保护意识：在星兰意识到危险之前已自动触发，身体先于心动。目的不是攻击——风刃砍断胸甲最薄位置撞翻后未追击——而是不让星兰被碰到。触发时掌心没有蓝金色光芒（与第5章主动释放时不同）。",
+        "rule_category": "magic_system",
+        "scope": "personal"
+      }
+    },
+    {
+      "event_id": "evt-ch006-006",
+      "chapter": 6,
+      "event_type": "open_loop_created",
+      "subject": "xinglan",
+      "payload": {
+        "content": "星兰的力量来自一千多年前的魔法素时代——这个时代已不存在，所有文件记录都显示该力量已消失。如果有人知道她能做这种事，来的不会是公会表扬信。齐心警告她绝不能在他人面前使用，但他只能争取时间，不能保证安全。",
+        "loop_type": "threat",
+        "unanswered_question": "星兰的力量为何会在她身上复活？银月城或猎魔公会高层是否会追查到北境？星兰能否克制住不在紧急情况下触发力量？",
+        "urgency": "high",
+        "planted_chapter": 6
+      }
+    },
+    {
+      "event_id": "evt-ch006-007",
+      "chapter": 6,
+      "event_type": "open_loop_created",
+      "subject": "hunters_guild",
+      "payload": {
+        "content": "银月城军事情报科已介入猎魔公会晋升体系——队长和副队长按照情报科标准评级，不听指挥的调去高危矿区。齐心因拒绝配合审查队友而申请转岗北境，但北境是否真的安全？军事情报科的影响力是否仅止于银月城？",
+        "loop_type": "threat",
+        "unanswered_question": "军事情报科的控制机制是否会延伸到北境？齐心的转岗是真正的脱离还是暂时的远离？如果星兰的力量被发现，情报科是否会介入？",
+        "urgency": "medium",
+        "planted_chapter": 6
+      }
+    },
+    {
+      "event_id": "evt-ch006-008",
+      "chapter": 6,
+      "event_type": "open_loop_created",
+      "subject": "qixin",
+      "payload": {
+        "content": "齐心说'我见过很多人因为做了正确的事被毁掉'——这句话可能暗示他在银月城军事情报科期间亲眼目睹或亲身经历的不公。他离开银月城不仅是不愿配合审查，更可能背负着某种未被言明的代价。杯底磕裂但未碎的意象暗示当前局势的脆弱平衡。",
+        "loop_type": "mystery",
+        "unanswered_question": "齐心在银月城军事情报科期间究竟经历了什么？'做了正确的事被毁掉'指的是谁？他的离开是否还有其他未说明的原因？",
+        "urgency": "medium",
+        "planted_chapter": 6
+      }
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "qixin",
+      "field": "background.past",
+      "old": "未提及过去经历",
+      "new": "银月城城防部队四年，军事情报科四年；因拒绝配合审查猎魔公会晋升体系，主动申请转岗北境"
+    },
+    {
+      "entity_id": "qixin",
+      "field": "attitude.toward_xinglan",
+      "old": "直面确认——目睹战斗能力后说'需要谈谈'",
+      "new": "不是帮，是判断——揭示背景建立信任，警告绝不在人前使用力量，承诺争取时间但不保证安全"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "power.origin",
+      "old": "未明确——仅知掌心闪现蓝金色光芒（魔法素形态），可无咒语释放真空风刃",
+      "new": "来自一千多年前的魔法素时代——当前时代该力量已完全消失。具有自主保护意识，身体先于意识触发，触发时掌心无蓝金色光芒"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "location.current",
+      "old": "东郊农田",
+      "new": "营地篝火旁"
+    },
+    {
+      "entity_id": "xinglan",
+      "field": "status",
+      "old": "首次实战后力竭，指腹裂纹渗血，膝盖旧伤重新渗血",
+      "new": "伤口愈合——指腹裂纹已结薄痂涂了愈合膏，膝盖旧伤重新包过；但仍捧着热水杯不喝（体温异常冰冷）"
+    },
+    {
+      "entity_id": "li_ge",
+      "field": "status",
+      "old": "被巨型铁甲魔物甩尾击晕，护肩炸裂，倒地昏迷",
+      "new": "已苏醒——后脑勺肿包，老赵要求平躺观察，明天可行动"
+    }
+  ],
+  "entity_deltas": [
+    {
+      "entity_id": "xinglan",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "is_protagonist": true,
+      "payload": {
+        "name": "星兰",
+        "description": "魔物暴乱遗址地下发现的墨蓝长发少女，体温异常冰冷，身世不明。失忆。第5章首次实战无咒语释放真空风刃，掌心蓝金色光芒闪现。第6章揭示其力量来自一千多年前的魔法素时代——当前时代已不存在。该力量具有自主保护意识：身体先于意识触发，触发时掌心无蓝金色光芒，目的不是攻击而是保护。被齐心警告绝不能在他人面前使用。",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "qixin",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "核心",
+      "payload": {
+        "name": "齐心",
+        "description": "猎魔公会清扫小队队长，冷静果断观察敏锐。曾在银月城服役八年（城防部队四年，军事情报科四年）。军事情报科介入猎魔公会晋升体系后，因拒绝配合审查队友而主动申请转岗北境。第6章在篝火旁向星兰坦白过去，告知其力量的真正危险性，表态'不是帮，是判断'——他见过很多人因做正确的事被毁掉，北境不会有。愿意为星兰争取时间但不保证安全。",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "lao_zhao",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "name": "老赵",
+        "description": "齐心小队经验丰富的成员。星兰到北境前就已在此地。第6章以沉默表示对星兰秘密的知情——在篝火旁听到齐心的自白后，拨柴比应该拨的距离远了一些，默许态度而不揭穿。",
+        "first_appearance": 1
+      }
+    },
+    {
+      "entity_id": "li_ge",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "重要",
+      "payload": {
+        "name": "李哥",
+        "description": "齐心小队正式成员，左翼战斗人员。第5章被巨型铁甲魔物甩尾击晕。第6章已苏醒，明天可行动。",
+        "first_appearance": 5
+      }
+    },
+    {
+      "entity_id": "silvermoon_city",
+      "action": "upsert",
+      "entity_type": "地点",
+      "tier": "重要",
+      "payload": {
+        "name": "银月城",
+        "description": "齐心曾服役八年的城市。设有城防部队和军事情报科。军事情报科后期介入猎魔公会晋升体系审查，不顺从者被调去高危矿区。距北境遥远，情报科人员嫌远不愿来。"
+      }
+    },
+    {
+      "entity_id": "military_intelligence_dept",
+      "action": "upsert",
+      "entity_type": "组织",
+      "tier": "重要",
+      "payload": {
+        "name": "军事情报科",
+        "description": "银月城下属机构，负责监视内部忠诚度、私下交易和忠诚度波动。后介入猎魔公会晋升体系——队长和副队长按情报科标准评级，不听指挥的调去高危矿区。齐心因拒绝配合审查离开。"
+      }
+    },
+    {
+      "entity_id": "unnamed_member",
+      "action": "upsert",
+      "entity_type": "角色",
+      "tier": "装饰",
+      "payload": {
+        "name": "年轻队员",
+        "description": "齐心小队最年轻的成员。第6章在篝火边削木棍削不出形状扔进火里，后抱着膝盖靠粮袋睡着。",
+        "first_appearance": 1
+      }
+    }
+  ],
+  "entities_appeared": [
+    {
+      "id": "xinglan",
+      "type": "角色",
+      "mentions": [
+        "星兰",
+        "她",
+        "她(的手指)",
+        "她(的膝盖)"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "qixin",
+      "type": "角色",
+      "mentions": [
+        "齐心",
+        "他"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "lao_zhao",
+      "type": "角色",
+      "mentions": [
+        "老赵"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "id": "li_ge",
+      "type": "角色",
+      "mentions": [
+        "李哥"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "unnamed_member",
+      "type": "角色",
+      "mentions": [
+        "年轻队员"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "silvermoon_city",
+      "type": "地点",
+      "mentions": [
+        "银月城",
+        "银月城(城防部队)",
+        "银月城(军事情报科)"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "military_intelligence_dept",
+      "type": "组织",
+      "mentions": [
+        "军事情报科"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "hunters_guild",
+      "type": "组织",
+      "mentions": [
+        "猎魔公会",
+        "公会"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "start_line": 1,
+      "end_line": 15,
+      "location": "营地篝火旁",
+      "summary": "日落升篝火。老赵垒灶煮水。李哥在帐篷里平躺恢复。年轻队员削木棍未果扔进火里。星兰指腹裂纹结痂，涂了愈合膏，膝盖旧伤重包。齐心送热水，星兰体温更冷。齐心通报李哥明天能走。篝火旁沉默。",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao",
+        "li_ge",
+        "unnamed_member"
+      ],
+      "content": "傍晚营地，星兰伤势恢复，李哥伤情确认"
+    },
+    {
+      "index": 2,
+      "start_line": 16,
+      "end_line": 61,
+      "location": "营地篝火旁",
+      "summary": "齐心主动开口——先确认星兰知道力量危险：麦田的蓝金色力量来自一千多年前，这个时代不存在，暴露后果严重。星兰反问齐心害怕吗，回答'不知道'。齐心由此揭示自身背景：银月城城防部队四年转军事情报科四年，因情报科介入猎魔公会晋升体系审查而不愿配合，主动申请转岗北境。老赵在他来之前已在北境。",
+      "characters": [
+        "xinglan",
+        "qixin",
+        "lao_zhao"
+      ],
+      "content": "齐心揭示银月城军事情报科经历"
+    },
+    {
+      "index": 3,
+      "start_line": 62,
+      "end_line": 81,
+      "location": "营地篝火旁",
+      "summary": "齐心归还星兰遗失的手套。他准确描述麦田中的细节：她手从口袋抽出时是身体先动。星兰确认不是主动——'它自己出来的'。齐心替她说完：'像是它有自己的想法。'分析那力量是在保护她——风刃砍胸甲最薄位置撞翻未追击，目的不是攻击而是不被碰到。他不会问力量来源，但警告从今天开始绝不能在他人面前使用。他能争取时间，不是安全。",
+      "characters": [
+        "xinglan",
+        "qixin"
+      ],
+      "content": "力量本质揭示——自主保护意识与警告"
+    },
+    {
+      "index": 4,
+      "start_line": 82,
+      "end_line": 105,
+      "location": "营地篝火旁",
+      "summary": "星兰问齐心为什么帮她。他回答不是帮是判断（呼应第3章）。判断结果：'我见过很多人因为做了正确的事被毁掉。这里没有。'杯子放下磕裂但未碎。他起身回帐篷。星兰独自坐在篝火旁，戴上手套。风从麦田吹来，火苗摇了摇没有灭。月亮照在麦茬地上。",
+      "characters": [
+        "xinglan",
+        "qixin"
+      ],
+      "content": "齐心最终表态——不是帮是判断"
+    }
+  ],
+  "chapter_meta": {},
+  "dominant_strand": "revelation",
+  "summary_text": "---\nchapter: 0006\ntime: \"入夜\"\nlocation: \"营地篝火旁\"\ncharacters: [\"星兰\", \"齐心\", \"老赵\", \"李哥\", \"年轻队员\"]\nstate_changes: [\"齐心: 背景未明→揭示银月城军事情报科经历及北境调任意图\", \"星兰: 力量本质未明→揭示来自一千多年前的自主保护型魔法素力量\"]\nhook_type: \"揭示钩\"\nhook_strength: \"strong\"\n---\n## 剧情摘要\n日为麦田之战当夜。齐心在篝火旁向星兰坦白自己的过去——他曾在银月城军事情报科任职四年，因拒绝配合审查猎魔公会晋升体系而主动申请调任北境。他告诉星兰：她在麦田释放的力量来自一千多年前，这个时代已不存在；那力量会自主保护她——在她意识到之前身体已做出反应，目的不是攻击而是不被碰到。他警告她绝不能在人前使用，他只能争取时间，不是安全。星兰问他为何帮她，他说：'不是帮，是判断。'他见过很多人因做了正确的事被毁掉，但这里不会有。杯底磕裂而未碎，他起身离去。篝火旁只剩星兰一人。\n## 伏笔\n- [埋设] 星兰的力量来自一千多年前的魔法素时代——当前时代已不存在该力量，一旦暴露后果严重，齐心只能争取时间无法保证安全\n- [埋设] 银月城军事情报科已介入猎魔公会晋升体系——北境可能是暂时的避风港，但情报科的影响力是否仅止于银月城仍是未知\n- [埋设] 齐心'见过很多人因做正确的事被毁掉'——这句话背后暗示他在银月城亲身经历或目睹的不公，其离开可能背负着未被言明的代价\n## 承接点\n齐心目睹星兰力量后的正面谈话完成——他从秘密保护转向主动判断，但'争取时间不是安全'为后续埋下威胁伏笔。银月城军事情报科的扩张暗示更大的体制阴影。",
+  "projection_status": {
+    "state": "pending",
+    "index": "pending",
+    "summary": "pending",
+    "memory": "pending",
+    "vector": "pending"
+  }
+}
