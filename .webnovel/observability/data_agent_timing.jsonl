@@ -54,3 +54,5 @@
 {"timestamp": "2026-05-15T23:38:02.233881", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 21}
 {"timestamp": "2026-05-15T23:38:10.475147", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 26}
 {"timestamp": "2026-05-15T23:38:10.728665", "tool_name": "index_manager:get-aliases", "success": true, "elapsed_ms": 22}
+{"timestamp": "2026-05-16T00:03:10.493614", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 247}
+{"timestamp": "2026-05-16T00:03:10.837444", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 24}

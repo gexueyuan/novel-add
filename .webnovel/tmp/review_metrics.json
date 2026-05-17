@@ -1,33 +1,33 @@
 {
-  "chapter": 10,
-  "start_chapter": 10,
-  "end_chapter": 10,
-  "overall_score": 88.0,
+  "chapter": 11,
+  "start_chapter": 11,
+  "end_chapter": 11,
+  "overall_score": 92.0,
   "dimension_scores": {
-    "continuity": 98.0,
-    "setting": 94.0,
+    "continuity": 100.0,
+    "setting": 100.0,
     "character": 100.0,
-    "timeline": 100.0,
+    "timeline": 98.0,
     "ai_flavor": 96.0,
-    "logic": 100.0,
+    "logic": 98.0,
     "pacing": 100.0,
     "other": 100.0
   },
   "severity_counts": {
     "critical": 0,
     "high": 0,
-    "medium": 1,
-    "low": 3
+    "medium": 0,
+    "low": 4
   },
   "critical_issues": [],
-  "report_file": "审查报告/第10章审查报告.md",
-  "notes": "4 个残留问题：0 个阻断，0 个高优，1 个中优（CEN 信号在 POV-respecting 改写后变弱、需补一个可解读锚点），3 个低优（均为上一轮已标记但本次修订未触及的项：第17行 POV 外推、十题同构、伤情过渡）。上一轮 critical POV 违规已修复（章末改为星兰隔半开门回望，所有观测皆锚定她的感官与视角）；齐心透露过往压到 2-3 句（合规）；『她想，这一场我压住了』『她以为……她错了』两组显化标签已全部清除。 | issues=4 | blocking=0 | categories=ai_flavor,continuity,setting",
+  "report_file": "审查报告/第11章审查报告.md",
+  "notes": "4 个问题，全部 low：1 个阻断已解除（元章号引用已修复）。上一轮 7 个问题中：blocking 1 已修复、medium 3 全部修复（淡淡→浅色、回望段四段合并并去生造量词、展示后解释大幅压缩）、low 2 部分残留（POV 感知带宽未动、新合并句主语重复）、character 1（POV 越界）已通过『以为自己听岔了』改为主观感受修复。新引入问题 0。结尾开放收束保持，无 AI 闭环；情感全程行为暗示无标签化；对话信息推进无宣讲；时间锚点新增有效。整体修订质量良好，可放行。 | issues=4 | blocking=0 | categories=ai_flavor,logic,timeline",
   "issues_count": 4,
   "blocking_count": 0,
   "categories": [
     "ai_flavor",
-    "continuity",
-    "setting"
+    "logic",
+    "timeline"
   ],
-  "timestamp": "2026-05-15T23:37:10"
+  "timestamp": "2026-05-16T00:02:27"
 }
